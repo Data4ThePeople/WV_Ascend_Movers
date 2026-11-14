@@ -1,6 +1,6 @@
 fips,county,ascend_community,ascend_launch,net_dom_2015_2019,rate_2015_2019,net_dom_2021_2025,rate_2021_2025
 54001,Barbour County,,,-291,-3.5,362,4.7
-54003,Berkeley County,,,7486,12.96,15280,23.01
+54003,Berkeley County,Eastern Panhandle,2022,7486,12.96,15280,23.01
 54005,Boone County,,,-1864,-16.69,-592,-5.71
 54007,Braxton County,,,-285,-4.02,-25,-0.41
 54009,Brooke County,,,-781,-6.95,-344,-3.19
@@ -17,7 +17,7 @@ fips,county,ascend_community,ascend_launch,net_dom_2015_2019,rate_2015_2019,net_
 54031,Hardy County,,,-333,-4.82,186,2.6
 54033,Harrison County,,,-782,-2.3,70,0.22
 54035,Jackson County,,,-280,-1.94,323,2.34
-54037,Jefferson County,Eastern Panhandle,2021,1176,4.15,4892,16.22
+54037,Jefferson County,Eastern Panhandle,2022,1176,4.15,4892,16.22
 54039,Kanawha County,Charleston,2025,-9575,-10.44,-2595,-2.97
 54041,Lewis County,,,-300,-3.72,-23,-0.28
 54043,Lincoln County,,,-825,-7.91,-334,-3.4
@@ -31,15 +31,15 @@ fips,county,ascend_community,ascend_launch,net_dom_2015_2019,rate_2015_2019,net_
 54059,Mingo County,,,-2060,-16.97,-1072,-9.69
 54061,Monongalia County,Morgantown,2021,-1211,-2.29,-211,-0.39
 54063,Monroe County,,,-99,-1.48,450,7.24
-54065,Morgan County,,,824,9.3,1508,17.11
-54067,Nicholas County,,,-833,-6.64,181,1.5
+54065,Morgan County,Eastern Panhandle,2022,824,9.3,1508,17.11
+54067,Nicholas County,New River Gorge,2023,-833,-6.64,181,1.5
 54069,Ohio County,,,-951,-4.5,-390,-1.89
 54071,Pendleton County,,,-139,-3.97,43,1.44
 54073,Pleasants County,,,-56,-1.5,-64,-1.72
 54075,Pocahontas County,,,-250,-5.91,134,3.47
 54077,Preston County,,,-441,-2.62,610,3.58
 54079,Putnam County,,,101,0.36,322,1.13
-54081,Raleigh County,,,-3464,-9.19,-105,-0.29
+54081,Raleigh County,New River Gorge,2023,-3464,-9.19,-105,-0.29
 54083,Randolph County,Greater Elkins,2022,-353,-2.44,-100,-0.73
 54085,Ritchie County,,,-349,-7.08,-119,-2.9
 54087,Roane County,,,-591,-8.44,-67,-0.98
@@ -54,6 +54,9 @@ fips,county,ascend_community,ascend_launch,net_dom_2015_2019,rate_2015_2019,net_
 54105,Wirt County,,,41,1.42,-133,-5.34
 54107,Wood County,,,-2024,-4.76,204,0.49
 54109,Wyoming County,,,-1468,-13.78,-647,-6.36
-,Ascend counties,,,-12143,-5.35,1555,0.71
-,Rest of West Virginia,,,-27704,-4.06,15794,2.37
+,Ascend counties,,,-8130,-2.37,18419,5.35
+,Eastern Panhandle (Ascend),,,9486,9.99,21680,20.57
+,Other Ascend areas,,,-17616,-7.08,-3261,-1.37
+,Rest of West Virginia,,,-31717,-5.6,-1070,-0.2
+,West Virginia minus Eastern Panhandle,,,-49333,-6.06,-4331,-0.55
 ,"West Virginia, all counties",,,-39847,-4.38,17349,1.96

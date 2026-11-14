@@ -224,6 +224,56 @@ CGR's full report; the Vermont State Auditor's 2019 report.
 
 ---
 
-## Ascend WV figures
+## Ascend WV program-reported figures, `data/ascend_reported.csv` and `data/ascend_communities.csv`
 
-Section to come once the program-reported figures are collected and sourced.
+**What it is.** One row per figure the program, WVU, or a news story quoting
+them published: date, measure, value, unit, scope, source, URL and the exact
+words. Checked by `scripts/03_ascend_reported.py` (every row has a source and
+quote; no duplicates). Nothing here is recomputed: there is no public
+participant-level data.
+
+**The one primary statistical source.** WVU OEDC, "Ascend WV Quarter 4
+Statistics," dated February 6, 2026: 618 members, 1,161 people including
+households, 116 members who completed the two-year program, 95.5% retention,
+more than 79,780 applications, average salary $94,617.
+
+**Definitions and conflicts.**
+- **Retention.** The Q4 2025 report defines it as members in the program at
+  least four months who stayed. No other source defines it. NPR describes 96%
+  as remaining "after the program's two-year commitment ends"; a 2023 release
+  says "in first two years"; a 2026 release says "since its launch." Values
+  published: 98%, 97%, 96%, 96.2%, 96.4%, 95.5%.
+- **Members vs residents.** "Members" or "participants" are the remote
+  workers; "new residents" adds family. Some stories use "individuals" for the
+  residents figure.
+- **Residents counts do not always rise.** August 2024: 295 members plus 272
+  family (567); September 2024: "over 400." September 2025: "nearly 1,000" in
+  a headline and "more than 900" in the body of the same release. Q4 2025:
+  1,161; May 2026: 1,412, with members rising only from 618 to 668.
+- **Economic impact.** A pre-launch WVU Bureau of Business and Economic
+  Research projection of at least $182.6 million (January 2022). In January
+  2023 the director said it was too early for a dollar figure. Later: "$500
+  million" (2025, 2026), "$580 million" from a "2023 WVU study" (NPR, July
+  2026; no document found), and "closer to $750 million" (program officials,
+  July 2026). No method is published for any of these.
+- **Money.** The $25 million Smith gift went to the Outdoor Economic
+  Development Collaborative as a whole, not to Ascend alone. Also found:
+  $2.4 million in federal Rural Health Transformation funds for a healthcare
+  expansion (September 2026) and a $500,000 private donation for Charleston
+  (September 2026). No total program spending, state appropriation, or cost per
+  member is published.
+- **Incentive.** $12,000 cash paid over 24 months (members who leave early
+  keep what they received), with a package the program values at more than
+  $20,000 including recreation. Ascend Heroes (veterans, 2026) offers $20,000.
+
+**Communities.** Six areas. Counties are inferred from the school systems each
+community page names; the program says each area is "a rough 30-minute
+drivetime" from its center city, so county lines are an approximation:
+Morgantown (Monongalia), Greenbrier Valley (Greenbrier), Eastern Panhandle
+(Jefferson, Berkeley, Morgan), Greater Elkins (Randolph), New River Gorge
+(Fayette, Raleigh, Nicholas), Charleston (Kanawha). Dates and URLs in
+`data/ascend_communities.csv`.
+
+**Not checked.** WVU Today pages and the OEDC five-year impact report block
+automated reading; the same releases were read from ascendwv.com copies. The
+NPR story was read from Michigan Public's copy.

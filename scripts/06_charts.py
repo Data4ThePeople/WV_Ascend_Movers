@@ -126,9 +126,11 @@ def chart_state_change():
 
 def chart_counties():
     rows = {r["county"]: r for r in read("county_compare.csv")}
-    groups = ["Ascend counties", "Rest of West Virginia"]
-    fig, ax = plt.subplots(figsize=(10, 5.2))
-    fig.subplots_adjust(top=0.72, bottom=0.2, left=0.24, right=0.95)
+    groups = ["Eastern Panhandle (Ascend)", "Other Ascend areas", "Rest of West Virginia"]
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    fig.subplots_adjust(top=0.74, bottom=0.17, left=0.27, right=0.95)
+    vals = [float(rows[g][c]) for g in groups for c in ("rate_2015_2019", "rate_2021_2025")]
+    lo, hi = min(vals) - 2.5, max(vals) + 3
     for i, g in enumerate(groups):
         for j, (col, color) in enumerate([("rate_2015_2019", YELLOW), ("rate_2021_2025", BLUE)]):
             v = float(rows[g][col])
@@ -136,26 +138,72 @@ def chart_counties():
             ax.barh(y, v, height=0.32, color=color)
             ax.text(v + (0.12 if v >= 0 else -0.12), y, f"{v:+.2f}", va="center",
                     ha="left" if v >= 0 else "right", fontsize=9.5, color=INK)
-        ax.text(-6.4, i, g, ha="right", va="center", fontsize=11, color=INK)
+        ax.text(lo - 0.6, i, g, ha="right", va="center", fontsize=11, color=INK)
     ax.set_yticks([])
     ax.invert_yaxis()
     ax.axvline(0, color=INK_DIM, lw=0.8)
-    ax.set_xlim(-6.2, 3.4)
+    ax.set_xlim(lo, hi)
     ax.spines["left"].set_visible(False)
     ax.tick_params(axis="x", labelsize=9)
-    fig.text(0.03, 0.765, "2015-2019", color=YELLOW, fontsize=11, fontweight="bold")
-    fig.text(0.14, 0.765, "2021-2025", color=BLUE, fontsize=11, fontweight="bold")
-    titleblock(fig, "Ascend host counties and the rest of West Virginia",
-               "Net domestic migration per 1,000 residents per year. Ascend counties: Monongalia, Greenbrier, "
-               "Jefferson, Randolph,\nFayette and Kanawha, counted for the whole period whatever their launch "
-               "year.")
+    fig.text(0.03, 0.775, "2015-2019", color=YELLOW, fontsize=11, fontweight="bold")
+    fig.text(0.14, 0.775, "2021-2025", color=BLUE, fontsize=11, fontweight="bold")
+    titleblock(fig, "The Eastern Panhandle, other Ascend areas and the rest of West Virginia",
+               "Net domestic migration per 1,000 residents per year. Eastern Panhandle: Jefferson, Berkeley, Morgan. "
+               "Other Ascend areas:\nMonongalia, Greenbrier, Randolph, Fayette, Raleigh, Nicholas, Kanawha, "
+               "counted for the whole period whatever their launch year.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. "
                 "County list from Ascend WV and WVU releases.\nData 4 The People calculation.")
     fig.savefig(CHARTS / "04-ascend-counties-vs-rest.png")
     plt.close(fig)
 
 
+def chart_ascend_reported():
+    import datetime as dt
+    rows = list(csv.DictReader(open(PROC.parent / "ascend_reported.csv")))
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    fig.subplots_adjust(top=0.76, bottom=0.17, left=0.09, right=0.84)
+    for measure, color, label in [("new_residents_incl_family", BLUE, "New residents,\nincl. family"),
+                                  ("participants", YELLOW, "Members\n(the workers)")]:
+        pts = sorted((dt.date.fromisoformat(r["publish_date"]), int(r["value"]), r["unit"])
+                     for r in rows if r["measure"] == measure)
+        ax.scatter([p[0] for p in pts], [p[1] for p in pts], color=color, s=34, zorder=3)
+        labels = []   # dots published within 10 days of each other share one label
+        for d, v, u in pts:
+            txt = ("~" if any(w in u for w in ("more than", "nearly")) else "") + f"{v:,}"
+            if labels and (d - labels[-1][0]).days <= 10:
+                labels[-1][2].append(txt)
+                labels[-1][1] = max(labels[-1][1], v)
+            else:
+                labels.append([d, v, [txt]])
+        below = measure == "participants"
+        for d, v, txts in labels:
+            merged = len(txts) > 1
+            ax.annotate(" / ".join(txts), (d, v), textcoords="offset points",
+                        xytext=(-8 if merged else 0, -15 if below else 8),
+                        ha="right" if merged else "center", fontsize=8, color=color)
+        ax.text(pts[-1][0] + dt.timedelta(days=60), pts[-1][1], label, color=color, fontsize=10.5,
+                fontweight="bold", va="center")
+    goal = [r for r in rows if r["measure"] == "goal_remote_workers"][0]
+    ax.axhline(int(goal["value"]), color=MUTED, lw=1, ls=(0, (3, 3)))
+    ax.text(dt.date(2021, 6, 1), int(goal["value"]) + 30, "Goal: 1,000 remote workers in five years (Sept. 2021)",
+            color=INK_DIM, fontsize=9)
+    ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
+    ax.yaxis.grid(True)
+    ax.set_axisbelow(True)
+    ax.set_ylim(0, 1700)
+    titleblock(fig, "Ascend WV's own counts of who has moved",
+               "Each dot is a figure the program, WVU, or a news story quoting them published, on the date "
+               "published. \"~\" marks \"more than\" or\n\"nearly.\" Figures are not independently checked, "
+               "and some disagree with each other.")
+    credit(fig, "Sources: Ascend WV releases, WVU OEDC Quarter 4 2025 statistics, WV MetroNews, Parkersburg News "
+                "and Sentinel, Wonderful West Virginia,\nWV Chamber magazine, PR Newswire, WVPA. Full list with "
+                "quotes in data/ascend_reported.csv.")
+    fig.savefig(CHARTS / "05-ascend-reported-counts.png")
+    plt.close(fig)
+
+
 if __name__ == "__main__":
+    chart_ascend_reported()
     chart_wv_domestic()
     chart_irs_flows()
     chart_state_change()

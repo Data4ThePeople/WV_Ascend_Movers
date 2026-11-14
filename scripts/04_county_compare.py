@@ -9,19 +9,24 @@ Two periods: 2015-2019 (years ending July 1) and 2021-2025. The year ending July
 it straddles the pandemic start and sits at the seam between the two Census vintages.
 
 ASCEND maps each host community to the county or counties it covers, with the launch date.
-Source for each row is in data/ascend_communities.csv.
+Source for each community is in data/ascend_communities.csv.
 """
 import collections
 import csv
 
 from common import PROC, write_csv
 
-ASCEND = {   # fips: (community, year Ascend launched there)
+ASCEND = {   # fips: (community, year applications opened there). Counties inferred from the school systems
+    # each community page names; the program says areas are "a rough 30-minute drivetime" from the center city.
     "54061": ("Morgantown", 2021),
     "54025": ("Greenbrier Valley", 2021),
-    "54037": ("Eastern Panhandle", 2021),
+    "54037": ("Eastern Panhandle", 2022),
+    "54003": ("Eastern Panhandle", 2022),
+    "54065": ("Eastern Panhandle", 2022),
     "54083": ("Greater Elkins", 2022),
     "54019": ("New River Gorge", 2023),
+    "54081": ("New River Gorge", 2023),
+    "54067": ("New River Gorge", 2023),
     "54039": ("Charleston", 2025),
 }
 PERIODS = {"2015-2019": range(2015, 2020), "2021-2025": range(2021, 2026)}
@@ -45,8 +50,12 @@ def main():
         for years in PERIODS.values():
             out += list(rate([f], years))
         rows.append(out)
+    panhandle = [f for f in ASCEND if ASCEND[f][0] == "Eastern Panhandle"]
     groups = {"Ascend counties": [f for f in data if f in ASCEND],
+              "Eastern Panhandle (Ascend)": panhandle,
+              "Other Ascend areas": [f for f in ASCEND if f not in panhandle],
               "Rest of West Virginia": [f for f in data if f not in ASCEND],
+              "West Virginia minus Eastern Panhandle": [f for f in data if f not in panhandle],
               "West Virginia, all counties": list(data)}
     for g, fs in groups.items():
         out = ["", g, "", ""]
