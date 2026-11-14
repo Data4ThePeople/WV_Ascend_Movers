@@ -89,7 +89,7 @@ src["y"] = src.report_month.str[:4].astype(int)
 keep = src[(src.y.between(2021, 2025)) & (~src.program_family.isin(
     ["Growth Fund Loan", "Revitalization Loan", "Other Loan", "Spec Development (OSIP)"]))]
 check("JobsOhio grant dollars 2021-2025", int(keep.value.fillna(0).sum()), int(jo.loc["2021-2025", "grant_dollars"]))
-check("JobsOhio committed jobs 2021-2025 (after removing 19 repeated promises)",
+check("JobsOhio committed jobs 2021-2025 (after removing 10 repeated promises)",
       int(jo.loc["2021-2025", "jobs_committed"]), 83124)
 check("JobsOhio dollars per committed job",
       round(int(jo.loc["2021-2025", "grant_dollars"]) / int(jo.loc["2021-2025", "jobs_committed"])), 16182)
