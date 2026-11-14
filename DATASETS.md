@@ -179,9 +179,51 @@ say how many of those jobs would have come to Ohio without the grant.
 
 ---
 
-## Comparison programs and Ascend WV figures
+## Relocation program evaluations (various publishers), `data/programs.csv`
 
-Sections to come once the primary documents are read: Ascend WV
-program-reported figures and communities; Tulsa Remote (Bartik 2025, EIG);
-Vermont worker grants (DFR 2022); Kansas Rural Opportunity Zones (LPA 2023,
-Commerce 2020); Choose Topeka and Remote Shoals (CGR); CRS IN12472.
+**What it is.** A hand-built table: one row per program and evaluation, with
+level, funder, incentive, years, spending, movers, evaluator, whether the
+evaluation tried to estimate how many people would have moved anyway (and
+how), its headline finding, retention as defined by that source, and the URL
+and page of the primary document. Built from the documents themselves, not
+press coverage, except where a row says "per CRS."
+
+**Sources.**
+- Tulsa Remote: Bartik, Upjohn Institute Technical Report 25-050, May 2025
+  (summary PDF read; the full report blocks automated download, so page
+  numbers refer to the two-page summary); Economic Innovation Group, November
+  2021; Tulsa Remote's own 2023 report, which repeats the EIG method and is not
+  independent.
+- Vermont: Department of Financial Regulation / PFM Group study, December 15,
+  2021; Vermont GROW report, July 6, 2026, for the running total.
+- Kansas Rural Opportunity Zones: Legislative Division of Post Audit,
+  R-23-011, August 2023; Department of Commerce evaluation, 2020.
+- Choose Topeka and Remote Shoals: CGR comparative evaluation, January 2021
+  (public slides only; the full report is behind a form asking for personal
+  details, which we did not fill in).
+- Congressional Research Service Insight IN12472, December 19, 2024, for
+  program counts where no evaluation exists.
+
+**How the evaluations measure "would have moved anyway."** Only Bartik
+compares approved with not-approved applicants. Vermont and Kansas rely on
+participant surveys. EIG, CGR and the programs' own reports make no estimate.
+A finding from a survey is labeled as one.
+
+**Known conflicts.**
+- Vermont 2018 program: $499,940 to 140 grants (PFM) vs $320,834 to 84
+  families (GROW 2026, which matches a September 2019 count) vs about $400,000
+  to 110 workers (State Auditor 2019, seen in press only).
+- Kansas tax-credit totals differ across the 2020 Commerce report, the 2023
+  audit and the 2024 Commerce annual report.
+- Tulsa retention: 88% and 87.5% (EIG 2021), 76% (Tulsa Remote 2023), 80%
+  (Tulsa Remote 2025, survey), each with a different definition. They are
+  shown with their definitions, never averaged.
+
+**Not checked.** Bartik's full report (page numbers, retention definition);
+CGR's full report; the Vermont State Auditor's 2019 report.
+
+---
+
+## Ascend WV figures
+
+Section to come once the program-reported figures are collected and sourced.
