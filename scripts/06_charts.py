@@ -31,7 +31,7 @@ def chart_wv_domestic():
                 fontsize=8.5, color=INK_DIM)
     ax.axhline(0, color=INK_DIM, lw=0.8)
     ax.axvline(2021.5, color=MUTED, lw=1, ls=(0, (3, 3)))
-    ax.text(2021.62, max(vals) * 1.05 + 1500, "First 53 Ascend members\narrive, fall 2021", color=INK,
+    ax.text(2021.62, max(vals) * 1.05 + 1500, "First Ascend class of 53\nannounced Sept. 2021", color=INK,
             fontsize=9.5, va="top")
     ax.set_xticks(years)
     ax.set_xticklabels([str(y) for y in years], fontsize=9)
@@ -42,7 +42,7 @@ def chart_wv_domestic():
     ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
     titleblock(fig, "West Virginia's net domestic migration, 2011 to 2025",
                "People moving in from other states minus people moving out, years ending July 1. "
-               "Losses in yellow, gains in blue.\nThe line marks the first Ascend WV arrivals; it does not mean "
+               "Losses in yellow, gains in blue.\nThe line marks Ascend WV's first class; it does not mean "
                "the program caused any change.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 (2011-2020) and Vintage 2025 "
                 "(2021-2025). The two vintages use\ndifferent Census bases and are not revised to match.")
@@ -74,8 +74,8 @@ def chart_irs_flows():
     ax.set_axisbelow(True)
     titleblock(fig, "People moving into and out of West Virginia, from tax returns",
                "People on federal tax returns whose address moved between West Virginia and another state, "
-               "by pair of filing years.\nThe IRS warns that processing changes may affect 2014-15. 2022-23 starts a new "
-               "series that matches about 5% more returns.")
+               "by pair of filing years.\nIRS guides from 2014-15 on warn that processing changes may affect "
+               "comparisons. 2022-23 uses an updated\nmatching method that finds about 5% more returns.")
     credit(fig, "Source: IRS Statistics of Income, U.S. Population Migration Data, state-to-state inflows and "
                 "outflows, 2011-12 to 2022-23.\nCovers people on returns only (n2). Latest year published: 2022-23.")
     fig.savefig(CHARTS / "02-wv-irs-in-out.png")
@@ -186,7 +186,7 @@ def chart_ascend_reported():
                 fontweight="bold", va="center")
     goal = [r for r in rows if r["measure"] == "goal_remote_workers"][0]
     ax.axhline(int(goal["value"]), color=MUTED, lw=1, ls=(0, (3, 3)))
-    ax.text(dt.date(2021, 6, 1), int(goal["value"]) + 30, "Goal: 1,000 remote workers in five years (Sept. 2021)",
+    ax.text(dt.date(2021, 6, 1), int(goal["value"]) + 30, "Goal set Sept. 2021: 1,000 remote workers in five years (compare with members)",
             color=INK_DIM, fontsize=9)
     ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
     ax.yaxis.grid(True)

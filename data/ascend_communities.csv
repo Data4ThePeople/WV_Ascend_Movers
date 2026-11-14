@@ -1,7 +1,7 @@
-community,counties,fips,applications_opened,source_url
-Morgantown Area,Monongalia,54061,2021-04-12,https://ascendwv.com/featured-communities/morgantown-area/
-Greenbrier Valley,Greenbrier,54025,2021 (first class announced 2022-06-14),https://ascendwv.com/featured-communities/greenbrier-valley/
-Eastern Panhandle,Jefferson; Berkeley; Morgan,54037; 54003; 54065,2022 (first class relocating early 2023),https://ascendwv.com/featured-communities/eastern-panhandle/
-Greater Elkins,Randolph,54083,2022-11-29,https://ascendwv.com/media-inquiries/media-release-11-29-2022/
-New River Gorge,Fayette; Raleigh; Nicholas,54019; 54081; 54067,2023-06-20,https://ascendwv.com/featured-communities/new-river-gorge/
-Charleston Area,Kanawha,54039,2025-09-05,https://ascendwv.com/featured-communities/charleston-area/
+community,counties,fips,launched_per_wvu_q4_2025,other_dates,source_url
+Morgantown Area,Monongalia,54061,April 2021,applications opened 2021-04-12,https://ascendwv.com/featured-communities/morgantown-area/
+Greenbrier Valley,Greenbrier,54025,September 2022,first class announced 2022-06-14,https://ascendwv.com/featured-communities/greenbrier-valley/
+Eastern Panhandle,Jefferson; Berkeley; Morgan,54037; 54003; 54065,June 2022,first class relocating early 2023,https://ascendwv.com/featured-communities/eastern-panhandle/
+Greater Elkins,Randolph,54083,November 2022,applications opened 2022-11-29,https://ascendwv.com/media-inquiries/media-release-11-29-2022/
+New River Gorge,Fayette; Raleigh; Nicholas,54019; 54081; 54067,June 2023,applications opened 2023-06-20,https://ascendwv.com/featured-communities/new-river-gorge/
+Charleston Area,Kanawha,54039,September 2025,applications opened 2025-09-05,https://ascendwv.com/featured-communities/charleston-area/

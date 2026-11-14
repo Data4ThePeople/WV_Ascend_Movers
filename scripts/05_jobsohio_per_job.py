@@ -55,7 +55,7 @@ def main():
         if jobs and key[1] and tag in first:
             p["jobs"] = {0}
             p["restated_from"] = first[tag]
-            restated += 1
+            restated += p["year"] in YEARS
         elif jobs:
             first[tag] = key[0]
 

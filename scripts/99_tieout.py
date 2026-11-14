@@ -105,15 +105,15 @@ for m, d, v in [("participants", "2026-02-06", 618), ("new_residents_incl_family
 
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
-    ("Chart 1 marker 'First 53 Ascend members arrive, fall 2021'", "supported",
-     "Ascend release Sept 2, 2021: 'The 53 class members...'"),
+    ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
+     "Ascend release Sept 2, 2021: 'The 53 class members...'; independent tie-out found 'arrive' only partly supported"),
     ("Chart 1 note 'two vintages use different Census bases and are not revised to match'", "supported",
      "Census methodology page and V2025 methods statement"),
-    ("Chart 2 note 'IRS warns processing changes may affect 2014-15'", "partly supported",
+    ("Chart 2 note 'IRS guides from 2014-15 on warn processing changes may affect comparisons'", "supported",
      "2014-15 guide warns identity-theft processing 'may' affect comparisons; it does not name 2014-15 "
      "WV figures"),
-    ("Chart 2 note '2022-23 starts a new series that matches about 5% more returns'", "supported",
-     "IRS 2022-23 migration guide"),
+    ("Chart 2 note '2022-23 uses an updated matching method that finds about 5% more returns'", "supported",
+     "IRS 2022-23 guide: 'Minor updates were made to the method for matching returns' (about 5% increase)"),
     ("Chart 2 'Covers people on returns only (n2)'", "supported", "IRS guides: non-filers excluded"),
     ("Chart 3 'Rank among 50 states and D.C.'", "supported", "51 state rows recomputed above"),
     ("Chart 4 county lists for each Ascend area", "partly supported",
@@ -121,8 +121,12 @@ WORDS = [
     ("Chart 5 'Goal: 1,000 remote workers in five years (Sept. 2021)'", "supported",
      "Ascend release Sept 2, 2021"),
     ("Chart 5 every dot", "supported", "each row in data/ascend_reported.csv carries URL and quote"),
-    ("Retention defined as 'at least four months and stayed'", "supported, not seen directly",
-     "WVU Q4 2025 statistics p.2, as read by a research agent; Claude has not opened the PDF"),
+    ("Retention defined as 'at least four months and stayed'", "supported",
+     "WVU Q4 2025 statistics p.2, read by the research agent and confirmed by the independent tie-out"),
+    ("Average salary $94,617", "supported as Morgantown Area only",
+     "WVU Q4 2025 p.3; corrected from statewide after the independent tie-out"),
+    ("Ascend Heroes incentive", "conflict recorded",
+     "Ascend release says $12,000; WV MetroNews says $20,000"),
     ("'$580 million' from a 2023 WVU study", "not supported",
      "Only source is NPR; no study document found"),
     ("Bartik: 58-70% would not have moved; $36k vs $218k per job", "supported (summary only)",
@@ -139,6 +143,22 @@ lines += ["", "## Words", "", "| Label or claim | Status | Source |", "|---|---|
 lines += [f"| {a} | {b} | {c} |" for a, b, c in WORDS]
 bad = [r for r in rows if r[3] != "match"]
 lines += ["", f"**{len(rows) - len(bad)} of {len(rows)} numbers match.**"]
+lines += ["", "## Independent tie-out (fresh agent, November 14, 2026)", "",
+          "Re-pulled Census, IRS, the WVU Q4 2025 PDF and the program evaluations; recomputed with its own code "
+          "without seeing the build scripts or outputs.", "",
+          "- Every number on charts 1 to 4 matched. Eastern Panhandle 2021-2025 rate is 20.574999, at the "
+          "rounding edge of 20.57.",
+          "- JobsOhio: same totals ($1,345,075,454; 83,124 jobs; $16,182). It zeroed 10 repeated promises in "
+          "2021-2025; DATASETS.md said 19, which counted earlier years. Corrected to 10.",
+          "- Census rate definition did not say which populations are averaged. Now stated in DATASETS.md.",
+          "- Fixed after its word checks: $94,617 salary is Morgantown Area only; Ascend Heroes is $12,000 per "
+          "Ascend's release (MetroNews said $20,000); Greenbrier Valley launch is September 2022 per WVU; chart 1 "
+          "'arrive' changed to 'announced'; chart 2 'new series' changed to the guide's wording; chart 5 goal "
+          "line now says to compare with members; Bartik 58-70% range and method credited to the abstract; "
+          "Vermont 'less than $2M' changed to 'approximately $2 million'; SCOPE.md Tulsa 76% credited to Tulsa "
+          "Remote's own report.",
+          "- Could not check: Bartik's full report, CGR's full report, Tulsa Remote's 2023 report, the GROW 2026 "
+          "report, the CRS page, and some page numbers in data/programs.csv."]
 (ROOT / "TIEOUT.md").write_text("\n".join(lines) + "\n")
 print(f"{len(rows) - len(bad)} of {len(rows)} match")
 for r in bad:

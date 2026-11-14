@@ -19,7 +19,7 @@ from common import PROC, write_csv
 ASCEND = {   # fips: (community, year applications opened there). Counties inferred from the school systems
     # each community page names; the program says areas are "a rough 30-minute drivetime" from the center city.
     "54061": ("Morgantown", 2021),
-    "54025": ("Greenbrier Valley", 2021),
+    "54025": ("Greenbrier Valley", 2022),
     "54037": ("Eastern Panhandle", 2022),
     "54003": ("Eastern Panhandle", 2022),
     "54065": ("Eastern Panhandle", 2022),

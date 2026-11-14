@@ -60,8 +60,11 @@ value is modeled; no year is a direct count.
 and Vintage 2025 and record the pull date in `data/raw/popest/pulled.txt`.
 
 **Units and rounding.** People. Rates per 1,000 are our calculation: net
-domestic migration summed over the period, divided by average population over
-the period, divided by the number of years.
+domestic migration summed over the period, divided by the average of the July 1
+populations of the years in the period (for 2015-2019, July 1 of 2015 through
+2019; the July 1, 2014 starting population is not included), divided by the
+number of years. Adding the starting population moves West Virginia's change
+from +6.34 to +6.32.
 
 **Known quirks.** The `RESIDUAL` column is the part of the change the
 components do not explain, created when county and state estimates are forced
@@ -105,8 +108,9 @@ calendar year of filings is used.
   exemptions were phased out. The column name did not change.
   ([2019-20 guide](https://www.irs.gov/pub/irs-soi/1920inpublicmigdoc.pdf))
 - 2019-20 added returns filed only to get Economic Impact Payments.
-- **2022-23 is a new series.** A new matching method added about 5% more
-  returns. 2022-23 is not directly comparable with earlier years.
+- **2022-23 uses an updated matching method.** The guide says "minor
+  updates" to matching gave about a 5% increase in matched returns. Compare
+  2022-23 with earlier years with that in mind.
 - Some years use capitalized headers; the script lowercases them.
 
 **Suppressed, censored or masked values.** State cells under 10 returns are
@@ -161,9 +165,17 @@ changes and parse checks are in that project's `DATASETS.md`, section
   once per project (month, company, county) and dollars are summed.
 - A company that signs a second agreement often repeats the same job promise.
   When the same company and county show the same job count in a later month
-  (checked back to 2015), the later agreement counts zero new jobs. 19
-  agreements in 2021-2025 are treated this way, including Intel's December
-  2022 workforce grant, which repeats the 3,000 jobs on its July 2022 grant.
+  (checked back to 2015), the later agreement counts zero new jobs. Only
+  agreements with a nonzero job count and a company name are matched, and only
+  against earlier grant rows (not loans or site grants). 10 agreements in
+  2021-2025 are treated this way, including Intel's December 2022 workforce
+  grant, which repeats the 3,000 jobs on its July 2022 grant.
+- Rows with an empty company name (a known parse defect) share a blank key, so
+  empty-name rows in the same month and county merge into one project. Their
+  dollars count; their jobs count once.
+- Result for 2021-2025: $1,345,075,454 in grants for 83,124 committed new
+  jobs, $16,182 per committed job. Rows the parser labels "Unknown" (29) are
+  included as grants; leaving them out gives $16,172.
 - Result: grant dollars divided by committed new jobs. Retained jobs are not
   counted.
 
@@ -235,7 +247,11 @@ participant-level data.
 **The one primary statistical source.** WVU OEDC, "Ascend WV Quarter 4
 Statistics," dated February 6, 2026: 618 members, 1,161 people including
 households, 116 members who completed the two-year program, 95.5% retention,
-more than 79,780 applications, average salary $94,617.
+more than 79,780 applications. It also gives average salaries by area
+(Morgantown Area $94,617; other areas $100,740 and $106,996) but no statewide
+average. Launch dates it gives: Morgantown April 2021, Eastern Panhandle June
+2022, Greenbrier Valley September 2022, Greater Elkins November 2022, New River
+Gorge June 2023, Charleston September 2025.
 
 **Definitions and conflicts.**
 - **Retention.** The Q4 2025 report defines it as members in the program at
@@ -243,12 +259,14 @@ more than 79,780 applications, average salary $94,617.
   as remaining "after the program's two-year commitment ends"; a 2023 release
   says "in first two years"; a 2026 release says "since its launch." Values
   published: 98%, 97%, 96%, 96.2%, 96.4%, 95.5%.
+- **The 2024 figures.** 295 members and 272 family are "as of May 2024" in an
+  August 2024 magazine issue.
 - **Members vs residents.** "Members" or "participants" are the remote
   workers; "new residents" adds family. Some stories use "individuals" for the
   residents figure.
 - **Residents counts do not always rise.** August 2024: 295 members plus 272
   family (567); September 2024: "over 400." September 2025: "nearly 1,000" in
-  a headline and "more than 900" in the body of the same release. Q4 2025:
+  a subheadline and "more than 900" in the body of the same release. Q4 2025:
   1,161; May 2026: 1,412, with members rising only from 618 to 668.
 - **Economic impact.** A pre-launch WVU Bureau of Business and Economic
   Research projection of at least $182.6 million (January 2022). In January
@@ -264,7 +282,8 @@ more than 79,780 applications, average salary $94,617.
   member is published.
 - **Incentive.** $12,000 cash paid over 24 months (members who leave early
   keep what they received), with a package the program values at more than
-  $20,000 including recreation. Ascend Heroes (veterans, 2026) offers $20,000.
+  $20,000 including recreation. Ascend Heroes (veterans, 2026): Ascend's own
+  release says $12,000; WV MetroNews reported $20,000. We use the release.
 
 **Communities.** Six areas. Counties are inferred from the school systems each
 community page names; the program says each area is "a rough 30-minute
