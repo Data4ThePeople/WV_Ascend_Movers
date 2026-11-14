@@ -73,7 +73,8 @@ def chart_irs_flows():
     ax.set_axisbelow(True)
     titleblock(fig, "People moving into and out of West Virginia, from tax returns",
                "People on federal tax returns whose address moved between West Virginia and another state, "
-               "by pair of filing years.\nThe 2014-15 drop in arrivals is in the IRS file itself; see the notes.")
+               "by pair of filing years.\nThe IRS warns that processing changes may affect 2014-15. 2022-23 starts a new "
+               "series that matches about 5% more returns.")
     credit(fig, "Source: IRS Statistics of Income, U.S. Population Migration Data, state-to-state inflows and "
                 "outflows, 2011-12 to 2022-23.\nCovers people on returns only (n2). Latest year published: 2022-23.")
     fig.savefig(CHARTS / "02-wv-irs-in-out.png")
