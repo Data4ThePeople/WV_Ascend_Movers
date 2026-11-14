@@ -30,8 +30,9 @@ def chart_wv_domestic():
         ax.text(x, v + (250 if v >= 0 else -250), f"{v:,}", ha="center", va="bottom" if v >= 0 else "top",
                 fontsize=8.5, color=INK_DIM)
     ax.axhline(0, color=INK_DIM, lw=0.8)
-    ax.axvline(2020.5, color=MUTED, lw=1, ls=(0, (3, 3)))
-    ax.text(2020.62, max(vals) * 1.05 + 1500, "Ascend WV opens\nApril 2021", color=INK, fontsize=9.5, va="top")
+    ax.axvline(2021.5, color=MUTED, lw=1, ls=(0, (3, 3)))
+    ax.text(2021.62, max(vals) * 1.05 + 1500, "First 53 Ascend members\narrive, fall 2021", color=INK,
+            fontsize=9.5, va="top")
     ax.set_xticks(years)
     ax.set_xticklabels([str(y) for y in years], fontsize=9)
     ax.set_ylim(min(vals) * 1.18, max(vals) * 1.05 + 2000)
@@ -41,8 +42,8 @@ def chart_wv_domestic():
     ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
     titleblock(fig, "West Virginia's net domestic migration, 2011 to 2025",
                "People moving in from other states minus people moving out, years ending July 1. "
-               "Losses in yellow, gains in blue.\nThe line marks Ascend WV's launch; it does not mean the "
-               "program caused the change.")
+               "Losses in yellow, gains in blue.\nThe line marks the first Ascend WV arrivals; it does not mean "
+               "the program caused any change.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 (2011-2020) and Vintage 2025 "
                 "(2021-2025). The two vintages use\ndifferent Census bases and are not revised to match.")
     fig.savefig(CHARTS / "01-wv-net-domestic-migration.png")
