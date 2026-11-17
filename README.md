@@ -15,6 +15,7 @@ are.
 - `scripts/`: numbered build scripts, run in order
 - `data/ascend_reported.csv`: each published Ascend WV figure with its source and exact words
 - `data/ascend_communities.csv`: Ascend host areas and the counties they cover
+- `data/ascend_q3_2026_communities.csv`, `data/ascend_q3_2026_states.csv`: figures by community and by home state from WVU's Q3 2026 Ascend statistics
 - `data/programs.csv`: other pay-to-move programs and what their evaluations found
 - `data/processed/`: outputs of the scripts
 - `charts/`: static charts
@@ -27,7 +28,9 @@ are.
 - IRS Statistics of Income, U.S. Population Migration Data, 2011-12 to 2022-23
 - JobsOhio monthly executed grants and loans reports, as parsed in the
   [JobsOhioSmallBiz](https://github.com/Data4ThePeople/JobsOhioSmallBiz) project
-- Ascend WV and WVU releases and statistics, and news reports quoting them
+- Ascend WV and WVU releases and statistics, and news reports quoting them.
+  WVU sent its Q3 2026 statistics directly; we did not find them online, so
+  that PDF is not in this repo.
 - Published evaluations of other programs, listed in `data/programs.csv`
 
 ## How to rebuild
