@@ -191,12 +191,12 @@ def chart_ascend_reported():
     ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
     ax.yaxis.grid(True)
     ax.set_axisbelow(True)
-    ax.set_ylim(0, 1700)
+    ax.set_ylim(0, 1850)
     titleblock(fig, "Ascend WV's own counts of who has moved",
                "Each dot is a figure the program, WVU, or a news story quoting them published, on the date "
                "published. \"~\" marks \"more than\" or\n\"nearly.\" Figures are not independently checked, "
                "and some disagree with each other.")
-    credit(fig, "Sources: Ascend WV releases, WVU OEDC Quarter 4 2025 statistics, WV MetroNews, Parkersburg News "
+    credit(fig, "Sources: Ascend WV releases, WVU OEDC Quarter 4 2025 and Quarter 3 2026 statistics, WV MetroNews, Parkersburg News "
                 "and Sentinel, Wonderful West Virginia,\nWV Chamber magazine, PR Newswire, WVPA. Full list with "
                 "quotes in data/ascend_reported.csv.")
     fig.savefig(CHARTS / "05-ascend-reported-counts.png")

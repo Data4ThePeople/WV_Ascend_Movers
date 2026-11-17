@@ -244,17 +244,46 @@ words. Checked by `scripts/03_ascend_reported.py` (every row has a source and
 quote; no duplicates). Nothing here is recomputed: there is no public
 participant-level data.
 
-**The one primary statistical source.** WVU OEDC, "Ascend WV Quarter 4
-Statistics," dated February 6, 2026: 618 members, 1,161 people including
-households, 116 members who completed the two-year program, 95.5% retention,
-more than 79,780 applications. It also gives average salaries by area
-(Morgantown Area $94,617; other areas $100,740 and $106,996) but no statewide
-average. Launch dates it gives: Morgantown April 2021, Eastern Panhandle June
+**The primary statistical sources.** Two WVU OEDC quarterly reports.
+
+- "Ascend WV Program Statistics, Quarterly Report Q3 2026," dated October 16,
+  2026, counts as of September 30, 2026. WVU OEDC sent it to Data 4 The People
+  in November 2026; we did not find it published online, so it is kept in
+  `data/raw/wvu/` and not committed. Its URL in `data/ascend_reported.csv` is
+  written `provided:<path>`. Statewide (p.2): 827 members since April 2021,
+  1,641 new residents including household members and 25 babies born during
+  the program, 184 members who completed the two-year program, 96% retention,
+  more than 94,400 applications. Pages 3 to 8 give each community's
+  applications, members, completions, total with household, average salary,
+  share born in West Virginia, and share who bought a home; these are in
+  `data/ascend_q3_2026_communities.csv`. Page 9 gives survey results (average
+  household income, individual income, home price, rent, demographics) from
+  495 respondents; the report calls the survey "rolling and not
+  comprehensive." We do not use page 9 figures as program totals.
+- "Ascend WV Quarter 4 Statistics," dated February 6, 2026: 618 members,
+  1,161 people including households, 116 completed, 95.5% retention, more
+  than 79,780 applications, Morgantown Area salary $94,617.
+
+Launch dates (both reports): Morgantown April 2021, Eastern Panhandle June
 2022, Greenbrier Valley September 2022, Greater Elkins November 2022, New River
 Gorge June 2023, Charleston September 2025.
 
+**Q3 2026 community pages do not add up to the statewide page.** Members: 809
+across the six pages, 827 statewide. Completed: 185 vs 184. With household:
+1,645 vs 1,641. Applications: 95,048 vs "94,400+", so some applicants are
+likely counted in more than one community. The states table on p.2 sums to 819
+members; the other 8 may be members who moved from outside the U.S. (the
+report lists nine countries), but the report does not say. The Eastern Panhandle states table (p.5) sums
+to 209 of its 212 members, and that page lists Chile, the United Kingdom and
+Canada among the countries members moved from. We use the
+statewide page for statewide figures and the community pages only for
+comparisons between communities. Shares across communities (born in West
+Virginia 11.3%, bought a home 41.2%) are our averages of the community
+percentages weighted by community members; the report gives no statewide value
+for either.
+
 **Definitions and conflicts.**
-- **Retention.** The Q4 2025 report defines it as members in the program at
+- **Retention.** Both quarterly reports define it as members in the program at
   least four months who stayed. No other source defines it. NPR describes 96%
   as remaining "after the program's two-year commitment ends"; a 2023 release
   says "in first two years"; a 2026 release says "since its launch." Values
@@ -267,7 +296,8 @@ Gorge June 2023, Charleston September 2025.
 - **Residents counts do not always rise.** August 2024: 295 members plus 272
   family (567); September 2024: "over 400." September 2025: "nearly 1,000" in
   a subheadline and "more than 900" in the body of the same release. Q4 2025:
-  1,161; May 2026: 1,412, with members rising only from 618 to 668.
+  1,161; May 2026: 1,412, with members rising only from 618 to 668. Q3 2026:
+  827 members, 1,641 residents.
 - **Economic impact.** A pre-launch WVU Bureau of Business and Economic
   Research projection of at least $182.6 million (January 2022). In January
   2023 the director said it was too early for a dollar figure. Later: "$500

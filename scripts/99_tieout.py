@@ -103,6 +103,30 @@ for m, d, v in [("participants", "2026-02-06", 618), ("new_residents_incl_family
     hit = asc[(asc.measure == m) & (asc.publish_date == d)]
     check(f"Ascend {m} {d}", float(hit.value.iloc[0]), v)
 
+# --- Ascend Q3 2026 (WVU OEDC, provided; as of Sept. 30, 2026) ---------------------------------------------
+for m, v in [("participants", 827), ("new_residents_incl_family", 1641), ("completed_two_years", 184),
+             ("retention_pct", 96), ("applications", 94400)]:
+    hit = asc[(asc.measure == m) & (asc.publish_date == "2026-10-16")]
+    check(f"Ascend Q3 2026 {m}", float(hit.value.iloc[0]), v)
+q3 = pd.read_csv(ROOT / "data" / "ascend_q3_2026_communities.csv")
+for col, v in [("members", 809), ("completed_two_years", 185), ("total_incl_household", 1645),
+               ("applications", 95048)]:
+    check(f"Q3 2026 community pages, sum of {col}", int(q3[col].sum()), v)
+for col, v in [("wv_born_pct", 11.3), ("home_purchase_pct", 41.2)]:
+    check(f"Q3 2026 {col} weighted by members", round((q3[col] * q3.members).sum() / q3.members.sum(), 1), v)
+check("Q3 2026 members as % of 1,000 goal", round(827 / 1000 * 100, 1), 82.7)
+check("Q3 2026 residents as % of WV net domestic 2021-2025", round(1641 / sum(raw_dom[y] for y in range(2021, 2026)) * 100, 1), 9.5)
+check("Q3 2026 members as % of applications", round(827 / 94400 * 100, 1), 0.9)
+sts = pd.read_csv(ROOT / "data" / "ascend_q3_2026_states.csv")
+sw = sts[sts.scope == "Statewide"]
+check("Q3 2026 statewide states table, sum of members", int(sw.members.sum()), 819)
+nb = sw[sw.state.isin(["Virginia", "Maryland", "Pennsylvania", "Ohio", "Kentucky"])].members.sum()
+check("Q3 2026 % of U.S. members from the five neighboring states", round(nb / sw.members.sum() * 100, 1), 35.8)
+ep = sts[sts.scope == "Eastern Panhandle"]
+check("Q3 2026 Eastern Panhandle states table, sum (212 members; p.5 also lists Chile, UK, Canada)", int(ep.members.sum()), 209)
+check("Q3 2026 % of Eastern Panhandle members from VA, MD, DC",
+      round(ep[ep.state.isin(["Virginia", "Maryland", "Washington DC"])].members.sum() / 212 * 100, 1), 47.6)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
@@ -125,6 +149,12 @@ WORDS = [
      "WVU Q4 2025 statistics p.2, read by the research agent and confirmed by the independent tie-out"),
     ("Average salary $94,617", "supported as Morgantown Area only",
      "WVU Q4 2025 p.3; corrected from statewide after the independent tie-out"),
+    ("Chart 5 sources line names WVU OEDC Quarter 3 2026 statistics", "supported",
+     "Five Q3 2026 rows in data/ascend_reported.csv, each with page and quote"),
+    ("Q3 2026 community pages sum to the statewide page", "not supported",
+     "Members 809 vs 827, completed 185 vs 184, household 1,645 vs 1,641; recorded in DATASETS.md"),
+    ("Q3 2026 survey figures (income, home price) are program totals", "not supported",
+     "p.9 says 495 respondents, 'rolling and not comprehensive'; not used as totals"),
     ("Ascend Heroes incentive", "conflict recorded",
      "Ascend release says $12,000; WV MetroNews says $20,000"),
     ("'$580 million' from a 2023 WVU study", "not supported",
