@@ -121,3 +121,12 @@ Re-pulled Census, IRS, the WVU Q4 2025 PDF and the program evaluations; recomput
 - Census rate definition did not say which populations are averaged. Now stated in DATASETS.md.
 - Fixed after its word checks: $94,617 salary is Morgantown Area only; Ascend Heroes is $12,000 per Ascend's release (MetroNews said $20,000); Greenbrier Valley launch is September 2022 per WVU; chart 1 'arrive' changed to 'announced'; chart 2 'new series' changed to the guide's wording; chart 5 goal line now says to compare with members; Bartik 58-70% range and method credited to the abstract; Vermont 'less than $2M' changed to 'approximately $2 million'; SCOPE.md Tulsa 76% credited to Tulsa Remote's own report.
 - Could not check: Bartik's full report, CGR's full report, Tulsa Remote's 2023 report, the GROW 2026 report, the CRS page, and some page numbers in data/programs.csv.
+
+## Independent tie-out of the Q3 2026 additions (fresh agent, November 17, 2026)
+
+Read all 9 pages of the WVU Q3 2026 PDF as text and images; recomputed with its own code without seeing the build scripts or TIEOUT.md.
+
+- Every cell in the five Q3 rows, the community table and the states table matched the PDF. All derived figures matched (809, 185, 1,645, 95,048; 11.3%; 41.2%; 82.7%; 0.9%; 35.8%; 47.6%; 9.5%).
+- Fixed after its word checks: retention row scope now says as of Sept. 30, 2026; DATASETS.md says the Oct. 16 date is from the file name, quotes p.2 'family and friends' instead of 'household members', says the nine countries include the U.S., and states the base and caveats of each derived figure; chart 5 subtitle says 'released' because the Q3 report was sent to us, not published.
+- Noted: the Charleston states table (p.8) lists California twice; not used.
+- Could not check: the Q4 2025 figures (that PDF is not in data/raw; the first independent tie-out re-pulled it), whether the Q3 report is posted online, and the wording of the Sept. 2021 goal.

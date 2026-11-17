@@ -246,13 +246,14 @@ participant-level data.
 
 **The primary statistical sources.** Two WVU OEDC quarterly reports.
 
-- "Ascend WV Program Statistics, Quarterly Report Q3 2026," dated October 16,
-  2026, counts as of September 30, 2026. WVU OEDC sent it to Data 4 The People
+- "Ascend WV Program Statistics, Quarterly Report Q3 2026," counts as of
+  September 30, 2026. The October 16, 2026 date we use for it comes from the
+  file name; the document itself shows only the quarter and the as-of date. WVU OEDC sent it to Data 4 The People
   in November 2026; we did not find it published online, so it is kept in
   `data/raw/wvu/` and not committed. Its URL in `data/ascend_reported.csv` is
   written `provided:<path>`. Statewide (p.2): 827 members since April 2021,
-  1,641 new residents including household members and 25 babies born during
-  the program, 184 members who completed the two-year program, 96% retention,
+  1,641 new residents ("Many brought family and friends, increasing the total
+  to 1641 new West Virginians including 25 babies born during program"), 184 members who completed the two-year program, 96% retention,
   more than 94,400 applications. Pages 3 to 8 give each community's
   applications, members, completions, total with household, average salary,
   share born in West Virginia, and share who bought a home; these are in
@@ -273,14 +274,32 @@ across the six pages, 827 statewide. Completed: 185 vs 184. With household:
 1,645 vs 1,641. Applications: 95,048 vs "94,400+", so some applicants are
 likely counted in more than one community. The states table on p.2 sums to 819
 members; the other 8 may be members who moved from outside the U.S. (the
-report lists nine countries), but the report does not say. The Eastern Panhandle states table (p.5) sums
+report lists nine countries), but the report does not say. Its list of nine countries includes the United
+States, so eight are other countries. The Eastern Panhandle states table (p.5) sums
 to 209 of its 212 members, and that page lists Chile, the United Kingdom and
-Canada among the countries members moved from. We use the
-statewide page for statewide figures and the community pages only for
+Canada among the countries members moved from. The Charleston states table (p.8) lists California
+twice, at 2 each; we do not use that table. We use the statewide page for
+statewide figures and the community pages only for
 comparisons between communities. Shares across communities (born in West
 Virginia 11.3%, bought a home 41.2%) are our averages of the community
 percentages weighted by community members; the report gives no statewide value
 for either.
+
+**Derived Q3 2026 figures and their bases.**
+- Members as a share of the goal: 827 of the 1,000 remote workers the program
+  set as its five-year goal in September 2021 (82.7%).
+- Neighboring states: Virginia, Maryland, Pennsylvania, Ohio and Kentucky are
+  293 of the 819 members in the p.2 states table (35.8%). That base includes
+  Washington, D.C. (11) and leaves out the 8 not in any state row.
+- Eastern Panhandle: Virginia, Maryland and D.C. are 101 of its 212 members
+  (47.6%); of the 209 in its states table it would be 48.3%.
+- Scale: 1,641 new residents equal 9.5% of West Virginia's net domestic
+  migration summed over the years ending July 2021 through July 2025 (17,349).
+  This is a size comparison only. Ascend's count is gross arrivals and the
+  Census figure is net (arrivals minus departures); the periods differ (Ascend
+  April 2021 to September 2026, Census July 2020 to July 2025); and the 1,641
+  includes 25 babies born in the state (without them, 9.3%). It says nothing
+  about how many members would have moved anyway.
 
 **Definitions and conflicts.**
 - **Retention.** Both quarterly reports define it as members in the program at
