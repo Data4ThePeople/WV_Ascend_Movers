@@ -68,19 +68,19 @@ for g, cs in groups.items():
         check(f"{g}, rate {label} (chart 4)", round(mig / pop / 5 * 1000, 2), cc.loc[g, f"rate_{label}"], tol=0.005)
 check("Eastern Panhandle 2021-2025 gain exceeds WV total", 21680 > 17349, True)
 
-# --- IRS (chart 2) ---------------------------------------------------------------------------------------
-irs = pd.read_csv(PROC / "wv_irs_flows.csv")
-for yy, d, shown in [("2223", "inflow", 36521), ("2223", "outflow", 33384), ("1415", "inflow", 23428),
-                     ("1314", "inflow", 32962)]:
-    f = pd.read_csv(RAW / "irs" / f"state{d}{yy}.csv", encoding="latin-1", dtype=str)
-    f.columns = [c.lower() for c in f.columns]
-    here = "y2_statefips" if d == "inflow" else "y1_statefips"
-    there = "y1_statefips" if d == "inflow" else "y2_statefips"
-    name = "y1_state_name" if d == "inflow" else "y2_state_name"
-    r = f[(f[here].str.zfill(2) == "54") & (f[there] == "97") & (~f[name].str.contains("Same State"))]
-    check(f"IRS {d} {yy} people (n2), from raw", int(r.n2.iloc[0]), shown)
-    p = irs[(irs.years == f"20{yy[:2]}-{yy[2:]}") & (irs.direction == d) & (irs.scope == "us")]
-    check(f"IRS {d} {yy} people, processed", int(p.individuals.iloc[0]), shown)
+# --- Census: every county (chart 4 map) ------------------------------------------------------------------
+BINS = [(-99, -10), (-10, -5), (-5, -1), (-1, 1), (1, 5), (5, 10), (10, 99)]
+MAP_BINS = {"2015_2019": [7, 18, 22, 3, 3, 1, 1], "2021_2025": [1, 5, 15, 15, 13, 2, 4]}
+for label, df, ys in [("2015_2019", c20, range(2015, 2020)), ("2021_2025", c25, range(2021, 2026))]:
+    diffs, counts = 0, [0] * len(BINS)
+    for c in c25.index:
+        rate = sum(df.loc[c, f"DOMESTICMIG{y}"] for y in ys) / (sum(df.loc[c, f"POPESTIMATE{y}"] for y in ys) / 5) / 5 * 1000
+        name = c25.loc[c, "CTYNAME"]
+        diffs += abs(round(rate, 2) - cc.loc[name, f"rate_{label}"]) > 0.005
+        counts[next(k for k, (lo, hi) in enumerate(BINS) if lo <= rate < hi)] += 1
+    check(f"Map {label}: counties whose rate differs from county_compare.csv", diffs, 0)
+    for k, (lo, hi) in enumerate(BINS):
+        check(f"Map {label}: counties with rate {lo} to {hi}", counts[k], MAP_BINS[label][k])
 
 # --- JobsOhio (headline) ---------------------------------------------------------------------------------
 jo = pd.read_csv(PROC / "jobsohio_per_job.csv").set_index("year")
@@ -154,13 +154,11 @@ WORDS = [
      "Ascend release Sept 2, 2021: 'The 53 class members...'; independent tie-out found 'arrive' only partly supported"),
     ("Chart 1 note 'two vintages use different Census bases and are not revised to match'", "supported",
      "Census methodology page and V2025 methods statement"),
-    ("Chart 2 note 'IRS guides from 2014-15 on warn processing changes may affect comparisons'", "supported",
-     "2014-15 guide warns identity-theft processing 'may' affect comparisons; it does not name 2014-15 "
-     "WV figures"),
-    ("Chart 2 note '2022-23 uses an updated matching method that finds about 5% more returns'", "supported",
-     "IRS 2022-23 guide: 'Minor updates were made to the method for matching returns' (about 5% increase)"),
-    ("Chart 2 'Covers people on returns only (n2)'", "supported", "IRS guides: non-filers excluded"),
     ("Chart 3 'Rank among 50 states and D.C.'", "supported", "51 state rows recomputed above"),
+    ("Map legend 'Ascend counties' outline: the 10 counties of the six Ascend areas", "partly supported",
+     "Same county list as chart 4; inferred from community pages"),
+    ("Map 'Yellow is a net loss, blue a net gain'; gray is within 1 per 1,000 of zero", "supported",
+     "Bins recomputed above from raw Census files"),
     ("Chart 4 county lists for each Ascend area", "partly supported",
      "Inferred from school systems on ascendwv.com community pages; program says '30-minute drivetime'"),
     ("Chart 5 'Goal: 1,000 remote workers in five years (Sept. 2021)'", "supported",

@@ -25,7 +25,7 @@ are.
 
 - U.S. Census Bureau, Population Estimates, components of change, Vintage 2020
   and Vintage 2025
-- IRS Statistics of Income, U.S. Population Migration Data, 2011-12 to 2022-23
+- Census cartographic county boundaries, 2024 (for the map)
 - JobsOhio monthly executed grants and loans reports, as parsed in the
   [JobsOhioSmallBiz](https://github.com/Data4ThePeople/JobsOhioSmallBiz) project
 - Ascend WV and WVU releases and statistics, and news reports quoting them.
@@ -35,7 +35,7 @@ are.
 
 ## How to rebuild
 
-Python 3 with pandas and matplotlib. Census and IRS files download on the
+Python 3 with pandas and matplotlib. Census files download on the
 first run into `data/raw/` (not committed). Script 05 reads
 `../JobsOhioSmallBiz/data/commitments_norm.csv`, so that repo must sit beside
 this one.
@@ -43,11 +43,11 @@ this one.
 ```
 cd scripts
 python3 01_fetch_popest.py
-python3 02_fetch_irs_migration.py
 python3 03_ascend_reported.py
 python3 04_county_compare.py
 python3 05_jobsohio_per_job.py
 python3 06_charts.py
+python3 07_map.py
 python3 99_tieout.py
 ```
 

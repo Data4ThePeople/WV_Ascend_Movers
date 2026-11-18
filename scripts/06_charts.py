@@ -50,38 +50,6 @@ def chart_wv_domestic():
     plt.close(fig)
 
 
-def chart_irs_flows():
-    rows = [r for r in read("wv_irs_flows.csv") if r["scope"] == "us"]
-    d = collections.defaultdict(dict)
-    for r in rows:
-        d[r["years"]][r["direction"]] = int(r["individuals"])
-    labels = list(d)
-    x = range(len(labels))
-    fig, ax = plt.subplots(figsize=(10, 6.2))
-    fig.subplots_adjust(top=0.78, bottom=0.17, left=0.09, right=0.88)
-    for key, color in [("inflow", BLUE), ("outflow", YELLOW)]:
-        ys = [d[l][key] for l in labels]
-        ax.plot(x, ys, color=color, lw=2.4, marker="o", ms=4)
-        ax.text(len(labels) - 0.8, ys[-1], "Moved in" if key == "inflow" else "Moved out", color=color,
-                fontsize=11, fontweight="bold", va="center")
-        ax.text(len(labels) - 1, ys[-1] + (900 if key == "inflow" else -900), f"{ys[-1]:,}", color=color,
-                fontsize=9, ha="center", va="center")
-    ax.set_xticks(list(x))
-    ax.set_xticklabels([l.replace("20", "", 1).replace("-", "-\n") for l in labels], fontsize=8.5)
-    ax.yaxis.set_major_formatter(lambda v, _: f"{int(v):,}")
-    ax.set_ylim(20000, 52000)
-    ax.yaxis.grid(True)
-    ax.set_axisbelow(True)
-    titleblock(fig, "People moving into and out of West Virginia, from tax returns",
-               "People on federal tax returns whose address moved between West Virginia and another state, "
-               "by pair of filing years.\nIRS guides from 2014-15 on warn that processing changes may affect "
-               "comparisons. 2022-23 uses an updated\nmatching method that finds about 5% more returns.")
-    credit(fig, "Source: IRS Statistics of Income, U.S. Population Migration Data, state-to-state inflows and "
-                "outflows, 2011-12 to 2022-23.\nCovers people on returns only (n2). Latest year published: 2022-23.")
-    fig.savefig(CHARTS / "02-wv-irs-in-out.png")
-    plt.close(fig)
-
-
 def state_rates():
     d = collections.defaultdict(dict)
     for r in read("state_components.csv"):
@@ -206,7 +174,6 @@ def chart_ascend_reported():
 if __name__ == "__main__":
     chart_ascend_reported()
     chart_wv_domestic()
-    chart_irs_flows()
     chart_state_change()
     chart_counties()
     print("charts written to", CHARTS)
