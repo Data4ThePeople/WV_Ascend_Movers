@@ -47,9 +47,21 @@ ch = rates(v20, v25)
 rank = sorted(ch, key=ch.get, reverse=True)
 check("States in ranking (50 + D.C.)", len(ch), 51)
 for n, shown_rank, shown in [("Wyoming", 1, 8.89), ("Connecticut", 2, 6.82), ("West Virginia", 3, 6.34),
-                             ("Alaska", 4, 5.94), ("Ohio", 31, 1.11), ("Maryland", 38, 0.05)]:
+                             ("Alaska", 4, 5.94), ("Ohio", 31, 1.11), ("Maryland", 38, 0.05),
+                             ("Kentucky", 22, 1.87), ("Pennsylvania", 24, 1.84), ("Virginia", 29, 1.25)]:
     check(f"{n} change per 1,000 (chart 3)", round(ch[n], 2), shown, tol=0.005)
     check(f"{n} rank (chart 3)", rank.index(n) + 1, shown_rank)
+
+_lvl = {}
+for n in ["West Virginia", "Ohio", "Pennsylvania", "Maryland", "Virginia", "Kentucky"]:
+    s20_ = v20[(v20.SUMLEV == 40) & (v20.STNAME == n)].iloc[0]; s25_ = v25[(v25.SUMLEV == 40) & (v25.STNAME == n)].iloc[0]
+    _lvl[n] = (sum(s20_[f"DOMESTICMIG{y}"] for y in range(2015, 2020)) / (sum(s20_[f"POPESTIMATE{y}"] for y in range(2015, 2020)) / 5) / 5 * 1000,
+               sum(s25_[f"DOMESTICMIG{y}"] for y in range(2021, 2026)) / (sum(s25_[f"POPESTIMATE{y}"] for y in range(2021, 2026)) / 5) / 5 * 1000)
+check("WV 2015-2019 rate lowest of WV and five neighbors (chart 3)", int(min(_lvl, key=lambda n: _lvl[n][0]) == "West Virginia"), 1)
+check("WV 2021-2025 rate highest of WV and five neighbors (chart 3)", int(max(_lvl, key=lambda n: _lvl[n][1]) == "West Virginia"), 1)
+check("WV 2015-2019 rate (chart 3)", round(_lvl["West Virginia"][0], 2), -4.38)
+check("WV 2021-2025 rate (chart 3)", round(_lvl["West Virginia"][1], 2), 1.96)
+check("Kentucky 2021-2025 rate (chart 3)", round(_lvl["Kentucky"][1], 2), 1.53)
 
 # --- Census: county groups (chart 4) ---------------------------------------------------------------------
 groups = {"Eastern Panhandle (Ascend)": ["037", "003", "065"],
@@ -214,6 +226,7 @@ WORDS = [
     ("Chart 1 note 'two vintages use different Census bases and are not revised to match'", "supported",
      "Census methodology page and V2025 methods statement"),
     ("Chart 3 'Rank among 50 states and D.C.'", "supported", "51 state rows recomputed above"),
+    ("Chart 3 'the five states that border it' (OH, PA, MD, VA, KY)", "supported", "U.S. state borders"),
     ("Map outlines the six Ascend areas (10 counties)", "partly supported",
      "Same county list as chart 4; inferred from ascendwv.com community pages"),
     ("Map 'moves to and from other counties, in West Virginia or other states'", "supported",

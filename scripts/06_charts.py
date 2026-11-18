@@ -60,32 +60,37 @@ def state_rates():
     return {n: (rate(n, range(2015, 2020)), rate(n, range(2021, 2026))) for n in d}
 
 
+NEIGHBORS = ["Ohio", "Pennsylvania", "Maryland", "Virginia", "Kentucky"]
+
+
 def chart_state_change():
+    """West Virginia and the five states that border it. Rank among 50 states and D.C. in parentheses."""
     rates = state_rates()
     order = sorted(rates, key=lambda n: rates[n][1] - rates[n][0], reverse=True)
-    show = order[:10] + [n for n in ["Ohio", "Pennsylvania", "Kentucky", "Virginia", "Maryland"] if n not in order[:10]]
-    show = sorted(show, key=lambda n: rates[n][1] - rates[n][0])
-    fig, ax = plt.subplots(figsize=(10, 7.4))
-    fig.subplots_adjust(top=0.80, bottom=0.13, left=0.2, right=0.95)
+    show = sorted(["West Virginia"] + NEIGHBORS, key=lambda n: rates[n][1] - rates[n][0], reverse=True)
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    fig.subplots_adjust(top=0.72, bottom=0.17, left=0.40, right=0.93)
     for i, n in enumerate(show):
-        ch = rates[n][1] - rates[n][0]
-        color = MAGENTA if n == "West Virginia" else (BLUE if n == "Ohio" else MUTED)
-        ax.barh(i, ch, color=color, height=0.68)
-        ax.text(ch + 0.12, i, f"{ch:+.2f}", va="center", fontsize=9, color=INK)
-        rank = order.index(n) + 1
-        ax.text(-0.15, i, f"{n}  ({rank})", va="center", ha="right", fontsize=10,
-                color=INK if n in ("West Virginia", "Ohio") else INK_DIM,
-                fontweight="bold" if n in ("West Virginia", "Ohio") else "normal")
-    ax.axhline(9.5 - (15 - len(show)), color=GRID, lw=0)
+        pre, post = rates[n]
+        color = MAGENTA if n == "West Virginia" else BLUE
+        ax.barh(i, post - pre, color=color, height=0.62)
+        ax.text(post - pre + 0.08, i, f"{post - pre:+.2f}", va="center", fontsize=10, color=INK)
+        bold = n == "West Virginia"
+        ax.text(-0.12, i - 0.12, f"{n}  ({order.index(n) + 1})", va="center", ha="right", fontsize=11,
+                color=INK, fontweight="bold" if bold else "normal")
+        ax.text(-0.12, i + 0.24, f"{pre:+.2f} to {post:+.2f}", va="center", ha="right", fontsize=9,
+                color=INK_DIM)
     ax.set_yticks([])
+    ax.invert_yaxis()
     ax.axvline(0, color=INK_DIM, lw=0.8)
-    ax.set_xlim(-0.2, max(rates[n][1] - rates[n][0] for n in show) * 1.15)
+    ax.set_xlim(-0.1, 7.4)
     ax.tick_params(axis="x", labelsize=9)
     ax.spines["left"].set_visible(False)
-    titleblock(fig, "Ten states with the largest turn in domestic migration, plus West Virginia's neighbors",
+    titleblock(fig, "West Virginia and its five neighbors",
                "Change in net domestic migration per 1,000 residents per year, 2021-2025 average minus "
-               "2015-2019 average.\nRank among 50 states and D.C. in parentheses. West Virginia in magenta, "
-               "Ohio in blue.")
+               "2015-2019 average.\nUnder each name: the 2015-2019 rate to the 2021-2025 rate. Rank among "
+               "50 states and D.C. in parentheses.\nWest Virginia in magenta, the five states that border "
+               "it in blue.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025, components of "
                 "change. Years end July 1;\nthe year ending July 1, 2020 is left out. Data 4 The People "
                 "calculation.")
