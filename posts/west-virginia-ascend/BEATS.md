@@ -88,6 +88,13 @@ here goes into the post unless Eric writes it or brackets it.
     demand; the one named "AI bubble" quote found (Malcolm Penn, Future
     Horizons) is about the industry, not Intel or Ohio. Full notes in
     `docs/intel_research.md`.
+  - Ohio's whole Intel package: about $2.1 billion committed as itemized by
+    the state in January 2022 (grant, infrastructure, tax credit, JobsOhio);
+    $839.4 million paid through June 30, 2025 in records that name Intel
+    ($600M onshoring grant, $125.4M JobsOhio, $114M water plant). The grant
+    agreement's deadline for 3,000 jobs is December 31, 2028; Intel's own
+    timeline puts Fab 1 at "as early as 2030." The state may waive repayment
+    for "market conditions." Call out JobsOhio's $125.4M as its own line.
   - Ultium Cells does not fit "grants vanishing into no jobs": the plant is
     open, the state layoff notice lists 484 permanent and 850 temporary
     layoffs (1,334), and Business Journal Daily reported recalls (August 27,

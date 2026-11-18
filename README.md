@@ -17,6 +17,7 @@ are.
 - `data/ascend_communities.csv`: Ascend host areas and the counties they cover
 - `data/ascend_q3_2026_communities.csv`, `data/ascend_q3_2026_states.csv`: figures by community and by home state from WVU's Q3 2026 Ascend statistics
 - `data/programs.csv`: other pay-to-move programs and what their evaluations found
+- `data/ohio_intel_package.csv`: Ohio's incentives for Intel Ohio One, committed and paid
 - `data/processed/`: outputs of the scripts
 - `charts/`: static charts
 - `SCOPE.md`, `STATUS.md`: project scope and where it stands in the publishing process
@@ -33,6 +34,7 @@ are.
   WVU sent its Q3 2026 statistics directly; we did not find them online, so
   that PDF is not in this repo.
 - Published evaluations of other programs, listed in `data/programs.csv`
+- Ohio budget records (Legislative Service Commission line-item catalogs), Development Department releases, Tax Credit Authority minutes and JobsOhio Form 990s for Ohio's Intel incentives, listed in `data/ohio_intel_package.csv`
 
 ## How to rebuild
 

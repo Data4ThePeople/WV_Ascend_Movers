@@ -166,6 +166,42 @@ estimates pool survey panels over three years.
 **License.** U.S. government work, public domain. Cite as "U.S. Bureau of Labor
 Statistics, Occupational Employment and Wage Statistics, May 2025."
 
+## Ohio's public incentives for Intel Ohio One, `data/ohio_intel_package.csv`
+
+**What it is.** One row per incentive, hand-built from primary records where
+they exist: committed amount, amount paid and as-of date, whether the record
+names Intel, source, URL and exact words. Research notes, with secondary items
+and conflicts, are in `docs/intel_research.md`.
+
+**The "$2 billion."** Ohio's Development Director itemized the package on
+January 28, 2022 (Spectrum News, WOSU): a $600 million grant, $691 million in
+infrastructure, a 30-year Job Creation Tax Credit with "a potential value of
+$650 million," and up to $150 million from JobsOhio. That is $2,091 million.
+No official document adds it to one total. It leaves out sales tax and CAT
+exemptions written for the site, a 30-year New Albany property tax abatement,
+and a July 2023 $90 million transportation package.
+
+**Paid.** Through June 30, 2025, in records that name Intel: $600,000,000
+onshoring grant (September 2023), $125,415,416 from JobsOhio, $114,000,000 for
+the water reclamation plant: $839,415,416. Two road lines that fund the area
+but do not name Intel add $120,772,386 ($960,187,802). Water and sewer spending
+is shared with Honda and cannot be split. No tax credit had been received as of
+March 2025 (Axios, secondary).
+
+**Conflicts.** Official infrastructure totals range from $606.2 million (HB 687
+appropriations) to $800 million (Development, September 2023). We use the
+January 2022 itemization for "committed" and line-item actuals for "paid."
+
+**Terms.** The onshoring grant agreement (copy posted by Policy Matters Ohio,
+signature blocks blank) sets a completion date of December 31, 2028 for "at
+least $20 billion, 3,000 new full-time equivalent employees, and $405,000,000
+in annual payroll." The state can demand repayment, but may waive it for
+"market conditions," including whether Intel "received expected CHIPS Act
+funding." Intel must ask for an extension at least a year before the
+deadline. As of March 2026 the state said Intel had not asked and was "still
+expected to meet" the 2028 commitments; Intel told the state Fab 1 could
+operate "as early as 2030."
+
 ## Relocation program evaluations (various publishers), `data/programs.csv`
 
 **What it is.** A hand-built table: one row per program and evaluation, with

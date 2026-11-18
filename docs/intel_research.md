@@ -87,3 +87,28 @@ publishing.
 - Intel's original February 2025 and October 2026 posts did not load.
 - Q3 2026 earnings call transcript not read.
 - Opening year differs by source: 2030 (Intel to Ohio) vs. 2031 (WOSU).
+
+## Ohio's full package (research November 18, 2026)
+
+Itemized in `data/ohio_intel_package.csv`; method and conflicts in
+`DATASETS.md`. Committed as itemized January 28, 2022: $2,091 million
+($600M grant, $691M infrastructure, $650M potential tax credit, $150M
+JobsOhio). Paid through June 30, 2025, Intel-named records: $839,415,416.
+
+Not in the $2.1 billion: sales tax exemption for the megaproject (estimated
+forgone revenue $45.7M FY2024, $111.7M FY2025; Tax Expenditure Report
+FY2026-27, item 1.28); CAT exclusion ($4.5M FY2025, item 4.10); New Albany
+100% property tax abatement for 30 years (ThisWeek, June 23, 2022, secondary);
+ODOT "Silicon Heartland" $90M (AASHTO Journal, July 28, 2023, secondary).
+
+Clawback: onshoring agreement sections 3, 4(a), 9(b)(iii), 9(h) (Policy
+Matters copy: https://policymattersohio.org/wp-content/uploads/2025/05/odod-intelonshoringgrantexecuted.pdf).
+Policy Matters (July 11, 2023): the agreement "doesn't cover about $400
+million Ohio is spending on roads and other infrastructure." NBC4 (April 8,
+2025): the state "would not claw back any funds." Development to Policy
+Matters (March 2026): "Intel has not formally requested an extension."
+
+Not verified: the water reclamation contract, Controlling Board actions, Ohio
+Checkbook payments, tax credits actually claimed, the New Albany CRA value,
+rail and utility costs, whether the $85M New Albany grant and the $90M ODOT
+package overlap the $691M.

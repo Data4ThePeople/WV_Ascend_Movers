@@ -186,6 +186,16 @@ for m, v in [("funding_usd", 3000000), ("funding_usd", 2165000), ("funding_usd",
     hit = asc[(asc.measure == m) & (asc.publish_date == "2025-12-31") & (asc.value == v)]
     check(f"Impact Report 2025 {m} {v:,}", len(hit), 1)
 
+# --- Ohio's Intel package (data/ohio_intel_package.csv) ----------------------------------------------------
+oi = pd.read_csv(ROOT / "data" / "ohio_intel_package.csv")
+# the Jan 2022 itemization: $600M grant + $691M infrastructure + $650M tax credit + $150M JobsOhio
+check("Ohio Intel package as itemized Jan 2022, $", 600_000_000 + 691_000_000 + 650_000_000 + 150_000_000, 2_091_000_000)
+check("Ohio Intel paid, Intel-specific items, through June 30, 2025",
+      int(oi[oi.intel_specific == "yes"].paid_usd.fillna(0).sum()), 839_415_416)
+check("Ohio Intel paid, adding road lines not labeled Intel-only",
+      int(oi[oi.intel_specific.isin(["yes", "not labeled"])].paid_usd.fillna(0).sum()), 960_187_802)
+check("JobsOhio Intel paid matches Schedule I sum", 123_181_109 + 1_241_684 + 992_623, 125_415_416)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
