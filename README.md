@@ -27,6 +27,7 @@ are.
 - U.S. Census Bureau, Population Estimates, components of change, Vintage 2020
   and Vintage 2025
 - Census cartographic county boundaries, 2024 (for the county map)
+- IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23
 - U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 (state wages)
 - JobsOhio monthly executed grants and loans reports, as parsed in the
   [JobsOhioSmallBiz](https://github.com/Data4ThePeople/JobsOhioSmallBiz) project
@@ -53,6 +54,8 @@ python3 06_charts.py
 python3 07_map.py
 python3 08_wages.py
 python3 09_comparison.py
+python3 10_panhandle_origins.py
+python3 11_panhandle_chart.py
 python3 99_tieout.py
 ```
 

@@ -1,0 +1,73 @@
+years,origin,returns,people,agi_thousands
+2011-12,Baltimore metro,145,292,8432
+2011-12,Elsewhere in West Virginia,159,269,5367
+2011-12,"Nearby MD, VA, PA counties",871,1653,35204
+2011-12,Washington metro,847,1562,46939
+2011-12,Everywhere else,1869,3658,74976
+2011-12,All U.S. arrivals,3891,7434,170918
+2012-13,Baltimore metro,194,394,18614
+2012-13,Elsewhere in West Virginia,142,261,4972
+2012-13,"Nearby MD, VA, PA counties",954,1882,37518
+2012-13,Washington metro,1027,1968,60658
+2012-13,Everywhere else,1910,3755,89964
+2012-13,All U.S. arrivals,4227,8260,211726
+2013-14,Baltimore metro,56,122,2629
+2013-14,Elsewhere in West Virginia,85,147,3072
+2013-14,"Nearby MD, VA, PA counties",935,1791,38957
+2013-14,Washington metro,842,1716,52620
+2013-14,Everywhere else,1967,3873,97317
+2013-14,All U.S. arrivals,3885,7649,194595
+2014-15,Baltimore metro,72,130,3458
+2014-15,Elsewhere in West Virginia,44,69,988
+2014-15,"Nearby MD, VA, PA counties",622,1156,25768
+2014-15,Washington metro,598,1129,36570
+2014-15,Everywhere else,1547,2916,68587
+2014-15,All U.S. arrivals,2883,5400,135371
+2015-16,Baltimore metro,111,214,5601
+2015-16,Elsewhere in West Virginia,143,247,6243
+2015-16,"Nearby MD, VA, PA counties",896,1760,40245
+2015-16,Washington metro,924,1827,57230
+2015-16,Everywhere else,1959,3865,103957
+2015-16,All U.S. arrivals,4033,7913,213276
+2016-17,Baltimore metro,150,340,9003
+2016-17,Elsewhere in West Virginia,135,214,5716
+2016-17,"Nearby MD, VA, PA counties",1412,2749,63081
+2016-17,Washington metro,1381,2711,89931
+2016-17,Everywhere else,3234,6502,177633
+2016-17,All U.S. arrivals,6312,12516,345364
+2017-18,Baltimore metro,160,287,9168
+2017-18,Elsewhere in West Virginia,101,193,3392
+2017-18,"Nearby MD, VA, PA counties",1140,2105,51671
+2017-18,Washington metro,1155,2213,78183
+2017-18,Everywhere else,2493,4714,134143
+2017-18,All U.S. arrivals,5049,9512,276557
+2018-19,Baltimore metro,78,146,4317
+2018-19,Elsewhere in West Virginia,81,137,3608
+2018-19,"Nearby MD, VA, PA counties",1155,2203,56421
+2018-19,Washington metro,1022,1930,64558
+2018-19,Everywhere else,2259,4286,142603
+2018-19,All U.S. arrivals,4595,8702,271507
+2019-20,Baltimore metro,164,324,11458
+2019-20,Elsewhere in West Virginia,121,206,5464
+2019-20,"Nearby MD, VA, PA counties",1373,2555,68250
+2019-20,Washington metro,1344,2573,93865
+2019-20,Everywhere else,2561,4874,161363
+2019-20,All U.S. arrivals,5563,10532,340400
+2020-21,Baltimore metro,183,369,12432
+2020-21,Elsewhere in West Virginia,82,145,3496
+2020-21,"Nearby MD, VA, PA counties",1404,2561,76089
+2020-21,Washington metro,1596,3063,128926
+2020-21,Everywhere else,2605,4737,168460
+2020-21,All U.S. arrivals,5870,10875,389403
+2021-22,Baltimore metro,159,287,11020
+2021-22,Elsewhere in West Virginia,110,190,5443
+2021-22,"Nearby MD, VA, PA counties",1255,2256,71218
+2021-22,Washington metro,1552,2863,125915
+2021-22,Everywhere else,2811,5076,209383
+2021-22,All U.S. arrivals,5887,10672,422979
+2022-23,Baltimore metro,210,352,14759
+2022-23,Elsewhere in West Virginia,120,207,6100
+2022-23,"Nearby MD, VA, PA counties",1258,2142,68381
+2022-23,Washington metro,1670,2988,138516
+2022-23,Everywhere else,2751,4894,178840
+2022-23,All U.S. arrivals,6009,10583,406596

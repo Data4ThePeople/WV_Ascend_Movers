@@ -143,6 +143,52 @@ say how many of those jobs would have come to Ohio without the grant.
 
 ---
 
+## IRS Statistics of Income, county-to-county migration, Eastern Panhandle, `data/processed/panhandle_inflows.csv` and `panhandle_outflows.csv`
+
+**What it is.** Federal tax returns matched across two filing years by
+taxpayer ID, comparing addresses. A county inflow row counts returns (`n1`),
+people on them (`n2`) and adjusted gross income (`agi`, thousands of dollars,
+year-2 return) that moved from an origin county into a destination county.
+Files `countyinflowYYZZ.csv` and `countyoutflowYYZZ.csv` from
+`https://www.irs.gov/pub/irs-soi/`, 2011-12 to 2022-23, pulled by
+`scripts/10_panhandle_origins.py` into `data/raw/irs/`.
+
+**What we count.** Moves into and out of Jefferson, Berkeley and Morgan
+counties, leaving out moves among those three. Origins are grouped by a fixed
+county list in the script: the Washington metro (D.C. and 21 Maryland and
+Virginia counties and cities), the Baltimore metro (7), nearby Maryland,
+Virginia and Pennsylvania counties (7), elsewhere in West Virginia, and
+everywhere else. "All U.S. arrivals" is the IRS "Total Migration-US" row
+minus moves from the other two Panhandle counties. Before and after compare
+the averages of filing years 2017-18 to 2019-20 and 2020-21 to 2022-23.
+
+**Timing.** "2020-21" compares addresses on returns filed in 2020 with those
+filed in 2021, so it is the first year made up mostly of moves after COVID
+began. 2019-20 can include some moves in early 2020, because the 2020 filing
+deadline moved to July 15.
+
+**Suppression.** The IRS lists a county pair only when it has 20 or more
+returns; smaller flows go into "other flows" rows with no county. Listed
+group counts are therefore undercounts, on both the inflow and outflow sides.
+"Everywhere else" is the U.S. total minus the listed groups, so it includes
+all small flows.
+
+**Changes over time.** `n2` meant exemptions through 2018-19 and individuals
+from 2019-20. 2022-23 uses an updated matching method that the IRS says raised
+matched returns by about 5%. 2014-15 and 2016-17 show swings that may come
+from IRS processing changes. 2020-21 and 2021-22 files drop leading zeros in
+FIPS codes; the script pads them.
+
+**Results.** People moving from the Washington metro to the Panhandle averaged
+2,239 a year before and 2,971 after (32.7% more). Moves the other way averaged
+942 and 880 (6.5% fewer). Net, 1,297 and 2,091 (61.2% more). All U.S.
+arrivals rose 11.8% (9,582 to 10,710), so the Washington metro's share rose
+from 23.4% to 27.7%. Nearby Maryland, Virginia and Pennsylvania counties rose
+1.4%. The data show where movers came from, not why they moved.
+
+**License.** IRS public data. Cite as "IRS Statistics of Income, U.S.
+Population Migration Data."
+
 ## BLS Occupational Employment and Wage Statistics (OEWS), state wages, `data/processed/state_wages_oews.csv`
 
 **What it is.** BLS estimates of wages for all occupations, by state, from a

@@ -219,6 +219,30 @@ for _lab, _got, _shown in zip(["Chart 6 Ascend salary", "Chart 6 JobsOhio payrol
     check(_lab, _got, _shown)
 check("Table: JobsOhio grants per committed job 2021-2025", round(int(jo.loc["2021-2025", "grant_dollars"]) / int(jo.loc["2021-2025", "jobs_committed"])), 16182)
 
+# --- IRS county flows, Washington metro and the Eastern Panhandle (chart 8) --------------------------------
+_pi = pd.read_csv(ROOT / "data" / "processed" / "panhandle_inflows.csv")
+_po = pd.read_csv(ROOT / "data" / "processed" / "panhandle_outflows.csv")
+_pre, _post = ["2017-18", "2018-19", "2019-20"], ["2020-21", "2021-22", "2022-23"]
+def _avg(df, col, g, ys):
+    return df[(df[col] == g) & df.years.isin(ys)].people.mean()
+_a0, _a1 = _avg(_pi, "origin", "Washington metro", _pre), _avg(_pi, "origin", "Washington metro", _post)
+_d0, _d1 = _avg(_po, "destination", "Washington metro", _pre), _avg(_po, "destination", "Washington metro", _post)
+_t0, _t1 = _avg(_pi, "origin", "All U.S. arrivals", _pre), _avg(_pi, "origin", "All U.S. arrivals", _post)
+for _lab, _v, _shown in [("DC metro to Panhandle, avg before", round(_a0), 2239), ("after", round(_a1), 2971),
+                         ("% change", round((_a1 / _a0 - 1) * 100, 1), 32.7),
+                         ("Panhandle to DC metro, avg before", round(_d0), 942), ("after ", round(_d1), 880),
+                         ("% change ", round((_d1 / _d0 - 1) * 100, 1), -6.5),
+                         ("Net from DC metro before", round(_a0 - _d0), 1297), ("Net after", round(_a1 - _d1), 2091),
+                         ("Net % change", round(((_a1 - _d1) / (_a0 - _d0) - 1) * 100, 1), 61.2),
+                         ("All U.S. arrivals % change", round((_t1 / _t0 - 1) * 100, 1), 11.8),
+                         ("DC metro share before", round(_a0 / _t0 * 100, 1), 23.4),
+                         ("DC metro share after", round(_a1 / _t1 * 100, 1), 27.7)]:
+    check(f"IRS {_lab} (chart 8)", _v, _shown)
+for _y, _v in [("2017-18", 2213), ("2018-19", 1930), ("2019-20", 2573), ("2020-21", 3063), ("2021-22", 2863), ("2022-23", 2988)]:
+    check(f"Chart 8 label {_y}", int(_pi[(_pi.origin == "Washington metro") & (_pi.years == _y)].people.iloc[0]), _v)
+import importlib as _il2
+check("Washington metro list = D.C. + 21", len(_il2.import_module("10_panhandle_origins").DC_METRO), 22)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
