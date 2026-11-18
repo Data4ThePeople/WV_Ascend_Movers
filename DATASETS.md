@@ -326,22 +326,23 @@ for either.
   - A projection, not a measurement. It covers 597 planned workers in three
     areas only (Monongalia 325, Greenbrier 136, Jefferson 136), out of a goal
     of 1,000 "in the span of seven years"; the other two planned areas were
-    not modeled.
+    not modeled. (Its text says the other two areas get 490 workers; its own
+    Appendix 1 gives them 403, which is what 1,000 minus 597 leaves.)
   - It assumes each worker earns $90,000, spends like a household earning
     $70,000 to $100,000, spends 65% of income, and pays no West Virginia
     income tax.
   - Its figures are "output," cumulative over all years, in 2021 dollars.
     Baseline, every cohort leaves after two years: $124.3 million output, 404
-    jobs, $3.2 million state and local tax (2021-2027). With 50% of each
-    cohort staying each year after year two: $182.6 million, 594 jobs, $4.6
+    jobs, $3.2 million state and local tax (2021-2026). With half of those
+    remaining staying each additional year after year two: $182.6 million, 594 jobs, $4.6
     million state and local tax (2021-2031). The jobs are all indirect and
     induced; the remote workers themselves count as zero.
   - It counts every worker's spending as new to West Virginia. It makes no
     adjustment for workers who would have moved without the program.
   - WVU OEDC (Emily Huguenin, November 17, 2026) says the memo's retention
     assumption is more conservative than what the program sees. The two are
-    measured differently: the memo's 50% is the share of a cohort that stays
-    each year after the two-year term; the program's 96% is the share in the
+    measured differently: the memo's 50% is the share of those remaining in
+    a cohort who stay each additional year after the two-year term; the program's 96% is the share in the
     program at least four months who stayed. No published figure measures
     retention after the two-year term.
   Later figures: in January 2023 the director said it was too early for a
@@ -351,10 +352,12 @@ for either.
   WVU OEDC offered to explain the $580 million method on a call in December
   2026, after our publication date.
 - **What the program knows about members who would have moved anyway.** Per
-  WVU OEDC (November 17, 2026): it cannot track whether applicants who were
-  not selected moved anyway, but "we have learned anecdotally that many people
+  WVU OEDC (November 17, 2026): it can't track "exactly how many applicants who
+  were not selected still moved" to West Virginia, but "we have learned anecdotally that many people
   who applied to Ascend WV ended up making the move regardless of whether they
-  were accepted." This is the program's account, not a count.
+  were accepted." It adds: "Some have reported that this
+  incentive got WV on their radar and caused them to consider moving here."
+  This is the program's account, not a count.
 - **Money.** WVU OEDC pointed to its 2025 Impact Report for funding
   sources; that page blocks automated reading and we have not read it. The $25 million Smith gift went to the Outdoor Economic
   Development Collaborative as a whole, not to Ascend alone. Also found:

@@ -221,7 +221,20 @@ lines += ["", "## Independent tie-out (fresh agent, November 14, 2026)", "",
           "figure; chart 5 subtitle says 'released' because the Q3 report was sent to us, not published.",
           "- Noted: the Charleston states table (p.8) lists California twice; not used.",
           "- Could not check: the Q4 2025 figures (that PDF is not in data/raw; the first independent tie-out "
-          "re-pulled it), whether the Q3 report is posted online, and the wording of the Sept. 2021 goal."]
+          "re-pulled it), whether the Q3 report is posted online, and the wording of the Sept. 2021 goal.",
+          "", "## Independent tie-out of the BBER memo additions (fresh agent, November 18, 2026)", "",
+          "Read all 16 pages of the Feb. 2021 BBER memo and the WVU OEDC reply; recomputed the appendices with "
+          "its own code.", "",
+          "- All figures matched: 597 workers; $124.3M, 404 jobs, $3.2M tax; $182.6M, 594 jobs, $4.6M tax; "
+          "cohort sums within $2 of printed totals (rounding); direct output is 65% of $90,000 per worker-year.",
+          "- Confirmed by reading every page: the memo counts all workers' income as new spending and has no "
+          "adjustment for workers who would have moved anyway; the memo's 50% and the program's 96% measure "
+          "different things.",
+          "- Fixed: baseline years are 2021-2026 (not 2027); the 50% is of those remaining, not the full cohort; "
+          "the OEDC paraphrase now quotes 'exactly how many' and adds her 'on their radar' sentence; noted the "
+          "memo's own 490 vs 403 conflict for the two unmodeled areas.",
+          "- Could not check: the later $500M, $580M and $750M figures (no documents), and whether any other "
+          "publication measures retention after the two-year term."]
 (ROOT / "TIEOUT.md").write_text("\n".join(lines) + "\n")
 print(f"{len(rows) - len(bad)} of {len(rows)} match")
 for r in bad:
