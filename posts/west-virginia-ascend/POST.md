@@ -74,17 +74,24 @@ The Panhandle was already gaining people before Ascend arrived. The next chart c
 
 All three groups gained ground. The Eastern Panhandle went from 9.99 to 20.57 per 1,000 residents a year. The other Ascend areas went from -7.08 to -1.37, and the rest of the state went from -5.60 to -0.20.
 
+So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. In the three filing years before COVID, about 2,239 people a year moved from the Washington metro to Jefferson, Berkeley and Morgan counties. In the three filing years after it began, that rose to about 2,971 a year, a 32.7% increase. Moves the other way fell 6.5%. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. Arrivals from everywhere in the U.S. rose 11.8%, so the Washington area's share of new arrivals grew from 23.4% to 27.7%. The chart below shows moves in each direction.
+
+![Line chart of people moving between the Washington metro and the Eastern Panhandle, IRS filing years 2011-12 to 2022-23. Moves to the Panhandle rise from 2,213 in 2017-18 and 1,930 in 2018-19 to 2,573 in 2019-20 and 3,063 in 2020-21, then 2,863 and 2,988. Moves to the Washington metro stay near 700 to 1,000 a year, ending at 720. The filing years after COVID began are shaded.](images/08-washington-panhandle-moves.png)
+*Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23. Washington metro: D.C. and 21 nearby Maryland and Virginia counties and cities. Data 4 The People calculation.*
+
+The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.
+
 ## Ascend is too small to explain the change
 ::: spacer 5px
 
-We checked whether Ascend is large enough to account for these changes. Suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
+Ascend's own members are a much smaller group than that shift. We checked whether Ascend is large enough to account for the changes in its areas. Suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
 
 Ascend's members are too few to explain the change in its areas. These numbers cannot tell us what would have happened without the program, and we did not try to estimate that.
 
 ## One is measurable, one is not
 ::: spacer 5px
 
-Being too small to move the state's totals is a different question from whether the program is a good use of money. Here, the two states' approaches look very different. The table below lines them up.
+Ascend still added people, 1,641 by its own count, and it has a large advantage over JobsOhio in what the public can see. The table below lines up the two approaches.
 
 ![Table comparing Ascend WV and JobsOhio grants. What the state pays: $12,000 in cash to the worker, paid monthly over 24 months, versus $16,182 in grants per committed new job, 2021 to 2025. Does the job exist when the deal is made: yes, members show proof of employment and income first, versus not yet, the company commits to create it. What pay is published: members' average salary by community, versus the payroll the company promised. What the public can check later: members, completions and retention in WVU's reports, versus only signs of failure such as layoff notices, bankruptcies and lawsuits.](images/07-two-ways-table.png)
 *Ascend's $12,000 is its cash incentive only; total program cost per member is not published.*
