@@ -71,9 +71,23 @@ here goes into the post unless Eric writes it or brackets it.
     (court docket).
   - Belmont County petrochemical plant: $48,599,868 paid to three companies,
     $20,000,000 returned, plant never built, $28,599,868 out (grants tool post).
-  - Intel Ohio One: $125.4 million paid by FY2025 for 3,000 committed jobs;
-    first fab now due by 2031; WOSU (August 26, 2026) reports Intel's deadlines
-    are "flexible based on customer demand" (WOSU's paraphrase of Intel). Research on what the plant makes is pending.
+  - Intel Ohio One: $125.4 million paid by FY2025 for 3,000 committed jobs.
+    What it is for: leading-edge logic chips, now Intel's 14A process ("Intel
+    14A and future nodes," NIST CHIPS award page); announced in January 2022
+    for Intel's own products and outside foundry customers, production
+    "expected to come online in 2025." First fab now due 2030-31.
+    The risk in Intel's own words (FY2025 10-K, filed January 23, 2026,
+    verified against EDGAR): "If we are unable to secure a significant external
+    customer for our Intel 14A node, we may pause or discontinue development of
+    Intel 14A ... For example, we would likely discontinue the new leading-edge
+    fabrication facilities we are building in Ohio." And: "We have been
+    unsuccessful to date in securing any significant external foundry customers
+    for any of our nodes." Its Q3 2026 10-Q says the pace "will ultimately be
+    dictated by the amount of committed demand for Intel 14A." No customer is
+    confirmed for Ohio. Use these filings rather than our own view on AI
+    demand; the one named "AI bubble" quote found (Malcolm Penn, Future
+    Horizons) is about the industry, not Intel or Ohio. Full notes in
+    `docs/intel_research.md`.
   - Ultium Cells does not fit "grants vanishing into no jobs": the plant is
     open, the state layoff notice lists 484 permanent and 850 temporary
     layoffs (1,334), and Business Journal Daily reported recalls (August 27,
