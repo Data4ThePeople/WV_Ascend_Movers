@@ -27,7 +27,7 @@ We use the latest vintage for each decade.
 net domestic migration is moves to and from other states. At the county level
 it is moves to and from every other county, including counties in West
 Virginia. A county's gain can be another West Virginia county's loss, so county
-and area figures (chart 4, the map, the Eastern Panhandle comparison) do not
+and area figures (the map and the Eastern Panhandle comparison) do not
 show moves to and from other states alone.
 
 **How domestic migration is estimated.** It is a model, not a count. The
