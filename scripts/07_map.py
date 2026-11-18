@@ -73,7 +73,7 @@ def main():
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025; county "
                 "boundaries, Census cartographic files 2024.\nAscend county list from ascendwv.com community pages. "
                 "Data 4 The People calculation.")
-    out = ROOT / "charts" / "04-county-migration-map.png"
+    out = ROOT / "charts" / "map-county-migration.png"   # not in the post; kept for reference
     fig.savefig(out)
     plt.close(fig)
     print("wrote", out)

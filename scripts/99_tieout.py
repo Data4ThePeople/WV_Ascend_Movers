@@ -51,7 +51,7 @@ for n, shown_rank, shown in [("Wyoming", 1, 8.89), ("Connecticut", 2, 6.82), ("W
     check(f"{n} change per 1,000 (chart 3)", round(ch[n], 2), shown, tol=0.005)
     check(f"{n} rank (chart 3)", rank.index(n) + 1, shown_rank)
 
-# --- Census: county groups (numbers in the text with the map) ---------------------------------------------------------------------
+# --- Census: county groups (chart 4) ---------------------------------------------------------------------
 groups = {"Eastern Panhandle (Ascend)": ["037", "003", "065"],
           "Other Ascend areas": ["061", "025", "083", "019", "081", "067", "039"]}
 c20 = v20[(v20.SUMLEV == 50) & (v20.STATE == "54")].set_index("COUNTY")
@@ -65,7 +65,7 @@ for g, cs in groups.items():
         mig = sum(df.loc[c, f"DOMESTICMIG{y}"] for c in cs for y in ys)
         pop = sum(df.loc[c, f"POPESTIMATE{y}"] for c in cs for y in ys) / 5
         check(f"{g}, net domestic {label}", mig, cc.loc[g, f"net_dom_{label}"])
-        check(f"{g}, rate {label} (text with the map)", round(mig / pop / 5 * 1000, 2), cc.loc[g, f"rate_{label}"], tol=0.005)
+        check(f"{g}, rate {label} (chart 4)", round(mig / pop / 5 * 1000, 2), cc.loc[g, f"rate_{label}"], tol=0.005)
 check("Eastern Panhandle 2021-2025 gain exceeds WV total", 21680 > 17349, True)
 
 # --- Census: every county (chart 4 map) ------------------------------------------------------------------
