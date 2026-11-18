@@ -306,7 +306,7 @@ for either.
   least four months who stayed. No other source defines it. NPR describes 96%
   as remaining "after the program's two-year commitment ends"; a 2023 release
   says "in first two years"; a 2026 release says "since its launch." Values
-  published: 98%, 97%, 96%, 96.2%, 96.4%, 95.5%.
+  published: 98%, 97%, 96%, 96.2%, 96.4%, 95.5%, "more than 95%".
 - **The 2024 figures.** 295 members and 272 family are "as of May 2024" in an
   August 2024 magazine issue.
 - **Members vs residents.** "Members" or "participants" are the remote
@@ -359,7 +359,17 @@ for either.
   incentive got WV on their radar and caused them to consider moving here."
   This is the program's account, not a count.
 - **Money.** WVU OEDC pointed to its 2025 Impact Report for funding
-  sources; that page blocks automated reading and we have not read it. The $25 million Smith gift went to the Outdoor Economic
+  sources (a web page that blocks automated reading; Eric saved it as a PDF,
+  kept in `data/raw/wvu/`). It gives no Ascend spending total, incentives
+  paid, operating cost or cost per member. Its funding figures are for the
+  whole Collaborative, 2020-2025: more than $80.6 million "in total funding
+  initiated," more than $48.4 million "in funding secured," and $11.8 million
+  "in match funding generated." The only Ascend-specific amounts: a $3 million
+  award for "a five-year partnership supporting the development, launch and
+  operation" of Ascend in the Charleston region, and $2.165 million requested
+  for Ascend Heroes, pending at the end of 2025. It also describes retention as
+  "more than 95% ... staying for the long haul," without a definition; the
+  quarterly reports define the rate as at least four months. The $25 million Smith gift went to the Outdoor Economic
   Development Collaborative as a whole, not to Ascend alone. Also found:
   $2.4 million in federal Rural Health Transformation funds for a healthcare
   expansion (September 2026) and a $500,000 private donation for Charleston

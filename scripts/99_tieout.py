@@ -142,6 +142,12 @@ for d, v in [("2021-02-01", 182600000), ("2021-02-01", 124300000)]:
     hit = asc[(asc.measure == "economic_impact_usd") & (asc.publish_date == d) & (asc.value == v)]
     check(f"Ascend table has BBER {v:,}", len(hit), 1)
 
+# --- OEDC 2025 Impact Report --------------------------------------------------------------------------------
+for m, v in [("funding_usd", 3000000), ("funding_usd", 2165000), ("funding_usd", 48400000),
+             ("retention_pct", 95), ("applications", 11482)]:
+    hit = asc[(asc.measure == m) & (asc.publish_date == "2025-12-31") & (asc.value == v)]
+    check(f"Impact Report 2025 {m} {v:,}", len(hit), 1)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
@@ -170,6 +176,10 @@ WORDS = [
      "Members 809 vs 827, completed 185 vs 184, household 1,645 vs 1,641; recorded in DATASETS.md"),
     ("Q3 2026 survey figures (income, home price) are program totals", "not supported",
      "p.9 says 495 respondents, 'rolling and not comprehensive'; not used as totals"),
+    ("No Ascend spending total, incentives paid or cost per member is published", "supported",
+     "Not in the Q3 2026 report, the 2025 Impact Report or the BBER memo; OEDC pointed only to the Impact Report"),
+    ("Impact Report funding figures are for the whole Collaborative", "supported",
+     "Impact Report 'IMPACT SNAPSHOT 2020-2025': 'the Collaborative grew...'; $80.6M+, $48.4M+, $11.8M"),
     ("Ascend Heroes incentive", "conflict recorded",
      "Ascend release says $12,000; WV MetroNews says $20,000"),
     ("'$580 million' from a 2023 WVU study", "not supported",
