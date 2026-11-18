@@ -189,7 +189,10 @@ for m, v in [("funding_usd", 3000000), ("funding_usd", 2165000), ("funding_usd",
 # --- Ohio's Intel package (data/ohio_intel_package.csv) ----------------------------------------------------
 oi = pd.read_csv(ROOT / "data" / "ohio_intel_package.csv")
 # the Jan 2022 itemization: $600M grant + $691M infrastructure + $650M tax credit + $150M JobsOhio
-check("Ohio Intel package as itemized Jan 2022, $", 600_000_000 + 691_000_000 + 650_000_000 + 150_000_000, 2_091_000_000)
+_own = int(oi[oi.jan_2022_itemization == "own line"].committed_or_appropriated_usd.sum())
+check("Ohio Intel package as itemized Jan 2022 (CSV own lines + $691M infrastructure), $", _own + 691_000_000, 2_091_000_000)
+check("HB 687 infrastructure appropriations in CSV, $",
+      int(oi[oi.jan_2022_itemization != "own line"].committed_or_appropriated_usd.sum()), 606_200_000)
 check("Ohio Intel paid, Intel-specific items, through June 30, 2025",
       int(oi[oi.intel_specific == "yes"].paid_usd.fillna(0).sum()), 839_415_416)
 check("Ohio Intel paid, adding road lines not labeled Intel-only",
