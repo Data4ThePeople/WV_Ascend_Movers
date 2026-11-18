@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 2a
+Step: 2b
 Since: 2026-11-18
 
 ## Steps
@@ -14,7 +14,7 @@ Since: 2026-11-18
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-11-18 | reopened 11-17 for WVU Q3 2026, answers, BBER memo, Impact Report; tie-out 91 of 91 |
-| 2a | Draft with brackets resolved | | |
+| 2a | Draft with brackets resolved | 2026-11-18 | conclusion uses Ohio's full Intel package; tie-out 159 of 159 |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
@@ -39,3 +39,4 @@ None. Step 1 reopened before any 2a work; no later step had been confirmed.
 - 2026-11-18 Step 1 confirmed again (WVU Q3 2026 statistics, OEDC answers, BBER memo, 2025 Impact Report; three independent tie-outs clean). Slug: west-virginia-ascend. Step 2a open; publish date November 19, 2026.
 - 2026-11-18 In 2a beat planning: chart 2 (IRS) dropped with its source, script and DATASETS section; county map added (charts/04-county-migration-map.png, scripts/07_map.py). Tie-out 99 of 99; fresh-agent check of the map running.
 - 2026-11-18 Bar chart restored as chart 4 (Eric: the map hides how far the Panhandle outruns the rest). Subtitle now says county figures include moves between WV counties. Map kept as charts/map-county-migration.png, not in the post.
+- 2026-11-18 Step 2a confirmed. Step 2b open: Eric edits POST.md directly, then asks for the look-over.
