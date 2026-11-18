@@ -155,10 +155,14 @@ WORDS = [
     ("Chart 1 note 'two vintages use different Census bases and are not revised to match'", "supported",
      "Census methodology page and V2025 methods statement"),
     ("Chart 3 'Rank among 50 states and D.C.'", "supported", "51 state rows recomputed above"),
-    ("Map legend 'Ascend counties' outline: the 10 counties of the six Ascend areas", "partly supported",
-     "Same county list as chart 4; inferred from community pages"),
-    ("Map 'Yellow is a net loss, blue a net gain'; gray is within 1 per 1,000 of zero", "supported",
-     "Bins recomputed above from raw Census files"),
+    ("Map outlines the six Ascend areas (10 counties)", "partly supported",
+     "Same county list as chart 4; inferred from ascendwv.com community pages"),
+    ("Map 'moves to and from other counties, in West Virginia or other states'", "supported",
+     "County domestic migration counts moves between any two U.S. counties (Census components of change)"),
+    ("Map panel labels 'July 2014 to July 2019' and 'July 2020 to July 2025'", "supported",
+     "Years end July 1; DOMESTICMIG2015-2019 and 2021-2025"),
+    ("Map 'Charleston (Kanawha) joined in September 2025, after these data end'", "supported",
+     "ascend_communities.csv: applications opened 2025-09-05; data end July 1, 2025"),
     ("Chart 4 county lists for each Ascend area", "partly supported",
      "Inferred from school systems on ascendwv.com community pages; program says '30-minute drivetime'"),
     ("Chart 5 'Goal: 1,000 remote workers in five years (Sept. 2021)'", "supported",
@@ -251,7 +255,18 @@ lines += ["", "## Independent tie-out (fresh agent, November 14, 2026)", "",
           "two ways; 25 babies appears in both the end-2025 snapshot and the Q3 2026 report; reworded the "
           "DATASETS 'Not checked' line now that the report has been read.",
           "- Could not check from this source: the $25M Smith gift, $2.4M Rural Health and $500K Charleston "
-          "donation (documented elsewhere in DATASETS.md)."]
+          "donation (documented elsewhere in DATASETS.md).",
+          "", "## Independent tie-out of the county map (fresh agent, November 18, 2026)", "",
+          "Recomputed all 55 counties from the raw Census files and read the color of every county on both "
+          "panels (110 checks) and every shared border for the outline.", "",
+          "- All 110 colors and the bin counts matched; exactly the Ascend counties are outlined. Only Roane "
+          "2021-2025 (-0.98) is within 0.05 of a bin edge.",
+          "- Fixed after its word checks: the title said 'to other states', but county figures include moves "
+          "between West Virginia counties (now said in the subtitle and DATASETS.md); panel labels now give "
+          "July-to-July periods; outlines now drawn per Ascend area; subtitle notes Charleston joined after the "
+          "data end; source line names ascendwv.com; 'yellow and brown' for the loss bins.",
+          "- Could not check: whether the PNG came from the same downloaded files (it used the files in "
+          "data/raw/popest)."]
 (ROOT / "TIEOUT.md").write_text("\n".join(lines) + "\n")
 print(f"{len(rows) - len(bad)} of {len(rows)} match")
 for r in bad:

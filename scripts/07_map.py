@@ -49,27 +49,29 @@ def main():
     geo = geo.merge(cc, on="fips").to_crs(26917)   # UTM 17N
 
     comm = pd.read_csv(ROOT / "data" / "ascend_communities.csv")
-    asc_fips = {int(f) for fs in comm.fips for f in str(fs).split(";")}
-    ascend = geo[geo.fips.isin(asc_fips)]
+    area = {int(f): r.community for r in comm.itertuples() for f in str(r.fips).split(";")}
+    ascend = geo[geo.fips.isin(area)].assign(area=lambda d: d.fips.map(area))
 
     use_house_style()
     fig, axes = plt.subplots(1, 2, figsize=(10.5, 6.75))
-    fig.subplots_adjust(top=0.80, bottom=0.17, left=0.02, right=0.98, wspace=0.02)
-    for ax, col, label in [(axes[0], "rate_2015_2019", "2015 to 2019"), (axes[1], "rate_2021_2025", "2021 to 2025")]:
+    fig.subplots_adjust(top=0.76, bottom=0.17, left=0.02, right=0.98, wspace=0.02)
+    for ax, col, label in [(axes[0], "rate_2015_2019", "July 2014 to July 2019"),
+                            (axes[1], "rate_2021_2025", "July 2020 to July 2025")]:
         geo.plot(ax=ax, color=[color(v) for v in geo[col]], edgecolor=SURFACE, linewidth=0.6)
-        ascend.dissolve().boundary.plot(ax=ax, color=INK, linewidth=1.6)
+        ascend.dissolve(by="area").boundary.plot(ax=ax, color=INK, linewidth=1.6)
         ax.set_title(label, color=INK, fontsize=13, loc="left", pad=4)
         ax.set_axis_off()
         ax.set_aspect("equal")
     handles = [Patch(facecolor=c, edgecolor="none", label=t) for _, _, c, t in BINS]
-    handles.append(Patch(facecolor="none", edgecolor=INK, linewidth=1.6, label="Ascend counties"))
+    handles.append(Patch(facecolor="none", edgecolor=INK, linewidth=1.6, label="Ascend areas"))
     fig.legend(handles=handles, loc="lower center", ncol=4, frameon=False, fontsize=9.5,
                labelcolor=INK_DIM, bbox_to_anchor=(0.5, 0.075), handlelength=1.4, columnspacing=1.4)
-    titleblock(fig, "Where West Virginia gained and lost people to other states",
-               "Net domestic migration per 1,000 residents per year, by county. Yellow is a net loss, blue a "
-               "net gain.\nAscend counties outlined, for the whole period whatever their launch year.")
+    titleblock(fig, "Which West Virginia counties gained and lost people through moves",
+               "Net domestic migration per 1,000 residents per year: moves to and from other counties, in West "
+               "Virginia or other states.\nYellow and brown are net losses, blue net gains. The six Ascend areas "
+               "are outlined in both periods; Charleston (Kanawha)\njoined in September 2025, after these data end.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025; county "
-                "boundaries, Census cartographic files 2024.\nAscend county list from Ascend WV and WVU. "
+                "boundaries, Census cartographic files 2024.\nAscend county list from ascendwv.com community pages. "
                 "Data 4 The People calculation.")
     out = ROOT / "charts" / "04-county-migration-map.png"
     fig.savefig(out)
