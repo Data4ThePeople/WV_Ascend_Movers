@@ -25,7 +25,8 @@ are.
 
 - U.S. Census Bureau, Population Estimates, components of change, Vintage 2020
   and Vintage 2025
-- Census cartographic county boundaries, 2024 (for the map)
+- Census cartographic county boundaries, 2024 (for the county map)
+- U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 (state wages)
 - JobsOhio monthly executed grants and loans reports, as parsed in the
   [JobsOhioSmallBiz](https://github.com/Data4ThePeople/JobsOhioSmallBiz) project
 - Ascend WV and WVU releases and statistics, and news reports quoting them.
@@ -35,8 +36,8 @@ are.
 
 ## How to rebuild
 
-Python 3 with pandas and matplotlib. Census files download on the
-first run into `data/raw/` (not committed). Script 05 reads
+Python 3 with pandas and matplotlib. Census and BLS files download on the
+first run (BLS needs a `BLS_API_KEY`) into `data/raw/` (not committed). Script 05 reads
 `../JobsOhioSmallBiz/data/commitments_norm.csv`, so that repo must sit beside
 this one.
 
@@ -48,6 +49,7 @@ python3 04_county_compare.py
 python3 05_jobsohio_per_job.py
 python3 06_charts.py
 python3 07_map.py
+python3 08_wages.py
 python3 99_tieout.py
 ```
 
