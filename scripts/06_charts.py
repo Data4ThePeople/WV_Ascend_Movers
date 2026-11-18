@@ -93,39 +93,6 @@ def chart_state_change():
     plt.close(fig)
 
 
-def chart_counties():
-    rows = {r["county"]: r for r in read("county_compare.csv")}
-    groups = ["Eastern Panhandle (Ascend)", "Other Ascend areas", "Rest of West Virginia"]
-    fig, ax = plt.subplots(figsize=(10, 6.2))
-    fig.subplots_adjust(top=0.74, bottom=0.17, left=0.27, right=0.95)
-    vals = [float(rows[g][c]) for g in groups for c in ("rate_2015_2019", "rate_2021_2025")]
-    lo, hi = min(vals) - 2.5, max(vals) + 3
-    for i, g in enumerate(groups):
-        for j, (col, color) in enumerate([("rate_2015_2019", YELLOW), ("rate_2021_2025", BLUE)]):
-            v = float(rows[g][col])
-            y = i + (-0.18 if j == 0 else 0.18)
-            ax.barh(y, v, height=0.32, color=color)
-            ax.text(v + (0.12 if v >= 0 else -0.12), y, f"{v:+.2f}", va="center",
-                    ha="left" if v >= 0 else "right", fontsize=9.5, color=INK)
-        ax.text(lo - 0.6, i, g, ha="right", va="center", fontsize=11, color=INK)
-    ax.set_yticks([])
-    ax.invert_yaxis()
-    ax.axvline(0, color=INK_DIM, lw=0.8)
-    ax.set_xlim(lo, hi)
-    ax.spines["left"].set_visible(False)
-    ax.tick_params(axis="x", labelsize=9)
-    fig.text(0.03, 0.775, "2015-2019", color=YELLOW, fontsize=11, fontweight="bold")
-    fig.text(0.14, 0.775, "2021-2025", color=BLUE, fontsize=11, fontweight="bold")
-    titleblock(fig, "The Eastern Panhandle, other Ascend areas and the rest of West Virginia",
-               "Net domestic migration per 1,000 residents per year. Eastern Panhandle: Jefferson, Berkeley, Morgan. "
-               "Other Ascend areas:\nMonongalia, Greenbrier, Randolph, Fayette, Raleigh, Nicholas, Kanawha, "
-               "counted for the whole period whatever their launch year.")
-    credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. "
-                "County list from Ascend WV and WVU releases.\nData 4 The People calculation.")
-    fig.savefig(CHARTS / "04-ascend-counties-vs-rest.png")
-    plt.close(fig)
-
-
 def chart_ascend_reported():
     import datetime as dt
     rows = list(csv.DictReader(open(PROC.parent / "ascend_reported.csv")))
@@ -175,5 +142,4 @@ if __name__ == "__main__":
     chart_ascend_reported()
     chart_wv_domestic()
     chart_state_change()
-    chart_counties()
     print("charts written to", CHARTS)
