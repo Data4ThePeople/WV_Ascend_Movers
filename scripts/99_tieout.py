@@ -94,6 +94,18 @@ check("JobsOhio committed jobs 2021-2025 (after removing 10 repeated promises)",
 check("JobsOhio dollars per committed job",
       round(int(jo.loc["2021-2025", "grant_dollars"]) / int(jo.loc["2021-2025", "jobs_committed"])), 16182)
 
+check("JobsOhio committed payroll per committed job 2021-2025",
+      round(int(jo.loc["2021-2025", "committed_new_payroll"]) / int(jo.loc["2021-2025", "jobs_with_payroll"])), 66689)
+check("JobsOhio jobs with a stated payroll = all committed jobs", int(jo.loc["2021-2025", "jobs_with_payroll"]), 83124)
+
+# --- BLS OEWS state wages ---------------------------------------------------------------------------------
+import json as _json
+_b = _json.loads((RAW / "bls" / "oews_state_wages.json").read_text())
+_v = {s_["seriesID"]: int(float(s_["data"][0]["value"])) for s_ in _b["Results"]["series"]}
+for sid, shown in [("OEUS540000000000000000004", 56470), ("OEUS540000000000000000013", 45300),
+                   ("OEUS390000000000000000004", 64390), ("OEUS390000000000000000013", 49380)]:
+    check(f"OEWS {sid}", _v[sid], shown)
+
 # --- Ascend reported table (chart 5) ---------------------------------------------------------------------
 asc = pd.read_csv(ROOT / "data" / "ascend_reported.csv")
 check("Ascend rows with a URL and quote", int((asc.url.notna() & asc.exact_quote.notna()).sum()), len(asc))
@@ -126,6 +138,28 @@ ep = sts[sts.scope == "Eastern Panhandle"]
 check("Q3 2026 Eastern Panhandle states table, sum (212 members; p.5 also lists Chile, UK, Canada)", int(ep.members.sum()), 209)
 check("Q3 2026 % of Eastern Panhandle members from VA, MD, DC",
       round(ep[ep.state.isin(["Virginia", "Maryland", "Washington DC"])].members.sum() / 212 * 100, 1), 47.6)
+
+# --- Ascend salary and size check --------------------------------------------------------------------------
+check("Ascend member-weighted average salary, six communities",
+      round((q3.avg_salary_usd * q3.members).sum() / q3.members.sum()), 96052)
+check("Ascend weighted salary vs WV OEWS mean, %", round(((q3.avg_salary_usd * q3.members).sum() / q3.members.sum()) / 56470 * 100 - 100), 70)
+check("JobsOhio committed payroll per job vs Ohio OEWS mean, %", round(66689 / 64390 * 100 - 100), 4)
+pops = {}
+for g, cs in groups.items():
+    pops[g] = sum(c25.loc[c, f"POPESTIMATE{y}"] for c in cs for y in range(2021, 2026)) / 5
+ep_res = int(q3.loc[q3.community == "Eastern Panhandle", "total_incl_household"].iloc[0])
+oth_res = int(q3.loc[q3.community != "Eastern Panhandle", "total_incl_household"].sum())
+check("Ascend residents, Eastern Panhandle (Q3 2026)", ep_res, 421)
+check("Ascend residents, other areas (Q3 2026)", oth_res, 1224)
+check("Size check: EP Ascend residents per 1,000 per year", round(ep_res / pops["Eastern Panhandle (Ascend)"] / 5 * 1000, 1), 0.4)
+check("Size check: other-area Ascend residents per 1,000 per year", round(oth_res / pops["Other Ascend areas"] / 5 * 1000, 1), 0.5)
+chg = {g: cc.loc[g, "rate_2021_2025"] - cc.loc[g, "rate_2015_2019"] for g in groups}
+check("Change, Eastern Panhandle", round(chg["Eastern Panhandle (Ascend)"], 2), 10.58)
+check("Change, other Ascend areas", round(chg["Other Ascend areas"], 2), 5.71)
+check("Change, rest of WV", round(chg["Rest of West Virginia"], 2), 5.40)
+check("EP change beyond rest of WV, people over 2021-2025",
+      round((chg["Eastern Panhandle (Ascend)"] - chg["Rest of West Virginia"]) * pops["Eastern Panhandle (Ascend)"] * 5 / 1000, -1), 5460)
+check("Rest of WV minus Panhandle, net domestic 2021-2025", 17349 - 21680, -4331)
 
 # --- BBER memo, Feb. 2021 (provided by WVU OEDC) ---------------------------------------------------------
 # cohort sizes and output totals transcribed from Appendices 1, 2 and 4

@@ -122,6 +122,14 @@ changes and parse checks are in that project's `DATASETS.md`, section
   included as grants; leaving them out gives $16,172.
 - Result: grant dollars divided by committed new jobs. Retained jobs are not
   counted.
+- **Committed payroll.** Each agreement also states the new annual payroll the
+  company committed to. A project's payroll is the largest stated on its
+  program lines (lines restate one figure, as with jobs), and a restated
+  promise counts zero payroll along with zero jobs. For 2021-2025 every
+  project that committed jobs also states a payroll: $5,543,447,398 for
+  83,124 committed jobs, $66,689 per committed job. This is pay promised for
+  jobs not yet created, not pay observed. By year: 2021 $54,987, 2022
+  $70,020, 2023 $57,035, 2024 $71,371, 2025 $88,923.
 
 **Known quirks that touch these years.** That project's `DATASETS.md` lists
 three parse defects found November 13, 2026. Two touch 2021 to 2025: about 24
@@ -134,6 +142,29 @@ restated-promise check for that month.
 say how many of those jobs would have come to Ohio without the grant.
 
 ---
+
+## BLS Occupational Employment and Wage Statistics (OEWS), state wages, `data/processed/state_wages_oews.csv`
+
+**What it is.** BLS estimates of wages for all occupations, by state, from a
+survey of employers. We use the annual mean and annual median wage for West
+Virginia and Ohio, all occupations, latest estimate (May 2025, published in
+2026), pulled from the BLS API by `scripts/08_wages.py`. Series IDs are in the
+file. West Virginia: mean $56,470, median $45,300. Ohio: mean $64,390, median
+$49,380.
+
+**Why the mean.** Ascend publishes average salaries and JobsOhio's committed
+payroll per job is also an average, so the mean is the like-for-like
+comparison. Wages are skewed upward, so the median is lower; we keep it for
+context.
+
+**Limits.** OEWS covers wage and salary workers at employers in the state; it
+leaves out the self-employed. It measures where people work, so it describes
+jobs located in West Virginia, while Ascend members work for employers
+elsewhere. Wages are for jobs, not people with more than one job. May 2025
+estimates pool survey panels over three years.
+
+**License.** U.S. government work, public domain. Cite as "U.S. Bureau of Labor
+Statistics, Occupational Employment and Wage Statistics, May 2025."
 
 ## Relocation program evaluations (various publishers), `data/programs.csv`
 
@@ -230,6 +261,19 @@ percentages weighted by community members; the report gives no statewide value
 for either.
 
 **Derived Q3 2026 figures and their bases.**
+- Average salary across the six communities, weighted by members: our
+  calculation from the community pages (Ascend gives no statewide average):
+  $96,052, about 70% above West Virginia's OEWS mean wage of $56,470.
+  Ascend checks pay at application ("evidence of employment and income prior
+  to acceptance," such as a recent paystub or tax documents, per its terms
+  and eligibility page); the report does not say whether averages are updated
+  after members arrive.
+- Size check: Ascend's own resident counts (members plus household, through
+  September 30, 2026) converted to a rate per 1,000 residents per year over
+  2021-2025, using each area's average population. This counts every reported
+  resident, including those who arrived after July 2025, so it overstates
+  Ascend's share of the Census figures. It answers only whether the program is
+  large enough to explain the change in its areas.
 - Members as a share of the goal: 827 of the 1,000 remote workers the program
   set as its five-year goal in September 2021 (82.7%).
 - Neighboring states: Virginia, Maryland, Pennsylvania, Ohio and Kentucky are

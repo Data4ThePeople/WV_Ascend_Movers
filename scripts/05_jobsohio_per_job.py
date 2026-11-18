@@ -28,7 +28,7 @@ YEARS = range(2021, 2026)   # the years Ascend WV has run, full calendar years o
 
 
 def main():
-    projects = collections.defaultdict(lambda: {"dollars": 0, "jobs": set(), "programs": set()})
+    projects = collections.defaultdict(lambda: {"dollars": 0, "jobs": set(), "payroll": set(), "programs": set()})
     skipped = collections.Counter()
     for r in csv.DictReader(open(SRC)):
         year = int(r["report_month"][:4])
@@ -42,6 +42,9 @@ def main():
         p["programs"].add(r["program_family"])
         if r["jobs_created_n"] not in ("", None):
             p["jobs"].add(int(float(r["jobs_created_n"])))
+        pay = (r["payroll"] or "").replace("$", "").replace(",", "").strip()
+        if pay.replace(".", "", 1).isdigit():
+            p["payroll"].add(float(pay))
         p["year"] = year
 
     # restated promises: same company, county and job count in a later month count zero new jobs
@@ -54,13 +57,15 @@ def main():
         tag = (key[1], key[2], jobs)
         if jobs and key[1] and tag in first:
             p["jobs"] = {0}
+            p["payroll"] = {0.0}      # the restated promise's payroll is the earlier one's too
             p["restated_from"] = first[tag]
             restated += p["year"] in YEARS
         elif jobs:
             first[tag] = key[0]
 
     rows, conflicts = [], 0
-    by_year = collections.defaultdict(lambda: [0, 0, 0, 0])   # projects, dollars, jobs, projects with 0 jobs
+    by_year = collections.defaultdict(lambda: [0, 0, 0, 0, 0, 0])
+    # projects, dollars, jobs, projects with 0 jobs, committed new payroll, jobs on projects that state a payroll
     for key, p in projects.items():
         if p["year"] not in YEARS:
             continue
@@ -72,21 +77,29 @@ def main():
         y[1] += p["dollars"]
         y[2] += jobs
         y[3] += jobs == 0
+        payroll = max(p["payroll"]) if p["payroll"] else None   # program lines restate one payroll
+        if jobs and payroll is not None:
+            y[4] += payroll
+            y[5] += jobs
         rows.append([p["year"], key[0], key[1], key[2], "; ".join(sorted(p["programs"])), p["dollars"], jobs,
-                     p.get("restated_from", "")])
+                     round(payroll) if payroll is not None else "", p.get("restated_from", "")])
 
     write_csv("jobsohio_projects_2021_2025.csv",
               ["year", "report_month", "company", "county", "programs", "grant_dollars", "jobs_committed",
-               "jobs_restated_from_month"], sorted(rows))
+               "committed_new_payroll", "jobs_restated_from_month"], sorted(rows))
     out = []
-    tot = [0, 0, 0, 0]
+    tot = [0, 0, 0, 0, 0, 0]
     for year in YEARS:
         y = by_year[year]
         tot = [a + b for a, b in zip(tot, y)]
-        out.append([year, y[0], y[1], y[2], y[3], round(y[1] / y[2]) if y[2] else ""])
-    out.append(["2021-2025", tot[0], tot[1], tot[2], tot[3], round(tot[1] / tot[2])])
+        out.append([year, y[0], y[1], y[2], y[3], round(y[1] / y[2]) if y[2] else "",
+                    round(y[4]), y[5], round(y[4] / y[5]) if y[5] else ""])
+    out.append(["2021-2025", tot[0], tot[1], tot[2], tot[3], round(tot[1] / tot[2]),
+                round(tot[4]), tot[5], round(tot[4] / tot[5])])
     write_csv("jobsohio_per_job.csv", ["year", "projects", "grant_dollars", "jobs_committed",
-                                       "projects_with_no_new_jobs", "dollars_per_committed_job"], out)
+                                       "projects_with_no_new_jobs", "dollars_per_committed_job",
+                                       "committed_new_payroll", "jobs_with_payroll",
+                                       "committed_payroll_per_job"], out)
     print("left out:", dict(skipped))
     print("agreements whose job promise repeats an earlier one (jobs set to 0):", restated)
     print("projects whose program lines disagree on jobs (max used):", conflicts)
