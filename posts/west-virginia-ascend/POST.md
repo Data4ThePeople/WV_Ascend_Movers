@@ -18,15 +18,15 @@ dividers: false
 
 # Title
 
-Over the last two days we followed the money on JobsOhio. We first created the only public tool to track its grants, understand who gets the money, and what happened to it. We then followed this up by studying where the money went (geographically).
+Over the last two days we followed the money on JobsOhio. We first built a public tool to track its grants, understand who gets the money, and what happened to it. We then followed this up by studying [where the money went](https://www.data4thepeople.com/p/ohio-income-health).
 
 One of the main takeaways is that JobsOhio has given out a boatload of grants, but when you look at the dollars, the program has given a disproportionate amount of money to large corporations who are promising to create loads of jobs in one shot.
 
-There is a term for this strategy in business. It’s called whale hunting. You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, relocating, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. It’s a strategy where you live or die with concentration risk. For example, if Intel can’t find enough customers for its “14A process,” in its own words, “we may pause or discontinue development of Intel 14A ... For example, we would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” Ohio has pushed $839.4 million worth of “chips” so far ($125.4 million from JobsOhio) onto the table betting on whatever a 14A process is. That’s one big, concentrated bet on a very nuanced thing in a wildly changing and unpredictable semiconductor market that has been completely disrupted by AI.
+There is a term for this strategy in business. It’s called whale hunting. You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. It’s a strategy where you live or die with concentration risk. For example, if Intel can’t land “a significant external customer” for its 14A chipmaking process, in its own words, “we may pause or discontinue development of Intel 14A ... For example, we would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” Ohio has pushed at least $839.4 million worth of “chips” onto the table through June 2025, out of a package reported at about $2.1 billion ($125.4 million from JobsOhio), betting on whatever a 14A process is. That’s one big, concentrated bet on a very nuanced thing in a fast-changing chip market where, by Intel’s own account, AI spending is driving demand.
 
 Anyway, that’s one way to do it.
 
-But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be in Ohio’s neighbor, West Virgina. It’s called the Ascend program, and we are focusing on it today because it’s about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. Literally, one person and family at a time! It provides an incentive directly to a worker to relocate to West Virgina, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
+But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be in Ohio’s neighbor, West Virginia. It’s called the Ascend program, and we are focusing on it today because it’s about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. Literally, one person and family at a time! It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
 
 ## What Ascend is, in its own words
 ::: spacer 5px
@@ -105,7 +105,3 @@ Last, what happens after the money goes out. WVU reports how many members are st
 Neither program measures how many workers or companies would have come anyway.
 
 [my conclusion. I will write after I see what you have done]
-
-
-
-We wanted to understand how other states are going about economic development.
