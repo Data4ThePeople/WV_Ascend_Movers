@@ -199,6 +199,14 @@ check("Ohio Intel paid, adding road lines not labeled Intel-only",
       int(oi[oi.intel_specific.isin(["yes", "not labeled"])].paid_usd.fillna(0).sum()), 960_187_802)
 check("JobsOhio Intel paid matches Schedule I sum", 123_181_109 + 1_241_684 + 992_623, 125_415_416)
 
+# --- Chart 6 and the comparison table (script 09) ---------------------------------------------------------
+import importlib as _il
+_c9 = _il.import_module("09_comparison")
+for _lab, _got, _shown in zip(["Chart 6 Ascend salary", "Chart 6 JobsOhio payroll per job", "Chart 6 WV mean", "Chart 6 OH mean"],
+                              _c9.values(), [96052, 66689, 56470, 64390]):
+    check(_lab, _got, _shown)
+check("Table: JobsOhio grants per committed job 2021-2025", round(int(jo.loc["2021-2025", "grant_dollars"]) / int(jo.loc["2021-2025", "jobs_committed"])), 16182)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",

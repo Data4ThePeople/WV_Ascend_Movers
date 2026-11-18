@@ -52,6 +52,7 @@ python3 05_jobsohio_per_job.py
 python3 06_charts.py
 python3 07_map.py
 python3 08_wages.py
+python3 09_comparison.py
 python3 99_tieout.py
 ```
 
