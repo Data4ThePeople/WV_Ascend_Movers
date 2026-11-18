@@ -243,6 +243,9 @@ for _y, _v in [("2017-18", 2213), ("2018-19", 1930), ("2019-20", 2573), ("2020-2
 import importlib as _il2
 check("Washington metro list = D.C. + 21", len(_il2.import_module("10_panhandle_origins").DC_METRO), 22)
 
+check("Conclusion: 827 members x $12,000, $", 827 * 12000, 9_924_000)
+check("Conclusion: JobsOhio Intel paid in FY2023 share of total, %", round(123_181_109 / 125_415_416 * 100), 98)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",

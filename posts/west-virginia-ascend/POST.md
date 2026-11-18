@@ -111,4 +111,13 @@ Last, what happens after the money goes out. WVU reports how many members are st
 
 Neither program measures how many workers or companies would have come anyway.
 
-[my conclusion. I will write after I see what you have done]
+## Slow and steady
+::: spacer 5px
+
+Back to Intel. JobsOhio has paid Intel $125.4 million of the $150 million it committed for 3,000 jobs, most of it in the year ending June 2023. When Intel announced the Ohio plant in January 2022, it said production was "expected to come online in 2025." Intel now expects its first Ohio fab to start running in 2030 or 2031. In its latest annual report, Intel said that if it cannot land "a significant external customer" for its 14A process, it "would likely discontinue" the Ohio plant. Ohio's $600 million grant agreement lets the state demand repayment if the jobs are not there by the end of 2028. Even a full repayment would come years after the money went out.
+
+Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 827 workers and their families, including 25 babies born during the program. Its $12,000 cash offer to those 827 members adds up to about $9.9 million if every one is paid in full. WVU does not publish what the whole program costs. Each member arrived with a job that already existed, at a salary the program publishes.
+
+This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
+
+So, does slow and steady win the race? We will find out.
