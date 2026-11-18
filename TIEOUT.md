@@ -155,3 +155,11 @@ Read all 16 pages of the Feb. 2021 BBER memo and the WVU OEDC reply; recomputed 
 - Confirmed by reading every page: the memo counts all workers' income as new spending and has no adjustment for workers who would have moved anyway; the memo's 50% and the program's 96% measure different things.
 - Fixed: baseline years are 2021-2026 (not 2027); the 50% is of those remaining, not the full cohort; the OEDC paraphrase now quotes 'exactly how many' and adds her 'on their radar' sentence; noted the memo's own 490 vs 403 conflict for the two unmodeled areas.
 - Could not check: the later $500M, $580M and $750M figures (no documents), and whether any other publication measures retention after the two-year term.
+
+## Independent tie-out of the 2025 Impact Report additions (fresh agent, November 18, 2026)
+
+Read all 23 pages of the saved PDF, text and rendered images.
+
+- Every claim and all five rows supported; no number errors. No Ascend spending, incentives paid, operating cost or cost per member anywhere in the report.
+- Added after its notes: the 618 includes members 'in the process of relocating'; 1,161 is labeled two ways; 25 babies appears in both the end-2025 snapshot and the Q3 2026 report; reworded the DATASETS 'Not checked' line now that the report has been read.
+- Could not check from this source: the $25M Smith gift, $2.4M Rural Health and $500K Charleston donation (documented elsewhere in DATASETS.md).

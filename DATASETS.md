@@ -369,7 +369,14 @@ for either.
   operation" of Ascend in the Charleston region, and $2.165 million requested
   for Ascend Heroes, pending at the end of 2025. It also describes retention as
   "more than 95% ... staying for the long haul," without a definition; the
-  quarterly reports define the rate as at least four months. The $25 million Smith gift went to the Outdoor Economic
+  quarterly reports define the rate as at least four months. Its snapshot
+  through 2025 gives 618 members "relocated or in the process of relocating"
+  (so the count includes members not yet moved), 1,161 people with households
+  (labeled once as from all "Talent Attraction and Retention efforts," once
+  as Ascend), 79,500+ applications, and 25 babies born to Ascend families. The
+  Q3 2026 report also says 25 babies nine months later; we use the babies
+  count only to note it is inside the 1,641.
+  The $25 million Smith gift went to the Outdoor Economic
   Development Collaborative as a whole, not to Ascend alone. Also found:
   $2.4 million in federal Rural Health Transformation funds for a healthcare
   expansion (September 2026) and a $500,000 private donation for Charleston
@@ -388,6 +395,7 @@ Morgantown (Monongalia), Greenbrier Valley (Greenbrier), Eastern Panhandle
 (Fayette, Raleigh, Nicholas), Charleston (Kanawha). Dates and URLs in
 `data/ascend_communities.csv`.
 
-**Not checked.** WVU Today pages and the OEDC five-year impact report block
-automated reading; the same releases were read from ascendwv.com copies. The
+**Not checked.** WVU Today pages and oedc.wvu.edu block automated reading;
+the same releases were read from ascendwv.com copies, and the 2025 Impact
+Report from a PDF Eric saved. The
 NPR story was read from Michigan Public's copy.

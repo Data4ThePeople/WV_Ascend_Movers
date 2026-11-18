@@ -244,7 +244,16 @@ lines += ["", "## Independent tie-out (fresh agent, November 14, 2026)", "",
           "the OEDC paraphrase now quotes 'exactly how many' and adds her 'on their radar' sentence; noted the "
           "memo's own 490 vs 403 conflict for the two unmodeled areas.",
           "- Could not check: the later $500M, $580M and $750M figures (no documents), and whether any other "
-          "publication measures retention after the two-year term."]
+          "publication measures retention after the two-year term.",
+          "", "## Independent tie-out of the 2025 Impact Report additions (fresh agent, November 18, 2026)", "",
+          "Read all 23 pages of the saved PDF, text and rendered images.", "",
+          "- Every claim and all five rows supported; no number errors. No Ascend spending, incentives paid, "
+          "operating cost or cost per member anywhere in the report.",
+          "- Added after its notes: the 618 includes members 'in the process of relocating'; 1,161 is labeled "
+          "two ways; 25 babies appears in both the end-2025 snapshot and the Q3 2026 report; reworded the "
+          "DATASETS 'Not checked' line now that the report has been read.",
+          "- Could not check from this source: the $25M Smith gift, $2.4M Rural Health and $500K Charleston "
+          "donation (documented elsewhere in DATASETS.md)."]
 (ROOT / "TIEOUT.md").write_text("\n".join(lines) + "\n")
 print(f"{len(rows) - len(bad)} of {len(rows)} match")
 for r in bad:

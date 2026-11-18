@@ -5,15 +5,15 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 
 ## Current
 
-Post: none yet
-Step: 1
-Since: 2026-11-17
+Post: west-virginia-ascend (posts/west-virginia-ascend/)
+Step: 2a
+Since: 2026-11-18
 
 ## Steps
 
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
-| 1  | Exploration and analysis | | reopened 2026-11-17 for WVU Q3 2026 statistics |
+| 1  | Exploration and analysis | 2026-11-18 | reopened 11-17 for WVU Q3 2026, answers, BBER memo, Impact Report; tie-out 91 of 91 |
 | 2a | Draft with brackets resolved | | |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
@@ -36,3 +36,4 @@ None. Step 1 reopened before any 2a work; no later step had been confirmed.
 - 2026-11-17 Step 1 reopened (back 1): WVU OEDC sent its Q3 2026 statistics (as of Sept. 30, 2026). Adding them, redrawing chart 5, re-running both tie-outs.
 - 2026-11-17 Q3 2026 additions done; both tie-outs clean. Paused in Step 1 to wait for Emily Huguenin's answers to the data request (spending, retention by cohort, impact study, would-have-moved-anyway, plus the community-vs-statewide gaps). Then close Step 1 and open 2a.
 - 2026-11-18 WVU OEDC answers in (saved privately in data/raw/wvu). BBER Feb. 2021 memo added: $182.6M is a three-area projection, cumulative 2021-2031, no would-have-moved-anyway adjustment. Waiting on the 2025 Impact Report (site blocks automated reading; Eric saving as PDF).
+- 2026-11-18 Step 1 confirmed again (WVU Q3 2026 statistics, OEDC answers, BBER memo, 2025 Impact Report; three independent tie-outs clean). Slug: west-virginia-ascend. Step 2a open; publish date November 19, 2026.
