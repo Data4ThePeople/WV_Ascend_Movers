@@ -92,8 +92,11 @@ here goes into the post unless Eric writes it or brackets it.
     the state in January 2022 (grant, infrastructure, tax credit, JobsOhio);
     $839.4 million paid through June 30, 2025 in records that name Intel
     ($600M onshoring grant, $125.4M JobsOhio, $114M water plant). The grant
-    agreement's deadline for 3,000 jobs is December 31, 2028; Intel's own
-    timeline puts Fab 1 at "as early as 2030." The state may waive repayment
+    agreement's deadline for 3,000 jobs is December 31, 2028; Intel's
+    February 2025 timeline puts Fab 1 operations in 2030-2031. Policy Matters
+    (July 2023): the agreement doesn't cover "about $400 million Ohio is
+    spending on roads and other infrastructure," nor the $300 million water
+    plant. The state may waive repayment
     for "market conditions." Call out JobsOhio's $125.4M as its own line.
   - Ultium Cells does not fit "grants vanishing into no jobs": the plant is
     open, the state layoff notice lists 484 permanent and 850 temporary

@@ -105,8 +105,13 @@ Clawback: onshoring agreement sections 3, 4(a), 9(b)(iii), 9(h) (Policy
 Matters copy: https://policymattersohio.org/wp-content/uploads/2025/05/odod-intelonshoringgrantexecuted.pdf).
 Policy Matters (July 11, 2023): the agreement "doesn't cover about $400
 million Ohio is spending on roads and other infrastructure." NBC4 (April 8,
-2025): the state "would not claw back any funds." Development to Policy
-Matters (March 2026): "Intel has not formally requested an extension."
+2025), wording not confirmed: the state "would not claw back any funds." Development to Policy
+Matters (March 2026), wording not confirmed: "Intel has not formally
+requested an extension." Confirmed: Intel is "still expected to meet" the
+2028 commitments. The September 25, 2023 Development release URL now returns
+404; a reprint says "this week announced," so the payment is cited to the LSC
+catalog instead. Tax Credit Authority minutes date the original award
+September 29, 2022.
 
 Not verified: the water reclamation contract, Controlling Board actions, Ohio
 Checkbook payments, tax credits actually claimed, the New Albany CRA value,

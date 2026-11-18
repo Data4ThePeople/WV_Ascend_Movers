@@ -173,11 +173,15 @@ they exist: committed amount, amount paid and as-of date, whether the record
 names Intel, source, URL and exact words. Research notes, with secondary items
 and conflicts, are in `docs/intel_research.md`.
 
-**The "$2 billion."** Ohio's Development Director itemized the package on
-January 28, 2022 (Spectrum News, WOSU): a $600 million grant, $691 million in
-infrastructure, a 30-year Job Creation Tax Credit with "a potential value of
-$650 million," and up to $150 million from JobsOhio. That is $2,091 million.
-No official document adds it to one total. It leaves out sales tax and CAT
+**The "$2 billion."** Spectrum News reported the package on January 28, 2022,
+from the Development Director's briefing: a $600 million grant and $691
+million in infrastructure (her figures), plus, in the reporter's words, up to
+$150 million from JobsOhio and a 30-year Job Creation Tax Credit with "a
+potential value of $650 million." That is $2,091 million; Spectrum's headline
+says "nearly $2B." No official document adds it to one total. In the data
+file, the four infrastructure rows carry their HB 687 appropriations ($606.2
+million), not a split of the $691 million, so the file's committed column does
+not sum to $2,091 million. It leaves out sales tax and CAT
 exemptions written for the site, a 30-year New Albany property tax abatement,
 and a July 2023 $90 million transportation package.
 
@@ -186,7 +190,8 @@ onshoring grant (September 2023), $125,415,416 from JobsOhio, $114,000,000 for
 the water reclamation plant: $839,415,416. Two road lines that fund the area
 but do not name Intel add $120,772,386 ($960,187,802). Water and sewer spending
 is shared with Honda and cannot be split. No tax credit had been received as of
-March 2025 (Axios, secondary).
+March 2025 (Axios, secondary, wording not seen). JobsOhio's fiscal year ends
+June 30.
 
 **Conflicts.** Official infrastructure totals range from $606.2 million (HB 687
 appropriations) to $800 million (Development, September 2023). We use the
@@ -198,9 +203,9 @@ least $20 billion, 3,000 new full-time equivalent employees, and $405,000,000
 in annual payroll." The state can demand repayment, but may waive it for
 "market conditions," including whether Intel "received expected CHIPS Act
 funding." Intel must ask for an extension at least a year before the
-deadline. As of March 2026 the state said Intel had not asked and was "still
-expected to meet" the 2028 commitments; Intel told the state Fab 1 could
-operate "as early as 2030."
+deadline. As of March 2026 the state said Intel was "still expected to meet" the
+2028 commitments (Policy Matters, March 2026). Intel's February 2025 timeline
+puts Fab 1 operations in 2030-2031.
 
 ## Relocation program evaluations (various publishers), `data/programs.csv`
 
