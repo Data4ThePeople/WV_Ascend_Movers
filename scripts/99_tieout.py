@@ -127,6 +127,21 @@ check("Q3 2026 Eastern Panhandle states table, sum (212 members; p.5 also lists 
 check("Q3 2026 % of Eastern Panhandle members from VA, MD, DC",
       round(ep[ep.state.isin(["Virginia", "Maryland", "Washington DC"])].members.sum() / 212 * 100, 1), 47.6)
 
+# --- BBER memo, Feb. 2021 (provided by WVU OEDC) ---------------------------------------------------------
+# cohort sizes and output totals transcribed from Appendices 1, 2 and 4
+mor, lew, she = [50, 75, 100, 100], [25, 25, 38, 48], [25, 25, 38, 48]
+check("BBER memo: workers modeled in three areas", sum(mor + lew + she), 597)
+check("BBER memo: Monongalia workers", sum(mor), 325)
+base = [11087361, 16631042, 22182408, 22182408, 5067672, 5067672, 7702861, 9729930,
+        4524329, 4524329, 6876980, 8686712]
+ret = [16297591, 24280492, 32936319, 32936319, 7296858, 7296858, 11249642, 14391598,
+       6514404, 6514404, 10043381, 12848465]
+check("BBER memo: baseline output, sum of cohorts (App. 2 total 124,263,705)", sum(base), 124263705, tol=12)
+check("BBER memo: 50% retention output, sum of cohorts (App. 4 total 182,606,329)", sum(ret), 182606329, tol=12)
+for d, v in [("2021-02-01", 182600000), ("2021-02-01", 124300000)]:
+    hit = asc[(asc.measure == "economic_impact_usd") & (asc.publish_date == d) & (asc.value == v)]
+    check(f"Ascend table has BBER {v:,}", len(hit), 1)
+
 # --- Words: every label and sourced claim on the built output -------------------------------------------
 WORDS = [
     ("Chart 1 marker 'First Ascend class of 53 announced Sept. 2021'", "supported",
@@ -158,7 +173,13 @@ WORDS = [
     ("Ascend Heroes incentive", "conflict recorded",
      "Ascend release says $12,000; WV MetroNews says $20,000"),
     ("'$580 million' from a 2023 WVU study", "not supported",
-     "Only source is NPR; no study document found"),
+     "Only source is NPR; WVU OEDC sent the Feb. 2021 BBER memo instead and offered a December call on the method"),
+    ("BBER $182.6 million is a projection for three areas, cumulative 2021-2031", "supported",
+     "BBER memo pp.3-4, 11-13 and Appendix 4"),
+    ("BBER memo makes no adjustment for workers who would have moved anyway", "supported",
+     "Assumptions on p.3 list none; direct impact is all remote workers' income (p.2)"),
+    ("Memo's 50% retention and program's 96% measure different things", "supported",
+     "Memo p.4: 50% of each cohort stays each further year; Q3 2026 p.2: in program 4+ months and stayed"),
     ("Bartik: 58-70% would not have moved; $36k vs $218k per job", "supported (summary only)",
      "Upjohn two-page summary; full report not opened"),
     ("JobsOhio figures are commitments, not verified jobs", "supported",

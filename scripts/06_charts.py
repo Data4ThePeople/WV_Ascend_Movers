@@ -184,7 +184,7 @@ def chart_ascend_reported():
                         ha="right" if merged else "center", fontsize=8, color=color)
         ax.text(pts[-1][0] + dt.timedelta(days=60), pts[-1][1], label, color=color, fontsize=10.5,
                 fontweight="bold", va="center")
-    goal = [r for r in rows if r["measure"] == "goal_remote_workers"][0]
+    goal = [r for r in rows if r["measure"] == "goal_remote_workers" and r["publish_date"] == "2021-09-02"][0]
     ax.axhline(int(goal["value"]), color=MUTED, lw=1, ls=(0, (3, 3)))
     ax.text(dt.date(2021, 6, 1), int(goal["value"]) + 30, "Goal set Sept. 2021: 1,000 remote workers in five years (compare with members)",
             color=INK_DIM, fontsize=9)
