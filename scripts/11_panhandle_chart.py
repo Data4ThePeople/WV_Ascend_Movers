@@ -40,8 +40,8 @@ def main():
                "Virginia\ncounties and cities) and Jefferson, Berkeley and Morgan counties, by IRS filing years. "
                "Only county pairs\nwith 20 or more returns a year are listed by the IRS, so these are undercounts.")
     credit(fig, "Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to "
-                "2022-23. 2014-15 and 2016-17 may reflect IRS\nprocessing changes; 2022-23 uses an updated matching "
-                "method. Data 4 The People calculation.")
+                "2022-23. The IRS notes that processing changes from\n2014-15 on may affect comparisons; 2022-23 uses an updated "
+                "matching method. Data 4 The People calculation.")
     fig.savefig(CHARTS / "08-washington-panhandle-moves.png")
     plt.close(fig)
 

@@ -175,15 +175,19 @@ all small flows.
 
 **Changes over time.** `n2` meant exemptions through 2018-19 and individuals
 from 2019-20. 2022-23 uses an updated matching method that the IRS says raised
-matched returns by about 5%. 2014-15 and 2016-17 show swings that may come
-from IRS processing changes. 2020-21 and 2021-22 files drop leading zeros in
+matched returns by about 5%. The 2014-15 guide notes identity-theft processing
+changes that "may have an impact on the migration data"; 2014-15 and 2016-17
+show swings that may come from them. 2020-21 and 2021-22 files drop leading zeros in
 FIPS codes; the script pads them.
 
 **Results.** People moving from the Washington metro to the Panhandle averaged
 2,239 a year before and 2,971 after (32.7% more). Moves the other way averaged
 942 and 880 (6.5% fewer). Net, 1,297 and 2,091 (61.2% more). All U.S.
-arrivals rose 11.8% (9,582 to 10,710), so the Washington metro's share rose
-from 23.4% to 27.7%. Nearby Maryland, Virginia and Pennsylvania counties rose
+arrivals rose 11.8% (9,582 to 10,710), so the Washington metro's share (sum of its
+arrivals over sum of all arrivals, three years each) rose from 23.4% to 27.7%.
+The increase stays between 29.3% and 36.2% if any one county is dropped from
+the list, and about 30.6% if 2022-23 is scaled down 5% for the matching change
+(independent tie-out, November 18, 2026). Nearby Maryland, Virginia and Pennsylvania counties rose
 1.4%. The data show where movers came from, not why they moved.
 
 **License.** IRS public data. Cite as "IRS Statistics of Income, U.S.
