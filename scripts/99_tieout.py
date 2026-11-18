@@ -153,11 +153,15 @@ check("Ascend residents, Eastern Panhandle (Q3 2026)", ep_res, 421)
 check("Ascend residents, other areas (Q3 2026)", oth_res, 1224)
 check("Size check: EP Ascend residents per 1,000 per year", round(ep_res / pops["Eastern Panhandle (Ascend)"] / 5 * 1000, 1), 0.4)
 check("Size check: other-area Ascend residents per 1,000 per year", round(oth_res / pops["Other Ascend areas"] / 5 * 1000, 1), 0.5)
-chg = {g: cc.loc[g, "rate_2021_2025"] - cc.loc[g, "rate_2015_2019"] for g in groups}
-check("Change, Eastern Panhandle", round(chg["Eastern Panhandle (Ascend)"], 2), 10.58)
-check("Change, other Ascend areas", round(chg["Other Ascend areas"], 2), 5.71)
-check("Change, rest of WV", round(chg["Rest of West Virginia"], 2), 5.40)
-check("EP change beyond rest of WV, people over 2021-2025",
+def _rate(df, cs, ys):
+    return sum(df.loc[c, f"DOMESTICMIG{y}"] for c in cs for y in ys) / (
+        sum(df.loc[c, f"POPESTIMATE{y}"] for c in cs for y in ys) / 5) / 5 * 1000
+# changes from unrounded rates (the rounded endpoints would understate each by 0.01)
+chg = {g: _rate(c25, cs, range(2021, 2026)) - _rate(c20, cs, range(2015, 2020)) for g, cs in groups.items()}
+check("Change, Eastern Panhandle", round(chg["Eastern Panhandle (Ascend)"], 2), 10.59)
+check("Change, other Ascend areas", round(chg["Other Ascend areas"], 2), 5.72)
+check("Change, rest of WV (non-Ascend counties)", round(chg["Rest of West Virginia"], 2), 5.41)
+check("EP change beyond rest of WV (non-Ascend counties), people over 2021-2025",
       round((chg["Eastern Panhandle (Ascend)"] - chg["Rest of West Virginia"]) * pops["Eastern Panhandle (Ascend)"] * 5 / 1000, -1), 5460)
 check("Rest of WV minus Panhandle, net domestic 2021-2025", 17349 - 21680, -4331)
 
@@ -300,7 +304,18 @@ lines += ["", "## Independent tie-out (fresh agent, November 14, 2026)", "",
           "July-to-July periods; outlines now drawn per Ascend area; subtitle notes Charleston joined after the "
           "data end; source line names ascendwv.com; 'yellow and brown' for the loss bins.",
           "- Could not check: whether the PNG came from the same downloaded files (it used the files in "
-          "data/raw/popest)."]
+          "data/raw/popest).",
+          "", "## Independent tie-out of the comparison numbers (fresh agent, November 18, 2026)", "",
+          "Recomputed JobsOhio grants and payroll from commitments_norm.csv, pulled OEWS from the BLS API, read "
+          "Ascend salaries from the Q3 PDF, and recomputed the size check from raw Census files.", "",
+          "- All matched: $16,182 and $66,689 per committed job (and each year), OEWS means and medians, "
+          "$96,052 weighted salary (70% above the WV mean), 0.4 and 0.5 per 1,000, about 5,460 people.",
+          "- Fixed: area changes are now from unrounded rates (10.59, 5.72, 5.41, not 10.58, 5.71, 5.40); "
+          "5,460 is against non-Ascend counties; $12,000 is monthly over 24 months by default, lump sum for "
+          "home buyers; Petmin 'plans appear dead' rather than 'never built', and JobsOhio paid the full $10M; "
+          "Ultium's WARN notice is 484 permanent and 850 temporary (1,334); the WOSU 'flexible' line is WOSU's "
+          "paraphrase of Intel.",
+          "- Could not check: the Business Journal Daily recall article and the September 2021 goal date."]
 (ROOT / "TIEOUT.md").write_text("\n".join(lines) + "\n")
 print(f"{len(rows) - len(bad)} of {len(rows)} match")
 for r in bad:

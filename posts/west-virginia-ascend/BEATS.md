@@ -31,16 +31,17 @@ here goes into the post unless Eric writes it or brackets it.
   residents including family, 184 finished the two years (September 30, 2026).
   827 is 82.7% of the 1,000-member goal set in September 2021.
 - Size check: even counting every resident Ascend reports, the program equals
-  about 0.4 per 1,000 a year in the Panhandle (change there +10.58) and about
-  0.5 in its other areas (change +5.71). The Panhandle's change beyond the rest
-  of the state is about 5,460 people; Ascend reports 421 residents there.
+  about 0.4 per 1,000 a year in the Panhandle (change there +10.59) and about
+  0.5 in its other areas (change +5.72; non-Ascend counties +5.41). The
+  Panhandle's change beyond the non-Ascend counties is about 5,460 people; Ascend reports 421 residents there.
 - Say: Ascend's members are too few to explain the migration change in its
   areas. Do not estimate what would have happened without it.
 
 ## 5. Heart: the comparison
 
 - Transition (Eric): not the main driver does not mean not valuable.
-- Ascend: $12,000 cash per member, paid monthly over 24 months. Members prove
+- Ascend: $12,000 cash per member, paid monthly over 24 months (members who
+  buy a home can take the rest as a lump sum). Members prove
   "employment and income prior to acceptance" (paystub or tax documents), and
   employers confirm the job. Ascend publishes average salaries by community,
   $82,122 (Charleston) to $110,020 (Eastern Panhandle); $96,052 weighted by
@@ -65,14 +66,17 @@ here goes into the post unless Eric writes it or brackets it.
 - Risk spread across hundreds of individual workers versus large single
   grants. Documented examples:
   - Petmin USA: $10 million in grants committed February 2020 for 110 jobs at
-    an Ashtabula pig iron plant that was never built; Chapter 7 filed November
-    3, 2025.
+    an Ashtabula pig iron plant, all of it paid (FY2020-21). Plans for the
+    plant "appear to be dead" (Star Beacon); Chapter 7 filed November 3, 2025
+    (court docket).
   - Belmont County petrochemical plant: $48,599,868 paid to three companies,
     $20,000,000 returned, plant never built, $28,599,868 out (grants tool post).
   - Intel Ohio One: $125.4 million paid by FY2025 for 3,000 committed jobs;
-    first fab now due by 2031, deadlines "flexible based on customer demand"
-    (WOSU, August 26, 2026). Research on what the plant makes is pending.
+    first fab now due by 2031; WOSU (August 26, 2026) reports Intel's deadlines
+    are "flexible based on customer demand" (WOSU's paraphrase of Intel). Research on what the plant makes is pending.
   - Ultium Cells does not fit "grants vanishing into no jobs": the plant is
-    open, 850 of the 1,300 cuts were temporary, and workers were recalled.
+    open, the state layoff notice lists 484 permanent and 850 temporary
+    layoffs (1,334), and Business Journal Daily reported recalls (August 27,
+    2026).
 
 ## 7. Limits (Claude)
