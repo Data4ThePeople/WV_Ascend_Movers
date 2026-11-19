@@ -79,8 +79,6 @@ The Panhandle was already gaining people before Ascend arrived. The next chart c
 ![Bar chart of net domestic migration per 1,000 residents per year in 2015-2019 and 2021-2025. Eastern Panhandle: plus 9.99, then plus 20.57. Other Ascend areas: minus 7.08, then minus 1.37. Rest of West Virginia: minus 5.60, then minus 0.20.](images/04-ascend-counties-vs-rest.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. County list from ascendwv.com community pages. Data 4 The People calculation.*
 
-All three groups gained ground. The Eastern Panhandle went from 9.99 to 20.57 per 1,000 residents a year. The other Ascend areas went from -7.08 to -1.37, and the rest of the state went from -5.60 to -0.20.
-
 ## Leaving the Washington area
 ::: spacer 5px
 
