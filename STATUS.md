@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 2g
+Step: 2b
 Since: 2026-11-18
 
 ## Steps
@@ -27,7 +27,7 @@ Since: 2026-11-18
 
 ## Stale
 
-None. Step 1 reopened before any 2a work; no later step had been confirmed.
+- 2c, 2d, 2e, 2f (confirmed 2026-11-18): reopened 2026-11-18 by back 2b. Eric is editing text after the Prismic push; re-run 2c, 2e (FAQ text), and 2f (updates the same draft). 2d needs no new image unless the text change touches the hero. 2g draft (EMAIL.md) to be checked against the new text.
 
 ## Log
 
@@ -45,3 +45,4 @@ None. Step 1 reopened before any 2a work; no later step had been confirmed.
 - 2026-11-18 Step 2d confirmed. Step 2e open: SEO.
 - 2026-11-18 Step 2e confirmed. Step 2f open: Prismic draft.
 - 2026-11-18 Step 2f confirmed. Step 2g open: Mailchimp teaser.
+- 2026-11-18 Back to 2b (Eric): text edits after the Prismic push. 2c-2f stale.
