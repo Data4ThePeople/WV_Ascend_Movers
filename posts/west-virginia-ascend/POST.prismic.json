@@ -80,7 +80,7 @@
           },
           {
             "type": "paragraph",
-            "text": "For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land \u201ca significant external customer\u201d for its new 14A chipmaking process. If it can't, Intel says, in its own words, it \u201cwould likely discontinue the new leading-edge fabrication facilities we are building in Ohio.\u201d The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.",
+            "text": "For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land \u201ca significant external customer\u201d for its new 14A chipmaking process. If it can't, Intel says, in its own words, it \u201cmay pause or discontinue\u201d 14A, and if it does, it \u201cwould likely discontinue the new leading-edge fabrication facilities we are building in Ohio.\u201d In its latest quarterly report, from October 2026, Intel says it has committed to finishing development of 14A, but that how much and how fast it builds will depend on committed customer demand. The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.",
             "spans": [
               {
                 "start": 365,
@@ -89,6 +89,16 @@
                 "data": {
                   "link_type": "Web",
                   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+                  "target": "_blank"
+                }
+              },
+              {
+                "start": 540,
+                "end": 563,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
                   "target": "_blank"
                 }
               }
@@ -549,8 +559,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "p8vcP9bjXwAYh1-c",
           "alt": "Line chart of net moves from the Washington metro to the Eastern Panhandle, people who moved in minus people who moved out, IRS filing years 2011-12 to 2022-23. The net gain ranges from 495 to 1,604 a year through 2019-20, then reaches 2,033 in 2020-21, 1,973 in 2021-22 and 2,268 in 2022-23. Dashed lines mark three-year averages of 1,297 before and 2,091 after. The filing years after COVID began are shaded.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -642,7 +657,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "Alas, this means that migration from the Washington area to the Panhandle is the primary driver of West Virginia's leading in-migration data.",
+            "text": "Alas, this means that migration from the Washington area to the Panhandle is the primary driver of West Virginia's gains from other states.",
             "spans": [],
             "direction": "ltr"
           },

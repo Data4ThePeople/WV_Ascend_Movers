@@ -50,3 +50,4 @@ None.
 - 2026-11-19 Step 2f confirmed again. Step 2g open: EMAIL.md checked against the edited post, waiting on approve or reject.
 - 2026-11-19 Step 2g confirmed. Step 3 open: social posts.
 - 2026-11-19 Back to 2b (Eric): "leading in-migration" changed to "gains from other states" (WV ranks third). 2c (78 blocks), 2d (hero check ok) re-run; 2f updated draft av5LNxEAACgAaNve. 2e, 2g and SOCIAL.md unaffected. Back in Step 3.
+- 2026-11-19 Back to 2b (Eric, from Intel's 10-K): Intel quote now shows the two steps (no customer -> may pause 14A -> would likely stop Ohio) and adds the Oct. 2026 10-Q commitment to finish 14A. EMAIL.md edit 1 applied too. Tie-out 162 of 162. 2c-2f re-run, draft av5LNxEAACgAaNve updated. Back in Step 3.

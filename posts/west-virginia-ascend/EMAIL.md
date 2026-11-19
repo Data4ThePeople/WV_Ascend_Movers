@@ -53,7 +53,7 @@ One of the main takeaways is that JobsOhio has given out a boatload of grants, b
 
 There is a term for this strategy in sales. It's called whale hunting.
 
-For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. Whether this bet pays off rests on whether Intel can land "a significant external customer" for its new 14A chipmaking process. If it can't, Intel says it "would likely discontinue the new leading-edge fabrication facilities we are building in Ohio."
+For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. Whether this bet pays off rests on whether Intel can land "a significant external customer" for its new 14A chipmaking process. If it can't, Intel says it "may pause or discontinue" 14A, and if it does, it "would likely discontinue the new leading-edge fabrication facilities we are building in Ohio."
 
 But there is an entire spectrum of other ways to approach economic development, and one of the most interesting is right next door. Instead of trying to hunt whales, West Virginia's Ascend program goes after individual workers. It pays them to move to the state and bring their very healthy income with them.
 ```
