@@ -126,7 +126,7 @@ Neither program measures how many workers or companies would have come anyway.
 
 Back to Intel. Ohio's roughly $2.1 billion bet has paid out at least $839.4 million so far for 3,000 promised jobs, in a plant now not expected to run until 2030 or 2031. Ohio's $600 million grant agreement lets the state demand repayment if the jobs are not there by the end of 2028. Even a full repayment would come years after the money went out.
 
-Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 827 workers and their families, including 25 babies born during the program. Its $12,000 cash offer to those 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs (its funding totals cover the whole Collaborative that runs Ascend, not Ascend alone), so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.
+Meanwhile, Ascend's $12,000 cash offer to its 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs (its funding totals cover the whole Collaborative that runs Ascend, not Ascend alone), so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.
 
 This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
 
