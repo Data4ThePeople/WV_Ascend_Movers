@@ -64,33 +64,30 @@ NEIGHBORS = ["Ohio", "Pennsylvania", "Maryland", "Virginia", "Kentucky"]
 
 
 def chart_state_change():
-    """West Virginia and the five states that border it. Rank among 50 states and D.C. in parentheses."""
+    """Ten states with the largest turn, plus West Virginia's five neighbors. WV magenta, neighbors blue."""
     rates = state_rates()
     order = sorted(rates, key=lambda n: rates[n][1] - rates[n][0], reverse=True)
-    show = sorted(["West Virginia"] + NEIGHBORS, key=lambda n: rates[n][1] - rates[n][0], reverse=True)
-    fig, ax = plt.subplots(figsize=(10, 6.2))
-    fig.subplots_adjust(top=0.72, bottom=0.17, left=0.40, right=0.93)
+    show = order[:10] + [n for n in NEIGHBORS if n not in order[:10]]
+    show = sorted(show, key=lambda n: rates[n][1] - rates[n][0])
+    fig, ax = plt.subplots(figsize=(10, 7.4))
+    fig.subplots_adjust(top=0.80, bottom=0.13, left=0.2, right=0.95)
     for i, n in enumerate(show):
-        pre, post = rates[n]
-        color = MAGENTA if n == "West Virginia" else BLUE
-        ax.barh(i, post - pre, color=color, height=0.62)
-        ax.text(post - pre + 0.08, i, f"{post - pre:+.2f}", va="center", fontsize=10, color=INK)
-        bold = n == "West Virginia"
-        ax.text(-0.12, i - 0.12, f"{n}  ({order.index(n) + 1})", va="center", ha="right", fontsize=11,
-                color=INK, fontweight="bold" if bold else "normal")
-        ax.text(-0.12, i + 0.24, f"{pre:+.2f} to {post:+.2f}", va="center", ha="right", fontsize=9,
-                color=INK_DIM)
+        ch = rates[n][1] - rates[n][0]
+        key = n == "West Virginia" or n in NEIGHBORS
+        color = MAGENTA if n == "West Virginia" else (BLUE if n in NEIGHBORS else MUTED)
+        ax.barh(i, ch, color=color, height=0.68)
+        ax.text(ch + 0.12, i, f"{ch:+.2f}", va="center", fontsize=9, color=INK)
+        ax.text(-0.15, i, f"{n}  ({order.index(n) + 1})", va="center", ha="right", fontsize=10,
+                color=INK if key else INK_DIM, fontweight="bold" if key else "normal")
     ax.set_yticks([])
-    ax.invert_yaxis()
     ax.axvline(0, color=INK_DIM, lw=0.8)
-    ax.set_xlim(-0.1, 7.4)
+    ax.set_xlim(-0.2, max(rates[n][1] - rates[n][0] for n in show) * 1.15)
     ax.tick_params(axis="x", labelsize=9)
     ax.spines["left"].set_visible(False)
-    titleblock(fig, "West Virginia and its five neighbors",
+    titleblock(fig, "Ten states with the largest turn in domestic migration, plus West Virginia's neighbors",
                "Change in net domestic migration per 1,000 residents per year, 2021-2025 average minus "
-               "2015-2019 average.\nUnder each name: the 2015-2019 rate to the 2021-2025 rate. Rank among "
-               "50 states and D.C. in parentheses.\nWest Virginia in magenta, the five states that border "
-               "it in blue.")
+               "2015-2019 average.\nRank among 50 states and D.C. in parentheses. West Virginia in magenta, "
+               "the five states that border it in blue.")
     credit(fig, "Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025, components of "
                 "change. Years end July 1;\nthe year ending July 1, 2020 is left out. Data 4 The People "
                 "calculation.")
@@ -132,6 +129,14 @@ def chart_counties():
     plt.close(fig)
 
 
+OWN = ("Ascend WV media release", "PR Newswire (Ascend", "WVU OEDC Ascend WV", "WVPA (reprint of Ascend release)")
+
+
+def own_release(r):
+    """Counts Ascend or WVU published themselves; news stories quoting them are left out."""
+    return r["source_name"].startswith(OWN)
+
+
 def chart_ascend_reported():
     import datetime as dt
     rows = list(csv.DictReader(open(PROC.parent / "ascend_reported.csv")))
@@ -140,7 +145,7 @@ def chart_ascend_reported():
     for measure, color, label in [("new_residents_incl_family", BLUE, "New residents,\nincl. family"),
                                   ("participants", YELLOW, "Members\n(the workers)")]:
         pts = sorted((dt.date.fromisoformat(r["publish_date"]), int(r["value"]), r["unit"])
-                     for r in rows if r["measure"] == measure)
+                     for r in rows if r["measure"] == measure and own_release(r))
         ax.scatter([p[0] for p in pts], [p[1] for p in pts], color=color, s=34, zorder=3)
         labels = []   # dots published within 10 days of each other share one label
         for d, v, u in pts:
@@ -167,12 +172,10 @@ def chart_ascend_reported():
     ax.set_axisbelow(True)
     ax.set_ylim(0, 1850)
     titleblock(fig, "Ascend WV's own counts of who has moved",
-               "Each dot is a figure the program, WVU, or a news story quoting them released, on the date "
-               "released. \"~\" marks \"more than\" or\n\"nearly.\" Figures are not independently checked, "
-               "and some disagree with each other.")
-    credit(fig, "Sources: Ascend WV releases, WVU OEDC Quarter 4 2025 and Quarter 3 2026 statistics, WV MetroNews, Parkersburg News "
-                "and Sentinel, Wonderful West Virginia,\nWV Chamber magazine, PR Newswire, WVPA. Full list with "
-                "quotes in data/ascend_reported.csv.")
+               "Each dot is a figure Ascend WV or WVU released, on the date released. News stories are left out.\n"
+               "\"~\" marks \"more than\" or \"nearly.\" Figures are not independently checked.")
+    credit(fig, "Sources: Ascend WV releases (incl. PR Newswire and a WVPA reprint), WVU OEDC Quarter 4 2025 and "
+                "Quarter 3 2026 statistics.\nFull list with quotes in data/ascend_reported.csv.")
     fig.savefig(CHARTS / "05-ascend-reported-counts.png")
     plt.close(fig)
 

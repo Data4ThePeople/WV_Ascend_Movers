@@ -18,15 +18,21 @@ dividers: false
 
 # Title
 
-Over the last two days we followed the money on JobsOhio. We first built a public tool to track its grants, understand who gets the money, and what happened to it. We then followed this up by studying [where the money went](https://www.data4thepeople.com/p/ohio-income-health).
+Over the last two days we followed the money on JobsOhio. We first built [a public tool to track its grants](https://www.data4thepeople.com/p/jobsohio-grants), understand who gets the money, and what happened to it. We then followed this up by studying [where the money went](https://www.data4thepeople.com/p/ohio-income-health).
 
 One of the main takeaways is that JobsOhio has given out a boatload of grants, but when you look at the dollars, the program has given a disproportionate amount of money to large corporations who are promising to create loads of jobs in one shot.
 
-There is a term for this strategy in business. It’s called whale hunting. You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. It’s a strategy where you live or die with concentration risk. For example, if Intel can’t land “a significant external customer” for its 14A chipmaking process, in its own words, “we may pause or discontinue development of Intel 14A ... For example, we would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” Ohio has pushed at least $839.4 million worth of “chips” ($125.4 million from JobsOhio) onto the table through June 2025, out of a package reported at about $2.1 billion, betting on whatever a 14A process is. That’s one big, concentrated bet on a very nuanced thing in a fast-changing chip market where, by Intel’s own account, AI spending is driving demand.
+There is a term for this strategy in sales.
+
+It’s called whale hunting. 
+
+You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. In short, it’s a strategy rife with concentration risk. 
+
+For example, Ohio has made one HUGE bet on $2.1 million bet on Intel. $839.4 million has been already paid to Intel, $125.4 million coming from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, in its own words, “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.
 
 Anyway, that’s one way to do it.
 
-But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be in Ohio’s neighbor, West Virginia. It’s called the Ascend program, and we are focusing on it today because it’s about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. Literally, one person and family at a time! It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
+But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be going on right next door to Ohio. It’s called the Ascend program, and we are focusing on it today because West Virgina's approach to economic development is about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
 
 ## What Ascend is, in its own words
 ::: spacer 5px
@@ -48,21 +54,21 @@ Here is where the program stands by its own count. As of September 30, 2026, WVU
 The program has released counts like these every few months since its first class. The chart below shows each one on the date it came out.
 
 ![Dot chart of Ascend WV's published counts from 2021 to 2026. Members rise from 53 in September 2021 to 827 in September 2026. New residents including family rise from more than 110 to 1,641. A dashed line marks the goal of 1,000 remote workers in five years, set in September 2021.](images/05-ascend-reported-counts.png)
-*Source: Ascend WV and WVU releases and statistics, and news reports quoting them. WVU shared its Q3 2026 statistics with Data 4 The People.*
+*Source: Ascend WV and WVU releases and statistics. WVU shared its Q3 2026 statistics with Data 4 The People.*
 
 Ascend also publishes the average salary of its members in each community. As of September 2026, the averages ranged from $82,122 in the Charleston area to $110,020 in the Eastern Panhandle.
 
-## West Virginia started gaining people from other states
+## West Virginia started gaining people from other states at the same time Ascend was launched
 ::: spacer 5px
 
-For most of the last decade, more people moved from West Virginia to other states than moved in. In the five years from July 2014 to July 2019, the state lost 39,847 people this way, on net. That turned around in the year ending July 2021. West Virginia has gained people from other states every year since, a total of 17,349 through July 2025. The chart below shows this net domestic migration for each year.
+We were curious if we could measure the impact that Ascend had on migration into West Virginia since the programs inception. So, we consulted the census data. It turns out that since COVID, west Virgina has been a huge beneficiary of net in-migration. The turn around in migration is astounding. In the five years from July 2014 to July 2019, the state lost 39,847 people this way, on net. That turned around in the year ending July 2021. West Virginia has gained people from other states every year since, a total of 17,349 through July 2025. The chart below shows this net domestic migration for each year.
 
 ![Bar chart of West Virginia's net domestic migration for years ending July 2011 to July 2025. Bars are negative every year from 2013 through 2020, lowest at minus 10,139 in 2017, then positive every year from 2021, reaching plus 6,408 in 2025. A line marks Ascend WV's first class.](images/01-wv-net-domestic-migration.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025.*
 
-That turn dramatically outperformed all five of West Virginia's neighbors. Per resident, West Virginia went from losing people to other states faster than any of them in 2015-2019 to gaining people faster than any of them in 2021-2025. Its change, 6.34 more people per 1,000 residents a year, ranks third among the 50 states and D.C. The closest neighbor, Kentucky, ranks 22nd at 1.87. Ohio ranks 31st. The next chart compares West Virginia with the five states that border it.
+That turn dramatically outperformed all five of West Virginia's neighbors. Per resident, West Virginia went from losing people to other states faster than any of them in 2015-2019 to gaining people faster than any of them in 2021-2025. Its change, 6.34 more people per 1,000 residents a year, ranks third among the 50 states and D.C. The closest neighbor, Kentucky, ranks 22nd at 1.87. Ohio ranks 31st. The next chart shows the 10 states with the largest turn, plus the five states that border West Virginia, in blue.
 
-![Bar chart of the change in net domestic migration per 1,000 residents per year, 2021-2025 average minus 2015-2019 average, for West Virginia and its five neighbors. West Virginia, ranked 3rd of 51, rose 6.34, from minus 4.38 to plus 1.96. Kentucky rose 1.87, Pennsylvania 1.84, Virginia 1.25, Ohio 1.11 and Maryland 0.05.](images/03-state-migration-turn.png)
+![Bar chart of the change in net domestic migration per 1,000 residents per year, 2021-2025 average minus 2015-2019 average, for the 10 states with the largest change plus West Virginia's five neighbors. Wyoming leads at 8.89, then Connecticut at 6.82 and West Virginia, in magenta, at 6.34. The neighbors, in blue, rank far lower: Kentucky 1.87 (22nd), Pennsylvania 1.84 (24th), Virginia 1.25 (29th), Ohio 1.11 (31st) and Maryland 0.05 (38th).](images/03-state-migration-turn.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. Data 4 The People calculation.*
 
 Most of West Virginia's gain went to one corner of the state. The three Eastern Panhandle counties, Jefferson, Berkeley and Morgan, gained 21,680 people through moves from 2021 to 2025. That is more than the state's total of 17,349. Without them, the rest of West Virginia lost 4,331 people, on net. County figures also count moves from one West Virginia county to another; those cancel out in the state total.
@@ -74,6 +80,9 @@ The Panhandle was already gaining people before Ascend arrived. The next chart c
 
 All three groups gained ground. The Eastern Panhandle went from 9.99 to 20.57 per 1,000 residents a year. The other Ascend areas went from -7.08 to -1.37, and the rest of the state went from -5.60 to -0.20.
 
+## The great exodus from Go-Go City
+::: spacer 5px
+
 So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. In the three filing years before COVID, about 2,239 people a year moved from the Washington metro to Jefferson, Berkeley and Morgan counties. In the three filing years after it began, that rose to about 2,971 a year, a 32.7% increase. Moves the other way fell 6.5%. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. Arrivals from everywhere in the U.S. rose 11.8%, so the Washington area's share of new arrivals grew from 23.4% to 27.7%. The chart below shows moves in each direction.
 
 ![Line chart of people moving between the Washington metro and the Eastern Panhandle, IRS filing years 2011-12 to 2022-23. Moves to the Panhandle rise from 2,213 in 2017-18 and 1,930 in 2018-19 to 2,573 in 2019-20 and 3,063 in 2020-21, then 2,863 and 2,988. Moves to the Washington metro range from 567 to 1,259 a year, ending at 720. The filing years after COVID began are shaded.](images/08-washington-panhandle-moves.png)
@@ -81,19 +90,21 @@ So who moved to the Panhandle? IRS tax records, which track households that chan
 
 The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.
 
-## Ascend is too small to explain the change
+## Ascend aided migration, but DC seems to be the main driver
 ::: spacer 5px
 
-Ascend's own members are a much smaller group than that shift. We checked whether Ascend is large enough to account for the changes in its areas. Suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
+Alas, this means that migration from DC to the panhandle is the primary driver of West Virgina's leading in-migration data.
 
-Ascend's members are too few to explain the change in its areas. These numbers cannot tell us what would have happened without the program, and we did not try to estimate that.
+Now, Ascend still helped. But its impact was small relative to the impact of people leaving DC in search of John Denver's country roads. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
 
 ## One is measurable, one is not
 ::: spacer 5px
 
-Ascend still added people, 1,641 by its own count, and it has a large advantage over JobsOhio in what the public can see. The table below lines up the two approaches.
+But the real value of Ascend, in our view, is its simplicity and transparency. 1,641 people now live and work in West Virgina who did not 5 years ago, thanks at least in part to this program - every one a real people with real jobs spending real money in communities. JobsOhio has created real jobs too. But the public can't see them, and many (like Intel) are not real - they are promised. They are IOUs, so to speak, not cash in hand.
 
-![Table comparing Ascend WV and JobsOhio grants. What the state pays: $12,000 in cash to the worker, paid monthly over 24 months, versus $16,182 in grants per committed new job, 2021 to 2025. Does the job exist when the deal is made: yes, members show proof of employment and income first, versus not yet, the company commits to create it. What pay is published: members' average salary by community, versus the payroll the company promised. What the public can check later: members, completions and retention in WVU's reports, versus only signs of failure such as layoff notices, bankruptcies and lawsuits.](images/07-two-ways-table.png)
+The table below compares the two programs:
+
+![Table comparing Ascend WV and JobsOhio. Pay: $12,000 cash per worker over 24 months, versus $16,182 in grants per committed job, 2021-2025. Job exists at signing: yes, with proof of employment and income, versus not yet, the company commits to create it. Pay published: members' average salary, versus the payroll the company promised. Checkable later: members, completions and retention in WVU reports, versus only signs of failure such as layoffs, bankruptcies and lawsuits.](images/07-two-ways-table.png)
 *Ascend's $12,000 is its cash incentive only; total program cost per member is not published.*
 
 Start with the job. To join Ascend, a worker shows proof of employment and income, and the employer confirms the job. The job exists before the state commits a dollar. A JobsOhio grant works the other way. The company commits to create jobs in the future, and the grant is made on that commitment. A JobsOhio job is a promise. An Ascend member brings a job with them.

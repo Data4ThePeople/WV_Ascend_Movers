@@ -31,7 +31,7 @@ are.
 - U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 (state wages)
 - JobsOhio monthly executed grants and loans reports, as parsed in the
   [JobsOhioSmallBiz](https://github.com/Data4ThePeople/JobsOhioSmallBiz) project
-- Ascend WV and WVU releases and statistics, and news reports quoting them.
+- Ascend WV and WVU releases and statistics (chart 5 uses only their own releases), and news reports quoting them.
   WVU sent its Q3 2026 statistics directly; we did not find them online, so
   that PDF is not in this repo.
 - Published evaluations of other programs, listed in `data/programs.csv`

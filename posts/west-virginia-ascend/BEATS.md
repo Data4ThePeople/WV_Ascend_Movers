@@ -12,8 +12,8 @@ here goes into the post unless Eric writes it or brackets it.
   -10,139 in 2017), then positive every year from 2021 (+6,408 in 2025).
   2021-2025 total +17,349; 2015-2019 total -39,847.
 - Chart 3, `charts/03-state-migration-turn.png`. West Virginia's turn ranks
-  3rd of 51 (+6.34 per 1,000 residents a year). Chart shows West Virginia and
-  its five neighbors only; Kentucky is the closest at +1.87 (22nd). Ohio ranks 31st (+1.11).
+  3rd of 51 (+6.34 per 1,000 residents a year). Chart shows the top 10 plus
+  the five neighbors, in blue; Kentucky is the closest at +1.87 (22nd). Ohio ranks 31st (+1.11).
 
 ## 3. The Eastern Panhandle drove most of it
 
