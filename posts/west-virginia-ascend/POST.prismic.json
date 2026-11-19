@@ -3,6 +3,9 @@
   "page_subtitle": "Since 2021, West Virginia has paid remote workers $12,000 to move there with a job already in hand. By the program's count, 827 workers and their families, 1,641 people, have come. Here is how that compares with JobsOhio's big bets, like Intel.",
   "published_date": "2026-11-19",
   "updated_date": "2026-11-19",
+  "meta_title": "Ascend WV: Paying Remote Workers to Move to West Virginia",
+  "meta_description": "West Virginia's Ascend program pays remote workers $12,000 to move with a job in hand. How it compares with JobsOhio's big bets, like Intel's Ohio plant.",
+  "meta_keywords": "Ascend WV, Ascend West Virginia remote worker program, paid to move to West Virginia, West Virginia migration, Eastern Panhandle migration, JobsOhio Intel incentives, Ohio Intel subsidies, economic development incentives",
   "make_this_main_post": false,
   "slices": [
     {
@@ -933,7 +936,176 @@
           }
         ]
       }
+    },
+    {
+      "slice_type": "divider_dots",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {}
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading2",
+            "text": "Common questions",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "5px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "What is Ascend WV?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ascend WV is a West Virginia University program that pays remote workers $12,000 in cash, over two years, to move to one of six parts of West Virginia. Applicants must show proof of employment and income before they are accepted.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "How many people has Ascend WV brought to West Virginia?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "As of September 30, 2026, WVU reports 827 members and 1,641 new West Virginians, counting family members.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "How much has Ohio committed to Intel?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ohio's package for Intel's planned chip plant was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "Why did West Virginia start gaining people from other states?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Photo at top: National Park Service / Buddy Secor.",
+            "spans": [
+              {
+                "start": 0,
+                "end": 50,
+                "type": "em"
+              }
+            ],
+            "direction": "ltr"
+          }
+        ]
+      }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"West Virginia's Ascend program: Economic development one worker at a time\",\n  \"description\": \"\",\n  \"datePublished\": \"2026-11-19T07:00:00-04:00\",\n  \"dateModified\": \"2026-11-19T07:00:00-04:00\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n  }\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"West Virginia's Ascend program: Economic development one worker at a time\",\n      \"description\": \"West Virginia's Ascend program pays remote workers $12,000 to move with a job in hand. How it compares with JobsOhio's big bets, like Intel's Ohio plant.\",\n      \"datePublished\": \"2026-11-19T07:30:00-05:00\",\n      \"dateModified\": \"2026-11-19T07:30:00-05:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"Ascend WV\",\n        \"Ascend West Virginia remote worker program\",\n        \"paid to move to West Virginia\",\n        \"West Virginia migration\",\n        \"Eastern Panhandle migration\",\n        \"JobsOhio Intel incentives\",\n        \"Ohio Intel subsidies\",\n        \"economic development incentives\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is Ascend WV?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ascend WV is a West Virginia University program that pays remote workers $12,000 in cash, over two years, to move to one of six parts of West Virginia. Applicants must show proof of employment and income before they are accepted.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How many people has Ascend WV brought to West Virginia?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"As of September 30, 2026, WVU reports 827 members and 1,641 new West Virginians, counting family members.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much has Ohio committed to Intel?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ohio's package for Intel's planned chip plant was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why did West Virginia start gaining people from other states?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }

@@ -3,12 +3,13 @@ title: "West Virginia's Ascend program: Economic development one worker at a tim
 subtitle: "Since 2021, West Virginia has paid remote workers $12,000 to move there with a job already in hand. By the program's count, 827 workers and their families, 1,641 people, have come. Here is how that compares with JobsOhio's big bets, like Intel."
 slug: west-virginia-ascend
 date: 2026-11-19
+time: 07:30:00-05:00
 section: Data 4 Thought
 hero: images/west-virginia-ascend-hero-1680x1080.png
 hero_alt: "Sunset view from the Maryland Heights overlook at Harpers Ferry, West Virginia. Gray boulders fill the foreground. Below, two railroad bridges cross the Potomac River from Maryland to the old town, which sits on a wooded point where the Shenandoah River joins the Potomac. Virginia's Loudoun Heights rises on the left. Forested ridges fade into the distance under a low sun."
-meta_title:
-description:
-keywords:
+meta_title: "Ascend WV: Paying Remote Workers to Move to West Virginia"
+description: "West Virginia's Ascend program pays remote workers $12,000 to move with a job in hand. How it compares with JobsOhio's big bets, like Intel's Ohio plant."
+keywords: Ascend WV, Ascend West Virginia remote worker program, paid to move to West Virginia, West Virginia migration, Eastern Panhandle migration, JobsOhio Intel incentives, Ohio Intel subsidies, economic development incentives
 schema_type: article
 drop_cap: true
 heading_spacer: 20px
@@ -132,5 +133,26 @@ Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 82
 This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
 
 So, does slow and steady win the race? In time, we will find out.
+
+::: divider
+
+## Common questions
+::: spacer 5px
+
+### What is Ascend WV?
+
+Ascend WV is a West Virginia University program that pays remote workers $12,000 in cash, over two years, to move to one of six parts of West Virginia. Applicants must show proof of employment and income before they are accepted.
+
+### How many people has Ascend WV brought to West Virginia?
+
+As of September 30, 2026, WVU reports 827 members and 1,641 new West Virginians, counting family members.
+
+### How much has Ohio committed to Intel?
+
+Ohio's package for Intel's planned chip plant was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio.
+
+### Why did West Virginia start gaining people from other states?
+
+Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.
 
 *Photo at top: National Park Service / Buddy Secor.*
