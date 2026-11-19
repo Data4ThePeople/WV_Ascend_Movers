@@ -5,7 +5,7 @@ slug: west-virginia-ascend
 date: 2026-11-19
 section: Data 4 Thought
 hero: images/west-virginia-ascend-hero-1680x1080.png
-hero_alt:
+hero_alt: "Sunset view from the Maryland Heights overlook at Harpers Ferry, West Virginia. Gray boulders fill the foreground. Below, two railroad bridges cross the Potomac River from Maryland to the old town, which sits on a wooded point where the Shenandoah River joins the Potomac. Virginia's Loudoun Heights rises on the left. Forested ridges fade into the distance under a low sun."
 meta_title:
 description:
 keywords:
