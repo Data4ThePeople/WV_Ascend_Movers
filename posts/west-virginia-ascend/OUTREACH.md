@@ -235,3 +235,15 @@ Thanks for reading,
 Eric Pachman
 Data 4 The People
 ```
+
+### Second address search (Nov 19, 2026)
+
+| # | Name | Result | Where read |
+|---|---|---|---|
+| 4 | Morgan Pemberton | None public. MetroNews form or 304-346-7055 | wvmetronews.com/contact-us |
+| 5 | Hoppy Kercheval | hoppy.kercheval@wvradio.com, from a 2021 column footer; may be out of date (he left Talkline hosting at the end of 2024) | dominionpost.com/2021/05/13/so-thats-where-hoppy-gets-his-news/ |
+| 9 | John Deskins | Not confirmed; every WVU page refused automated reading | n/a |
+| 10 | Jim Branscome | None personal. Desk: news@cardinalnews.org | cardinalnews.org/connect-with-us/ |
+| 11 | Scott Neuman | None public; npr.org timed out | n/a |
+| 13 | Michael Sasso | **Verified:** msasso9@bloomberg.net ("Email me at ..." in his own bio) | muckrack.com/michael-sasso |
+| 15 | Allie Vugrincic | None public. WOSU lists only a phone and mailing address | wosu.org/contact |
