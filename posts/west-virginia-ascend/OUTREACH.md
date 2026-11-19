@@ -50,3 +50,188 @@ organization's own page. Nothing here is guessed.
   Stateline and Good Jobs First (sites refused automated reading), Hamilton
   Lombard at UVA (no contact page), and Ian Hicks (no recent West Virginia
   story that fits, and a repeat from last week).
+
+---
+
+## 4b. Drafts
+
+Eric confirmed 1, 2, 3, 6, 7, 8, 12 and 14 on Nov 19, 2026. All eight were saved as Gmail drafts the same day, each with a verified address in the To line. None were sent. A second search for addresses for 4, 5, 9, 10, 11, 13 and 15 is under way.
+
+**No URL appears in any draft.** The post title is plain text. Select it, press Cmd+K, and paste:
+
+```
+https://www.data4thepeople.com/p/west-virginia-ascend
+```
+
+Every body is under 150 words and every subject under 60 characters. Every number is in the post.
+
+| # | Recipient | To | Subject | Drafted |
+|---|---|---|---|---|
+| 1 | Eric Douglas, WV Public Broadcasting | edouglas@wvpublic.org | Where West Virginia's new residents come from | 2026-11-19 |
+| 2 | Tre Spencer, Mountain State Spotlight | trespencer@mountainstatespotlight.org | West Virginia's migration turn, by the numbers | 2026-11-19 |
+| 3 | Steven Allen Adams, Ogden Newspapers | sadams@newsandsentinel.com | Ascend's numbers, after Ascend Heroes | 2026-11-19 |
+| 6 | Steve Pearson, WV Independent Observer | publisher@observerwv.com | Where Jefferson County's newcomers come from | 2026-11-19 |
+| 7 | David Sibray, West Virginia Explorer | editor@wvexplorer.com | Ascend WV, checked against Census and IRS data | 2026-11-19 |
+| 8 | Sean O'Leary, WV Center on Budget and Policy | soleary@wvpolicy.org | IRS county flows behind the Panhandle's growth | 2026-11-19 |
+| 12 | Kristin Stoller, Fortune | kristin.stoller@fortune.com | A statewide program paying remote workers to move | 2026-11-19 |
+| 14 | Timothy J. Bartik, W.E. Upjohn Institute | bartik@upjohn.org | Paying for jobs that exist vs. jobs promised | 2026-11-19 |
+
+### 1. Eric Douglas, WV Public Broadcasting
+
+**To:** `edouglas@wvpublic.org`
+
+**Subject** (45): `Where West Virginia's new residents come from`
+
+```
+Eric,
+
+Your March story noted that West Virginia's growth is limited to the corridor from Monongalia County to the Eastern Panhandle. We just published a post that looks at who is moving in.
+
+West Virginia has gained people from other states every year since 2021, a turnaround that ranks third among the 50 states and D.C. Most of that gain went to the Eastern Panhandle, where IRS records show net moves from the Washington area rose 61.2% after COVID. We also look at Ascend WV, which reports 1,641 new West Virginians, and how small it is next to that shift.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 2. Tre Spencer, Mountain State Spotlight
+
+**To:** `trespencer@mountainstatespotlight.org`
+
+**Subject** (46): `West Virginia's migration turn, by the numbers`
+
+```
+Tre,
+
+Your June Q&A with Steve Roberts touched on population loss and on growth only at the state's edges. We just published a post that measures one piece of that.
+
+West Virginia has gained people from other states every year since 2021. The three Eastern Panhandle counties gained 21,680 people through moves from 2021 to 2025, more than the state's total of 17,349. We also put Ascend WV's 827 members next to that shift, and compare the program with Ohio's big bets on single companies, like Intel.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 3. Steven Allen Adams, Ogden Newspapers
+
+**To:** `sadams@newsandsentinel.com`
+
+**Subject** (37): `Ascend's numbers, after Ascend Heroes`
+
+```
+Steven,
+
+You covered the launch of Ascend Heroes in May. We just published a post on the program itself.
+
+By WVU's count, Ascend had 827 members and 1,641 new West Virginians as of September 30, 2026, and members earn an average of $96,052. We compare that with the state's migration gain since 2021, where Ascend is small next to the move from the Washington area into the Eastern Panhandle. We also set it against Ohio's approach, where the state has paid at least $839.4 million toward Intel's delayed plant.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 6. Steve Pearson, WV Independent Observer
+
+**To:** `publisher@observerwv.com`
+
+**Subject** (44): `Where Jefferson County's newcomers come from`
+
+```
+Steve,
+
+Your July issue covered housing growth in Jefferson County and Ranson. We just published a post on where much of that growth comes from.
+
+The three Eastern Panhandle counties gained 21,680 people through moves from 2021 to 2025, more than West Virginia's statewide total. IRS records show the Panhandle's net gain from the Washington area rose 61.2%, from about 1,297 people a year before COVID to 2,091 after. Ascend WV, the state's program that pays remote workers to move, reports 421 people in the Panhandle.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 7. David Sibray, West Virginia Explorer
+
+**To:** `editor@wvexplorer.com`
+
+**Subject** (46): `Ascend WV, checked against Census and IRS data`
+
+```
+David,
+
+West Virginia Explorer has covered Ascend, most recently the Ascend Heroes launch in May. We just published a post that puts the program next to Census and IRS migration data.
+
+West Virginia has gained people from other states every year since 2021, a change that ranks third among the 50 states and D.C. Ascend reports 1,641 new West Virginians. It helped, but it is small next to the move from the Washington area into the Eastern Panhandle. We also compare it with Ohio's approach of large bets on single companies.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 8. Sean O'Leary, WV Center on Budget and Policy
+
+**To:** `soleary@wvpolicy.org`
+
+**Subject** (46): `IRS county flows behind the Panhandle's growth`
+
+```
+Sean,
+
+Your May piece on deaths outpacing births and migration was the clearest breakdown of West Virginia's Census numbers we found. We just published a post that adds IRS county-to-county flows.
+
+West Virginia's change in domestic migration per resident, from 2015-2019 to 2021-2025, ranks third among the 50 states and D.C. Most of the gain went to the Eastern Panhandle, where net moves from the Washington area rose 61.2% after COVID. We also look at how Ascend WV compares with that shift.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 12. Kristin Stoller, Fortune
+
+**To:** `kristin.stoller@fortune.com`
+
+**Subject** (49): `A statewide program paying remote workers to move`
+
+```
+Kristin,
+
+Your March piece on Tulsa paying remote workers to relocate is the kind of program we just wrote about, at the state level.
+
+West Virginia's Ascend program pays remote workers $12,000 to move there with a job already in hand. By WVU's count it has 827 members and 1,641 new West Virginians, and members earn an average of $96,052, about 70% above the state's average wage. We compare it with Ohio's approach of large bets on single companies, like Intel.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 14. Timothy J. Bartik, W.E. Upjohn Institute
+
+**To:** `bartik@upjohn.org`
+
+**Subject** (44): `Paying for jobs that exist vs. jobs promised`
+
+```
+Dr. Bartik,
+
+Your research asks whether state incentives pay off. We just published a post comparing two approaches in neighboring states.
+
+West Virginia's Ascend program pays remote workers $12,000 in cash, but only after they show proof of a job and income. Ohio's JobsOhio grants pay on commitments to create jobs, $16,182 per committed job from 2021 to 2025. Neither program measures how many workers or companies would have come anyway, and the post says so.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
