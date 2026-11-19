@@ -109,7 +109,7 @@ The table below compares the two programs:
 
 Start with the job. To join Ascend, a worker shows proof of employment and income, and the employer confirms the job. The job exists before the state commits a dollar. A JobsOhio grant works the other way. The company commits to create jobs in the future, and the grant is made on that commitment. A JobsOhio job is a promise. An Ascend member brings a job with them.
 
-Then the pay. Ohio publishes the pay it was promised for jobs that don't exist yet. Ascend publishes the pay of jobs its members already have. The next chart puts those numbers next to each state's average wage.
+Then the pay. Ohio publishes the pay it was promised for jobs that don't exist yet (which is why the bar in the chart below is not solid). Ascend publishes the pay of jobs its members already have. The next chart puts those numbers next to each state's average wage.
 
 ![Bar chart of annual pay per job. Ascend members' average salary, $96,052, is the pay of jobs members already have. JobsOhio grants' committed payroll per job, $66,689, is pay promised for jobs not yet created and is drawn hatched. Ohio's average wage is $64,390 and West Virginia's is $56,470.](images/06-pay-per-job.png)
 *Sources: WVU Smith OEDC, Ascend WV Q3 2026 statistics; JobsOhio monthly executed grant reports; U.S. Bureau of Labor Statistics, OEWS May 2025. Data 4 The People calculation.*
@@ -122,7 +122,7 @@ Last, what happens after the money goes out. WVU reports how many members are st
 
 Neither program measures how many workers or companies would have come anyway.
 
-## Slow and steady
+## Slow and steady wins the race?
 ::: spacer 5px
 
 Back to Intel. Ohio's roughly $2.1 billion bet has paid out at least $839.4 million so far for 3,000 promised jobs, in a plant now not expected to run until 2030 or 2031. Ohio's $600 million grant agreement lets the state demand repayment if the jobs are not there by the end of 2028. Even a full repayment would come years after the money went out.
@@ -131,4 +131,4 @@ Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 82
 
 This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
 
-So, does slow and steady win the race? We will find out.
+So, does slow and steady win the race? In time, we will find out.
