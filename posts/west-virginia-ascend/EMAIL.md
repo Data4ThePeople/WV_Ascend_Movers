@@ -81,7 +81,7 @@ Ohio publishes the pay it was promised for jobs that don't exist yet. Ascend pub
 
 By its own count, Ascend has brought 1,641 people to West Virginia since 2021: 827 workers with real jobs, plus their families. Over the same years, West Virginia went from losing people to other states to gaining them, a turnaround that ranks third among the 50 states and D.C.
 
-But Ascend is not the main reason for that turnaround. The full post follows the tax records to find out who did move, and explains why we think Ascend's real value lies somewhere else: its certainty and measurability.
+But Ascend is not the main reason for that turnaround. It is still too small to explain one of the largest swings in the country. The full post follows the tax records to find out who did move, and explains why we think Ascend's real value lies somewhere else: its certainty and measurability.
 ```
 
 ---
