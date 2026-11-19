@@ -6,8 +6,8 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 2f
-Since: 2026-11-18
+Step: 2g
+Since: 2026-11-19
 
 ## Steps
 
@@ -16,10 +16,10 @@ Since: 2026-11-18
 | 1  | Exploration and analysis | 2026-11-18 | reopened 11-17 for WVU Q3 2026, answers, BBER memo, Impact Report; tie-out 91 of 91 |
 | 2a | Draft with brackets resolved | 2026-11-18 | conclusion uses Ohio's full Intel package; tie-out 159 of 159 |
 | 2b | Eric's edit, Claude's look-over | 2026-11-18 | |
-| 2c | Slice markup | 2026-11-18 | 67 blocks; title and subtitle set |
+| 2c | Slice markup | 2026-11-18 | 78 blocks after the 2b reopen; title and subtitle set |
 | 2d | Hero 1680x1080 + alt text | 2026-11-18 | NPS photo, Harpers Ferry from Maryland Heights (public domain) |
 | 2e | SEO | 2026-11-18 | meta title, description, keywords, 4-question FAQ |
-| 2f | Pushed to Prismic (draft) | 2026-11-18 | av5LNxEAACgAaNve, Migration Release |
+| 2f | Pushed to Prismic (draft) | 2026-11-19 | av5LNxEAACgAaNve, Migration Release; re-confirmed after the 2b reopen |
 | 2g | Mailchimp teaser | | |
 | 3  | Social posts | | |
 | 4a | Outreach list | | |
@@ -27,7 +27,7 @@ Since: 2026-11-18
 
 ## Stale
 
-None. 2c-2f re-run after the 2b reopen; waiting on Eric to re-confirm 2f, then 2g.
+None.
 
 ## Log
 
@@ -47,3 +47,4 @@ None. 2c-2f re-run after the 2b reopen; waiting on Eric to re-confirm 2f, then 2
 - 2026-11-18 Step 2f confirmed. Step 2g open: Mailchimp teaser.
 - 2026-11-18 Back to 2b (Eric): text edits after the Prismic push. 2c-2f stale.
 - 2026-11-18 Step 2b confirmed again. 2c (78 blocks), 2d (hero unchanged), 2e (FAQ answers still match) re-run; 2f updated draft av5LNxEAACgAaNve with the new chart 8.
+- 2026-11-19 Step 2f confirmed again. Step 2g open: EMAIL.md checked against the edited post, waiting on approve or reject.
