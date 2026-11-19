@@ -46,7 +46,7 @@ https://www.data4thepeople.com/p/west-virginia-ascend
 ## LinkedIn
 
 ```
-Ohio bet about $2.1 billion on Intel for 3,000 promised jobs.
+Ohio bet about $2.1 billion on Intel for 3,000 promised jobs. It will have to wait until 2030 or 2031 to see if they are real.
 West Virginia pays remote workers $12,000 to move there with a job already in hand.
 
 Over the last two days we followed the money on JobsOhio. Much of it goes to large companies promising loads of jobs in one shot. In sales, that is called whale hunting.
@@ -61,7 +61,7 @@ Full post in the first comment.
 
 #EconomicDevelopment #WestVirginia #Ohio #RemoteWork #DataJournalism
 ```
-*1154 characters. The first two lines are the hook shown before "see more."*
+*1219 characters. The first two lines are the hook shown before "see more."*
 
 First comment:
 
