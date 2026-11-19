@@ -77,7 +77,7 @@ Bar chart of annual pay per job. Ascend members' average salary, $96,052, is the
 ## 5. Body, part two
 
 ```
-Ohio publishes the pay it was promised for jobs that don't exist yet. Ascend publishes the pay of jobs its members already have.
+Ohio publishes the pay it was promised for jobs that don't exist yet (and maybe never will). Ascend publishes the pay of jobs its members already have.
 
 By its own count, Ascend has brought 1,641 people to West Virginia since 2021: 827 workers with real jobs, plus their families. Over the same years, West Virginia went from losing people to other states to gaining them, a turnaround that ranks third among the 50 states and D.C.
 
