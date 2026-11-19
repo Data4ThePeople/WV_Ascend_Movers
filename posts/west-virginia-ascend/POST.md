@@ -72,9 +72,7 @@ That turn dramatically outperformed all five of West Virginia's neighbors. Per r
 ![Bar chart of the change in net domestic migration per 1,000 residents per year, 2021-2025 average minus 2015-2019 average, for the 10 states with the largest change plus West Virginia's five neighbors. Wyoming leads at 8.89, then Connecticut at 6.82 and West Virginia, in magenta, at 6.34. The neighbors, in blue, rank far lower: Kentucky 1.87 (22nd), Pennsylvania 1.84 (24th), Virginia 1.25 (29th), Ohio 1.11 (31st) and Maryland 0.05 (38th).](images/03-state-migration-turn.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. Data 4 The People calculation.*
 
-Most of West Virginia's gain went to one corner of the state. The three Eastern Panhandle counties, Jefferson, Berkeley and Morgan, gained 21,680 people through moves from 2021 to 2025. That is more than the state's total of 17,349. Without them, the rest of West Virginia lost 4,331 people, on net. County figures also count moves from one West Virginia county to another; those cancel out in the state total.
-
-The Panhandle was already gaining people before Ascend arrived. The next chart compares it with the other Ascend areas and the rest of the state, per 1,000 residents a year.
+Most of West Virginia's post-COVID gain went to one corner of the state. As shown below, the Panhandle was already gaining people before Ascend arrived and compares it with the other Ascend areas and the rest of the state, per 1,000 residents a year.
 
 ![Bar chart of net domestic migration per 1,000 residents per year in 2015-2019 and 2021-2025. Eastern Panhandle: plus 9.99, then plus 20.57. Other Ascend areas: minus 7.08, then minus 1.37. Rest of West Virginia: minus 5.60, then minus 0.20.](images/04-ascend-counties-vs-rest.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. County list from ascendwv.com community pages. Data 4 The People calculation.*
@@ -82,12 +80,10 @@ The Panhandle was already gaining people before Ascend arrived. The next chart c
 ## Leaving the Washington area
 ::: spacer 5px
 
-So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. In the three filing years before COVID, about 2,239 people a year moved from the Washington metro to Jefferson, Berkeley and Morgan counties. In the three filing years after it began, that rose to about 2,971 a year, a 32.7% increase. Moves the other way fell 6.5%. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. Arrivals from everywhere in the U.S. rose 11.8%, so the Washington area's share of new arrivals grew from 23.4% to 27.7%. The chart below shows moves in each direction.
+So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. As shown below, in the three filing years after COVID, the Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. 
 
-![Line chart of people moving between the Washington metro and the Eastern Panhandle, IRS filing years 2011-12 to 2022-23. Moves to the Panhandle rise from 2,213 in 2017-18 and 1,930 in 2018-19 to 2,573 in 2019-20 and 3,063 in 2020-21, then 2,863 and 2,988. Moves to the Washington metro range from 567 to 1,259 a year, ending at 720. The filing years after COVID began are shaded.](images/08-washington-panhandle-moves.png)
-*Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23. Washington metro: D.C. and 21 nearby Maryland and Virginia counties and cities. Data 4 The People calculation.*
-
-The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.
+![Line chart of net moves from the Washington metro to the Eastern Panhandle, people who moved in minus people who moved out, IRS filing years 2011-12 to 2022-23. The net gain ranges from 495 to 1,604 a year through 2019-20, then reaches 2,033 in 2020-21, 1,973 in 2021-22 and 2,268 in 2022-23. Dashed lines mark three-year averages of 1,297 before and 2,091 after. The filing years after COVID began are shaded.](images/08-washington-panhandle-net.png)
+*Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23. Washington metro: D.C. and 21 nearby Maryland and Virginia counties and cities. Only county pairs with at least 20 returns a year are listed, so counts run low. Data 4 The People calculation.*
 
 ## Ascend is small next to the move from the Washington area
 ::: spacer 5px

@@ -238,8 +238,11 @@ for _lab, _v, _shown in [("DC metro to Panhandle, avg before", round(_a0), 2239)
                          ("DC metro share before", round(_a0 / _t0 * 100, 1), 23.4),
                          ("DC metro share after", round(_a1 / _t1 * 100, 1), 27.7)]:
     check(f"IRS {_lab} (chart 8)", _v, _shown)
-for _y, _v in [("2017-18", 2213), ("2018-19", 1930), ("2019-20", 2573), ("2020-21", 3063), ("2021-22", 2863), ("2022-23", 2988)]:
-    check(f"Chart 8 label {_y}", int(_pi[(_pi.origin == "Washington metro") & (_pi.years == _y)].people.iloc[0]), _v)
+for _y, _v in [("2011-12", 495), ("2014-15", 562), ("2016-17", 1452), ("2017-18", 1353), ("2018-19", 934),
+               ("2019-20", 1604), ("2020-21", 2033), ("2021-22", 1973), ("2022-23", 2268)]:
+    _in = int(_pi[(_pi.origin == "Washington metro") & (_pi.years == _y)].people.iloc[0])
+    _out = int(_po[(_po.destination == "Washington metro") & (_po.years == _y)].people.iloc[0])
+    check(f"Chart 8 net label {_y}", _in - _out, _v)
 import importlib as _il2
 check("Washington metro list = D.C. + 21", len(_il2.import_module("10_panhandle_origins").DC_METRO), 22)
 
