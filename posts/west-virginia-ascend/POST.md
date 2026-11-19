@@ -28,7 +28,7 @@ It’s called whale hunting.
 
 You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. In short, it’s a strategy rife with concentration risk. 
 
-For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, [in its own words](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm), “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending - which is now much more uncertain after the mid-term election - is driving demand.
+For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, Intel says, [in its own words](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm), it “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.
 
 Anyway, that’s one way to do it.
 
@@ -93,9 +93,9 @@ The timing lines up with the pandemic, but tax records do not say why people mov
 ## Ascend is small next to the move from the Washington area
 ::: spacer 5px
 
-Alas, this means that migration from the Washington area to the panhandle is the primary driver of West Virginia's leading in-migration data.
+Alas, this means that migration from the Washington area to the Panhandle is the primary driver of West Virginia's leading in-migration data.
 
-Now, Ascend still helped. But its impact was small relative to the impact of people leaving the Washington area in search of John Denver's country roads. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
+Now, Ascend still helped. But its impact was small relative to the impact of people leaving the Washington area. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
 
 ## One is measurable, one is not
 ::: spacer 5px
