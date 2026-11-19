@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 2g
+Step: 3
 Since: 2026-11-19
 
 ## Steps
@@ -20,7 +20,7 @@ Since: 2026-11-19
 | 2d | Hero 1680x1080 + alt text | 2026-11-18 | NPS photo, Harpers Ferry from Maryland Heights (public domain) |
 | 2e | SEO | 2026-11-18 | meta title, description, keywords, 4-question FAQ |
 | 2f | Pushed to Prismic (draft) | 2026-11-19 | av5LNxEAACgAaNve, Migration Release; re-confirmed after the 2b reopen |
-| 2g | Mailchimp teaser | | |
+| 2g | Mailchimp teaser | 2026-11-19 | subject "Whales or workers?" |
 | 3  | Social posts | | |
 | 4a | Outreach list | | |
 | 4b | Outreach drafts in Gmail | | |
@@ -48,3 +48,4 @@ None.
 - 2026-11-18 Back to 2b (Eric): text edits after the Prismic push. 2c-2f stale.
 - 2026-11-18 Step 2b confirmed again. 2c (78 blocks), 2d (hero unchanged), 2e (FAQ answers still match) re-run; 2f updated draft av5LNxEAACgAaNve with the new chart 8.
 - 2026-11-19 Step 2f confirmed again. Step 2g open: EMAIL.md checked against the edited post, waiting on approve or reject.
+- 2026-11-19 Step 2g confirmed. Step 3 open: social posts.
