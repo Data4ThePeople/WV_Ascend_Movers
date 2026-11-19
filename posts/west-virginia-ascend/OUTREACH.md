@@ -247,3 +247,52 @@ Data 4 The People
 | 11 | Scott Neuman | None public; npr.org timed out | n/a |
 | 13 | Michael Sasso | **Verified:** msasso9@bloomberg.net ("Email me at ..." in his own bio) | muckrack.com/michael-sasso |
 | 15 | Allie Vugrincic | None public. WOSU lists only a phone and mailing address | wosu.org/contact |
+
+### Added drafts (Nov 19, 2026)
+
+Eric confirmed 13 and 10 after the second search. Both saved as Gmail drafts, not sent.
+
+| # | Recipient | To | Subject | Drafted |
+|---|---|---|---|---|
+| 13 | Michael Sasso, Bloomberg | msasso9@bloomberg.net | West Virginia's migration turn, measured | 2026-11-19 |
+| 10 | Jim Branscome, Cardinal News (desk) | news@cardinalnews.org | For Jim Branscome: Ascend WV by the numbers | 2026-11-19 |
+
+### 13. Michael Sasso, Bloomberg
+
+**To:** `msasso9@bloomberg.net`
+
+**Subject** (40): `West Virginia's migration turn, measured`
+
+```
+Michael,
+
+Your September story on young workers moving into Appalachia is about the same shift we just measured in West Virginia.
+
+West Virginia has gained people from other states every year since 2021, a turnaround that ranks third among the 50 states and D.C. Most of the gain went to the Eastern Panhandle, where IRS records show net moves from the Washington area rose 61.2% after COVID. We also look at Ascend WV, which pays remote workers $12,000 to move with a job already in hand and reports 1,641 new West Virginians.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```
+
+### 10. Jim Branscome, Cardinal News
+
+**To:** `news@cardinalnews.org` (desk address; no personal address is public)
+
+**Subject** (43): `For Jim Branscome: Ascend WV by the numbers`
+
+```
+Jim,
+
+Your May column made the case for extending Ascend WV into the coalfield counties. We just published a post on how the program has done so far.
+
+By WVU's count, Ascend had 827 members and 1,641 new West Virginians as of September 30, 2026. Its cash offer is $12,000 per member, and each member arrives with a job that already exists. We also compare it with the state's larger migration gain, which went mostly to the Eastern Panhandle, and with Ohio's big bets on single companies, like Intel.
+
+West Virginia's Ascend program: Economic development one worker at a time
+
+Thanks for reading,
+Eric Pachman
+Data 4 The People
+```

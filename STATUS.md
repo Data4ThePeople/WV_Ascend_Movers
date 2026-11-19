@@ -53,3 +53,4 @@ None.
 - 2026-11-19 Back to 2b (Eric, from Intel's 10-K): Intel quote now shows the two steps (no customer -> may pause 14A -> would likely stop Ohio) and adds the Oct. 2026 10-Q commitment to finish 14A. EMAIL.md edit 1 applied too. Tie-out 162 of 162. 2c-2f re-run, draft av5LNxEAACgAaNve updated. Back in Step 3.
 - 2026-11-19 Step 3 confirmed. Step 4a open: outreach list.
 - 2026-11-19 Step 4a confirmed (8 of 15). Step 4b: 8 Gmail drafts saved, none sent. Second address search running for 4, 5, 9, 10, 11, 13, 15.
+- 2026-11-19 Second search: Sasso verified. Drafts added for 13 (Sasso) and 10 (Branscome, Cardinal News desk). 10 drafts total, none sent.
