@@ -84,7 +84,7 @@ def chart_state_change():
     ax.set_xlim(-0.2, max(rates[n][1] - rates[n][0] for n in show) * 1.15)
     ax.tick_params(axis="x", labelsize=9)
     ax.spines["left"].set_visible(False)
-    titleblock(fig, "Ten states with the largest turn in domestic migration, plus West Virginia's neighbors",
+    titleblock(fig, "Ten states with the largest change in domestic migration, plus West Virginia's neighbors",
                "Change in net domestic migration per 1,000 residents per year, 2021-2025 average minus "
                "2015-2019 average.\nRank among 50 states and D.C. in parentheses. West Virginia in magenta, "
                "the five states that border it in blue.")

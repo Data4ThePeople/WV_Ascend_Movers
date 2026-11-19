@@ -28,11 +28,11 @@ It’s called whale hunting.
 
 You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. In short, it’s a strategy rife with concentration risk. 
 
-For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, in its own words, “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.
+For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, [in its own words](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm), “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending - which is now much more uncertain after the mid-term election - is driving demand.
 
 Anyway, that’s one way to do it.
 
-But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be going on right next door to Ohio. It’s called the Ascend program, and we are focusing on it today because West Virginia's approach to economic development is about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
+But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be going on right next door to Ohio. It’s called the Ascend program, and we are focusing on it today because West Virginia's approach to economic development is about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individual workers. It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
 
 ## What Ascend is, in its own words
 ::: spacer 5px
@@ -66,7 +66,7 @@ We were curious if we could measure the impact that Ascend had on migration into
 ![Bar chart of West Virginia's net domestic migration for years ending July 2011 to July 2025. Bars are negative every year from 2013 through 2020, lowest at minus 10,139 in 2017, then positive every year from 2021, reaching plus 6,408 in 2025. A line marks Ascend WV's first class.](images/01-wv-net-domestic-migration.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025.*
 
-That turn dramatically outperformed all five of West Virginia's neighbors. Per resident, West Virginia went from losing people to other states faster than any of them in 2015-2019 to gaining people faster than any of them in 2021-2025. Its change, 6.34 more people per 1,000 residents a year, ranks third among the 50 states and D.C. The closest neighbor, Kentucky, ranks 22nd at 1.87. Ohio ranks 31st. The next chart shows the 10 states with the largest turn, plus the five states that border West Virginia, in blue.
+That turn dramatically outperformed all five of West Virginia's neighbors. Per resident, West Virginia went from losing people to other states faster than any of them in 2015-2019 to gaining people faster than any of them in 2021-2025. Its change, 6.34 more people per 1,000 residents a year, ranks third among the 50 states and D.C. The closest neighbor, Kentucky, ranks 22nd at 1.87. Ohio ranks 31st. The next chart shows the 10 states with the largest change, plus the five states that border West Virginia, in blue.
 
 ![Bar chart of the change in net domestic migration per 1,000 residents per year, 2021-2025 average minus 2015-2019 average, for the 10 states with the largest change plus West Virginia's five neighbors. Wyoming leads at 8.89, then Connecticut at 6.82 and West Virginia, in magenta, at 6.34. The neighbors, in blue, rank far lower: Kentucky 1.87 (22nd), Pennsylvania 1.84 (24th), Virginia 1.25 (29th), Ohio 1.11 (31st) and Maryland 0.05 (38th).](images/03-state-migration-turn.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025. Data 4 The People calculation.*
@@ -80,7 +80,7 @@ The Panhandle was already gaining people before Ascend arrived. The next chart c
 
 All three groups gained ground. The Eastern Panhandle went from 9.99 to 20.57 per 1,000 residents a year. The other Ascend areas went from -7.08 to -1.37, and the rest of the state went from -5.60 to -0.20.
 
-## The great exodus from Go-Go City
+## Leaving the Washington area
 ::: spacer 5px
 
 So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. In the three filing years before COVID, about 2,239 people a year moved from the Washington metro to Jefferson, Berkeley and Morgan counties. In the three filing years after it began, that rose to about 2,971 a year, a 32.7% increase. Moves the other way fell 6.5%. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. Arrivals from everywhere in the U.S. rose 11.8%, so the Washington area's share of new arrivals grew from 23.4% to 27.7%. The chart below shows moves in each direction.
@@ -90,7 +90,7 @@ So who moved to the Panhandle? IRS tax records, which track households that chan
 
 The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.
 
-## Ascend aided migration, but the Washington area seems to be the main driver
+## Ascend is small next to the move from the Washington area
 ::: spacer 5px
 
 Alas, this means that migration from the Washington area to the panhandle is the primary driver of West Virginia's leading in-migration data.
