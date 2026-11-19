@@ -92,7 +92,7 @@ The timing lines up with the pandemic, but tax records do not say why people mov
 ## Ascend is small next to the move from the Washington area
 ::: spacer 5px
 
-Alas, this means that migration from the Washington area to the Panhandle is the primary driver of West Virginia's leading in-migration data.
+Alas, this means that migration from the Washington area to the Panhandle is the primary driver of West Virginia's gains from other states.
 
 Now, Ascend still helped. But its impact was small relative to the impact of people leaving the Washington area. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
 

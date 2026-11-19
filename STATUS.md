@@ -49,3 +49,4 @@ None.
 - 2026-11-18 Step 2b confirmed again. 2c (78 blocks), 2d (hero unchanged), 2e (FAQ answers still match) re-run; 2f updated draft av5LNxEAACgAaNve with the new chart 8.
 - 2026-11-19 Step 2f confirmed again. Step 2g open: EMAIL.md checked against the edited post, waiting on approve or reject.
 - 2026-11-19 Step 2g confirmed. Step 3 open: social posts.
+- 2026-11-19 Back to 2b (Eric): "leading in-migration" changed to "gains from other states" (WV ranks third). 2c (78 blocks), 2d (hero check ok) re-run; 2f updated draft av5LNxEAACgAaNve. 2e, 2g and SOCIAL.md unaffected. Back in Step 3.
