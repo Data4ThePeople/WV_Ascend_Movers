@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 2e
+Step: 2f
 Since: 2026-11-18
 
 ## Steps
@@ -18,7 +18,7 @@ Since: 2026-11-18
 | 2b | Eric's edit, Claude's look-over | 2026-11-18 | |
 | 2c | Slice markup | 2026-11-18 | 67 blocks; title and subtitle set |
 | 2d | Hero 1680x1080 + alt text | 2026-11-18 | NPS photo, Harpers Ferry from Maryland Heights (public domain) |
-| 2e | SEO | | |
+| 2e | SEO | 2026-11-18 | meta title, description, keywords, 4-question FAQ |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
 | 3  | Social posts | | |
@@ -43,3 +43,4 @@ None. Step 1 reopened before any 2a work; no later step had been confirmed.
 - 2026-11-18 Step 2b confirmed. Step 2c open: slice markup and title.
 - 2026-11-18 Step 2c confirmed. Step 2d open: hero image.
 - 2026-11-18 Step 2d confirmed. Step 2e open: SEO.
+- 2026-11-18 Step 2e confirmed. Step 2f open: Prismic draft.
