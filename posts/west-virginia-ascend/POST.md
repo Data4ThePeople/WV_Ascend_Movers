@@ -132,3 +132,5 @@ Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 82
 This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
 
 So, does slow and steady win the race? In time, we will find out.
+
+*Photo at top: National Park Service / Buddy Secor.*
