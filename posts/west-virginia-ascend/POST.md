@@ -100,7 +100,7 @@ Now, Ascend still helped. But its impact was small relative to the impact of peo
 ## One is measurable, one is not
 ::: spacer 5px
 
-But the real value of Ascend, in our view, is its simplicity and transparency. By its own count, Ascend has brought 1,641 people to West Virginia since 2021: 827 workers with real jobs, plus their families, spending real money in their communities. JobsOhio has created real jobs too. But the public can't easily check them, and many, like Intel's, are promises, not jobs yet. They are IOUs, so to speak, not cash in hand.
+But the real value of Ascend, in our view, is its certainty and measurability. By its own count, Ascend has brought 1,641 people to West Virginia since 2021: 827 workers with real jobs, plus their families, spending real money in their communities. JobsOhio has created real jobs too. But the public can't easily check them, and many, like Intel's, are promises, not jobs yet. They are IOUs, so to speak, not cash in hand.
 
 The table below compares the two programs:
 
