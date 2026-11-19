@@ -1,6 +1,6 @@
 ---
-title: "West Virginia's Ascend Program: Economic development one worker at a time"
-subtitle: "JobsOhio pays for jobs companies promise to create. West Virginia's Ascend program pays remote workers who arrive with a job already in hand. We compared what each one buys, and what the public can check."
+title: "West Virginia's Ascend program: Economic development one worker at a time"
+subtitle: "Since 2021, West Virginia has paid remote workers $12,000 to move there with a job already in hand. By the program's count, 827 workers and their families, 1,641 people, have come. Here is how that compares with JobsOhio's big bets, like Intel."
 slug: west-virginia-ascend
 date: 2026-11-19
 section: Data 4 Thought
@@ -16,7 +16,7 @@ caption_spacer: 20px
 dividers: false
 ---
 
-# West Virginia's Ascend Program: Economic development one worker at a time
+# West Virginia's Ascend program: Economic development one worker at a time
 
 Over the last two days we followed the money on JobsOhio. We first built [a public tool to track its grants](https://www.data4thepeople.com/p/jobsohio-grants), understand who gets the money, and what happened to it. We then followed this up by studying [where the money went](https://www.data4thepeople.com/p/ohio-income-health).
 

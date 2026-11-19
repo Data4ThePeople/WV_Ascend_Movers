@@ -1,6 +1,6 @@
 {
-  "page_title": "West Virginia's Ascend Program: Economic development one worker at a time",
-  "page_subtitle": "JobsOhio pays for jobs companies promise to create. West Virginia's Ascend program pays remote workers who arrive with a job already in hand. We compared what each one buys, and what the public can check.",
+  "page_title": "West Virginia's Ascend program: Economic development one worker at a time",
+  "page_subtitle": "Since 2021, West Virginia has paid remote workers $12,000 to move there with a job already in hand. By the program's count, 827 workers and their families, 1,641 people, have come. Here is how that compares with JobsOhio's big bets, like Intel.",
   "published_date": "2026-11-19",
   "updated_date": "2026-11-19",
   "make_this_main_post": false,
@@ -935,5 +935,5 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"West Virginia's Ascend Program: Economic development one worker at a time\",\n  \"description\": \"\",\n  \"datePublished\": \"2026-11-19T07:00:00-04:00\",\n  \"dateModified\": \"2026-11-19T07:00:00-04:00\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n  }\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"West Virginia's Ascend program: Economic development one worker at a time\",\n  \"description\": \"\",\n  \"datePublished\": \"2026-11-19T07:00:00-04:00\",\n  \"dateModified\": \"2026-11-19T07:00:00-04:00\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n  }\n}"
 }
