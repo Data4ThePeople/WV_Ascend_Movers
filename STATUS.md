@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 4b
+Step: complete
 Since: 2026-11-19
 
 ## Steps
@@ -23,7 +23,7 @@ Since: 2026-11-19
 | 2g | Mailchimp teaser | 2026-11-19 | subject "Whales or workers?" |
 | 3  | Social posts | 2026-11-19 | X, Bluesky, LinkedIn; GIF of chart 1 (scripts/12_animate.py) |
 | 4a | Outreach list | 2026-11-19 | 15 found; 8 confirmed (1, 2, 3, 6, 7, 8, 12, 14) |
-| 4b | Outreach drafts in Gmail | | |
+| 4b | Outreach drafts in Gmail | 2026-11-19 | 10 drafts saved (none sent by Claude) |
 
 ## Stale
 
@@ -54,3 +54,4 @@ None.
 - 2026-11-19 Step 3 confirmed. Step 4a open: outreach list.
 - 2026-11-19 Step 4a confirmed (8 of 15). Step 4b: 8 Gmail drafts saved, none sent. Second address search running for 4, 5, 9, 10, 11, 13, 15.
 - 2026-11-19 Second search: Sasso verified. Drafts added for 13 (Sasso) and 10 (Branscome, Cardinal News desk). 10 drafts total, none sent.
+- 2026-11-19 Step 4 confirmed. Post west-virginia-ascend complete.
