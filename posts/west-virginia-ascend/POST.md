@@ -28,11 +28,11 @@ It’s called whale hunting.
 
 You go after the “whales” hoping to harpoon one that can bring in a bunch of revenue, or in this case, jobs. But, as we learned earlier this week, an economic development strategy that is based on whale hunting is a risky sport. It can end in grantees issuing mass layoffs, closing the funded site, going bankrupt, subject to lawsuits for nonperformance, or just never building the facility they signed up to build. In short, it’s a strategy rife with concentration risk. 
 
-For example, Ohio has made one HUGE bet on $2.1 million bet on Intel. $839.4 million has been already paid to Intel, $125.4 million coming from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, in its own words, “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.
+For example, Ohio has made one huge bet on Intel, a package reported at about $2.1 billion. Ohio has already paid out at least $839.4 million of it, $125.4 million of that from JobsOhio. It turns out that whether this bet pays off or not rests on whether Intel can land “a significant external customer” for its new 14A chipmaking process. If it can't, it, in its own words, “would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.” The project is not off to a good start. It has already been delayed from 2025 to 2030 or 2031, and now we are left to wait and see whether Intel can find customers for its 14A process in a fast-changing chip market where, by Intel's own account, AI spending is driving demand.
 
 Anyway, that’s one way to do it.
 
-But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be going on right next door to Ohio. It’s called the Ascend program, and we are focusing on it today because West Virgina's approach to economic development is about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
+But there is an entire spectrum of other ways to approach economic development. Today’s post is about one of the most interesting ones we have come across, which just happens to be going on right next door to Ohio. It’s called the Ascend program, and we are focusing on it today because West Virginia's approach to economic development is about as different from JobsOhio as a program could be. Instead of trying to hunt whales, Ascend is going after individuals. It provides an incentive directly to a worker to relocate to West Virginia, and bring their very healthy income to the community to which they move. It’s the other economic development bookend sitting on the opposite side of the bookshelf. The yin to Ohio’s yang. That alone made it fascinating to us, and set us off on our exploration of the program. Here is what we found.
 
 ## What Ascend is, in its own words
 ::: spacer 5px
@@ -58,10 +58,10 @@ The program has released counts like these every few months since its first clas
 
 Ascend also publishes the average salary of its members in each community. As of September 2026, the averages ranged from $82,122 in the Charleston area to $110,020 in the Eastern Panhandle.
 
-## West Virginia started gaining people from other states at the same time Ascend was launched
+## West Virginia started gaining people from other states around the time Ascend launched
 ::: spacer 5px
 
-We were curious if we could measure the impact that Ascend had on migration into West Virginia since the programs inception. So, we consulted the census data. It turns out that since COVID, west Virgina has been a huge beneficiary of net in-migration. The turn around in migration is astounding. In the five years from July 2014 to July 2019, the state lost 39,847 people this way, on net. That turned around in the year ending July 2021. West Virginia has gained people from other states every year since, a total of 17,349 through July 2025. The chart below shows this net domestic migration for each year.
+We were curious if we could measure the impact that Ascend had on migration into West Virginia since the program's inception. So, we consulted the census data. It turns out that since COVID, West Virginia has been a huge beneficiary of net in-migration. The turnaround in migration is astounding. In the five years from July 2014 to July 2019, the state lost 39,847 people this way, on net. That turned around in the year ending July 2021. West Virginia has gained people from other states every year since, a total of 17,349 through July 2025. The chart below shows this net domestic migration for each year.
 
 ![Bar chart of West Virginia's net domestic migration for years ending July 2011 to July 2025. Bars are negative every year from 2013 through 2020, lowest at minus 10,139 in 2017, then positive every year from 2021, reaching plus 6,408 in 2025. A line marks Ascend WV's first class.](images/01-wv-net-domestic-migration.png)
 *Source: U.S. Census Bureau, Population Estimates, Vintage 2020 and Vintage 2025.*
@@ -90,17 +90,17 @@ So who moved to the Panhandle? IRS tax records, which track households that chan
 
 The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.
 
-## Ascend aided migration, but DC seems to be the main driver
+## Ascend aided migration, but the Washington area seems to be the main driver
 ::: spacer 5px
 
-Alas, this means that migration from DC to the panhandle is the primary driver of West Virgina's leading in-migration data.
+Alas, this means that migration from the Washington area to the panhandle is the primary driver of West Virginia's leading in-migration data.
 
-Now, Ascend still helped. But its impact was small relative to the impact of people leaving DC in search of John Denver's country roads. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
+Now, Ascend still helped. But its impact was small relative to the impact of people leaving the Washington area in search of John Denver's country roads. To put some math to that, suppose every one of the 421 people Ascend reports in the Eastern Panhandle had arrived by July 2025. They would add about 0.4 people per 1,000 residents a year. The Panhandle's rate rose by 10.59. In the other Ascend areas, Ascend's 1,224 reported residents would add about 0.5, against a rise of 5.72. Counties without Ascend rose by 5.41.
 
 ## One is measurable, one is not
 ::: spacer 5px
 
-But the real value of Ascend, in our view, is its simplicity and transparency. 1,641 people now live and work in West Virgina who did not 5 years ago, thanks at least in part to this program - every one a real people with real jobs spending real money in communities. JobsOhio has created real jobs too. But the public can't see them, and many (like Intel) are not real - they are promised. They are IOUs, so to speak, not cash in hand.
+But the real value of Ascend, in our view, is its simplicity and transparency. By its own count, Ascend has brought 1,641 people to West Virginia since 2021: 827 workers with real jobs, plus their families, spending real money in their communities. JobsOhio has created real jobs too. But the public can't easily check them, and many, like Intel's, are promises, not jobs yet. They are IOUs, so to speak, not cash in hand.
 
 The table below compares the two programs:
 
@@ -125,9 +125,9 @@ Neither program measures how many workers or companies would have come anyway.
 ## Slow and steady
 ::: spacer 5px
 
-Back to Intel. Ohio's full package for the Intel plant, counting grants, roads and water, a 30-year tax credit and JobsOhio, was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio, for 3,000 promised jobs. When Intel announced the Ohio plant in January 2022, it said production was "expected to come online in 2025." Intel now expects its first Ohio fab to start running in 2030 or 2031. In its latest annual report, Intel said that if it cannot land "a significant external customer" for its 14A process, it "would likely discontinue" the Ohio plant. Ohio's $600 million grant agreement lets the state demand repayment if the jobs are not there by the end of 2028. Even a full repayment would come years after the money went out.
+Back to Intel. Ohio's roughly $2.1 billion bet has paid out at least $839.4 million so far for 3,000 promised jobs, in a plant now not expected to run until 2030 or 2031. Ohio's $600 million grant agreement lets the state demand repayment if the jobs are not there by the end of 2028. Even a full repayment would come years after the money went out.
 
-Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 827 workers and their families, including 25 babies born during the program. Its $12,000 cash offer to those 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs, so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.
+Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 827 workers and their families, including 25 babies born during the program. Its $12,000 cash offer to those 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs (its funding totals cover the whole Collaborative that runs Ascend, not Ascend alone), so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.
 
 This is the slow, steady way to grow. There are no big wins. It is one win, one person at a time. But the wins are real, and they are spread across hundreds of households instead of riding on one company's plans. If members stay, the income they bring stays in their communities year after year.
 
