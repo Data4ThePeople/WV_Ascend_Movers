@@ -36,10 +36,10 @@ https://www.data4thepeople.com/p/west-virginia-ascend
 ```
 Since 2021, West Virginia has gained people from other states, the third-largest turnaround in the country.
 
-Its Ascend program pays remote workers $12,000 to move and has brought 1,641 people. A bigger force: moves from the Washington, D.C. area.
+Its Ascend program pays remote workers $12,000 to move and has brought 1,641 people. A bigger force: moves from the D.C. area.
 https://www.data4thepeople.com/p/west-virginia-ascend
 ```
-*301 of 300 characters, counting the full link.*
+*289 of 300 characters, counting the full link.*
 
 ---
 
