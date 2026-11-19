@@ -1,6 +1,6 @@
 ---
-title:
-subtitle:
+title: "Ohio hunts whales. West Virginia recruits one worker at a time."
+subtitle: "JobsOhio pays for jobs companies promise to create. West Virginia's Ascend program pays remote workers who arrive with a job already in hand. We compared what each one buys, and what the public can check."
 slug: west-virginia-ascend
 date: 2026-11-19
 section: Data 4 Thought
@@ -16,7 +16,7 @@ caption_spacer: 20px
 dividers: false
 ---
 
-# Title
+# Ohio hunts whales. West Virginia recruits one worker at a time.
 
 Over the last two days we followed the money on JobsOhio. We first built [a public tool to track its grants](https://www.data4thepeople.com/p/jobsohio-grants), understand who gets the money, and what happened to it. We then followed this up by studying [where the money went](https://www.data4thepeople.com/p/ohio-income-health).
 
