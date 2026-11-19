@@ -226,8 +226,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "LbBIUtFGOK_0nS1_",
           "alt": "Dot chart of Ascend WV's published counts from 2021 to 2026. Members rise from 53 in September 2021 to 827 in September 2026. New residents including family rise from more than 110 to 1,641. A dashed line marks the goal of 1,000 remote workers in five years, set in September 2021.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -334,8 +339,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "MFVLs0EITigbuWOZ",
           "alt": "Bar chart of West Virginia's net domestic migration for years ending July 2011 to July 2025. Bars are negative every year from 2013 through 2020, lowest at minus 10,139 in 2017, then positive every year from 2021, reaching plus 6,408 in 2025. A line marks Ascend WV's first class.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -388,8 +398,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "z-Mn32YL7EgD8XBA",
           "alt": "Bar chart of the change in net domestic migration per 1,000 residents per year, 2021-2025 average minus 2015-2019 average, for the 10 states with the largest change plus West Virginia's five neighbors. Wyoming leads at 8.89, then Connecticut at 6.82 and West Virginia, in magenta, at 6.34. The neighbors, in blue, rank far lower: Kentucky 1.87 (22nd), Pennsylvania 1.84 (24th), Virginia 1.25 (29th), Ohio 1.11 (31st) and Maryland 0.05 (38th).",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1184
+          }
         },
         "source_text": [
           {
@@ -427,7 +442,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "Most of West Virginia's gain went to one corner of the state. The three Eastern Panhandle counties, Jefferson, Berkeley and Morgan, gained 21,680 people through moves from 2021 to 2025. That is more than the state's total of 17,349. Without them, the rest of West Virginia lost 4,331 people, on net. County figures also count moves from one West Virginia county to another; those cancel out in the state total.",
+            "text": "Most of West Virginia's post-COVID gain went to one corner of the state. The three Eastern Panhandle counties, Jefferson, Berkeley and Morgan, gained 21,680 people through moves from 2021 to 2025, more than the state's total of 17,349.",
             "spans": [],
             "direction": "ltr"
           },
@@ -448,8 +463,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "AuIO6BV0WwLzTS4Y",
           "alt": "Bar chart of net domestic migration per 1,000 residents per year in 2015-2019 and 2021-2025. Eastern Panhandle: plus 9.99, then plus 20.57. Other Ascend areas: minus 7.08, then minus 1.37. Rest of West Virginia: minus 5.60, then minus 0.20.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -462,33 +482,6 @@
                 "type": "em"
               }
             ],
-            "direction": "ltr"
-          }
-        ]
-      }
-    },
-    {
-      "slice_type": "spacer",
-      "slice_label": null,
-      "variation": "default",
-      "version": "initial",
-      "items": [],
-      "primary": {
-        "spacer_value": "20px"
-      }
-    },
-    {
-      "slice_type": "paragarph_text",
-      "slice_label": null,
-      "variation": "default",
-      "version": "initial",
-      "items": [],
-      "primary": {
-        "paragraph_text": [
-          {
-            "type": "paragraph",
-            "text": "All three groups gained ground. The Eastern Panhandle went from 9.99 to 20.57 per 1,000 residents a year. The other Ascend areas went from -7.08 to -1.37, and the rest of the state went from -5.60 to -0.20.",
-            "spans": [],
             "direction": "ltr"
           }
         ]
@@ -541,7 +534,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. In the three filing years before COVID, about 2,239 people a year moved from the Washington metro to Jefferson, Berkeley and Morgan counties. In the three filing years after it began, that rose to about 2,971 a year, a 32.7% increase. Moves the other way fell 6.5%. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year to 2,091. Arrivals from everywhere in the U.S. rose 11.8%, so the Washington area's share of new arrivals grew from 23.4% to 27.7%. The chart below shows moves in each direction.",
+            "text": "So who moved to the Panhandle? IRS tax records, which track households that change address between one year's tax return and the next, point to a broader shift out of the Washington, D.C. area. The Panhandle's net gain from the Washington metro rose 61.2%, from about 1,297 people a year in the three filing years before COVID to 2,091 in the three after it began. The chart below shows each year.",
             "spans": [],
             "direction": "ltr"
           }
@@ -556,17 +549,17 @@
       "items": [],
       "primary": {
         "image": {
-          "alt": "Line chart of people moving between the Washington metro and the Eastern Panhandle, IRS filing years 2011-12 to 2022-23. Moves to the Panhandle rise from 2,213 in 2017-18 and 1,930 in 2018-19 to 2,573 in 2019-20 and 3,063 in 2020-21, then 2,863 and 2,988. Moves to the Washington metro range from 567 to 1,259 a year, ending at 720. The filing years after COVID began are shaded.",
+          "alt": "Line chart of net moves from the Washington metro to the Eastern Panhandle, people who moved in minus people who moved out, IRS filing years 2011-12 to 2022-23. The net gain ranges from 495 to 1,604 a year through 2019-20, then reaches 2,033 in 2020-21, 1,973 in 2021-22 and 2,268 in 2022-23. Dashed lines mark three-year averages of 1,297 before and 2,091 after. The filing years after COVID began are shaded.",
           "copyright": null
         },
         "source_text": [
           {
             "type": "paragraph",
-            "text": "Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23. Washington metro: D.C. and 21 nearby Maryland and Virginia counties and cities. Data 4 The People calculation.",
+            "text": "Source: IRS Statistics of Income, U.S. Population Migration Data, county-to-county, 2011-12 to 2022-23. Washington metro: D.C. and 21 nearby Maryland and Virginia counties and cities. Only county pairs with at least 20 returns a year are listed, so counts run low. Data 4 The People calculation.",
             "spans": [
               {
                 "start": 0,
-                "end": 214,
+                "end": 295,
                 "type": "em"
               }
             ],
@@ -595,7 +588,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "The timing lines up with the pandemic, but tax records do not say why people moved. The IRS also lists only county pairs with at least 20 returns a year, so these counts run low.",
+            "text": "The timing lines up with the pandemic, but tax records do not say why people moved.",
             "spans": [],
             "direction": "ltr"
           }
@@ -730,8 +723,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "tre1NsLiFZpOlg9_",
           "alt": "Table comparing Ascend WV and JobsOhio. Pay: $12,000 cash per worker over 24 months, versus $16,182 in grants per committed job, 2021-2025. Job exists at signing: yes, with proof of employment and income, versus not yet, the company commits to create it. Pay published: members' average salary, versus the payroll the company promised. Checkable later: members, completions and retention in WVU reports, versus only signs of failure such as layoffs, bankruptcies and lawsuits.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -790,8 +788,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "P2KrQ-RxCxmehXS8",
           "alt": "Bar chart of annual pay per job. Ascend members' average salary, $96,052, is the pay of jobs members already have. JobsOhio grants' committed payroll per job, $66,689, is pay promised for jobs not yet created and is drawn hatched. Ohio's average wage is $64,390 and West Virginia's is $56,470.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -918,7 +921,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Meanwhile, Ascend has brought 1,641 people to West Virginia by its own count: 827 workers and their families, including 25 babies born during the program. Its $12,000 cash offer to those 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs (its funding totals cover the whole Collaborative that runs Ascend, not Ascend alone), so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.",
+            "text": "Meanwhile, Ascend's $12,000 cash offer to its 827 members adds up to about $9.9 million if every one is paid in full. That is the cash incentive only; WVU does not publish what the whole program costs (its funding totals cover the whole Collaborative that runs Ascend, not Ascend alone), so the two totals are not a full like-for-like comparison. Each member arrived with a job that already existed, at a salary the program publishes.",
             "spans": [],
             "direction": "ltr"
           },
@@ -1107,5 +1110,23 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"West Virginia's Ascend program: Economic development one worker at a time\",\n      \"description\": \"West Virginia's Ascend program pays remote workers $12,000 to move with a job in hand. How it compares with JobsOhio's big bets, like Intel's Ohio plant.\",\n      \"datePublished\": \"2026-11-19T07:30:00-05:00\",\n      \"dateModified\": \"2026-11-19T07:30:00-05:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"Ascend WV\",\n        \"Ascend West Virginia remote worker program\",\n        \"paid to move to West Virginia\",\n        \"West Virginia migration\",\n        \"Eastern Panhandle migration\",\n        \"JobsOhio Intel incentives\",\n        \"Ohio Intel subsidies\",\n        \"economic development incentives\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is Ascend WV?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ascend WV is a West Virginia University program that pays remote workers $12,000 in cash, over two years, to move to one of six parts of West Virginia. Applicants must show proof of employment and income before they are accepted.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How many people has Ascend WV brought to West Virginia?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"As of September 30, 2026, WVU reports 827 members and 1,641 new West Virginians, counting family members.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much has Ohio committed to Intel?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ohio's package for Intel's planned chip plant was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why did West Virginia start gaining people from other states?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+  "featured_image": {
+    "id": "CFqbjLMdaYf_x-XU",
+    "alt": "Sunset view from the Maryland Heights overlook at Harpers Ferry, West Virginia. Gray boulders fill the foreground. Below, two railroad bridges cross the Potomac River from Maryland to the old town, which sits on a wooded point where the Shenandoah River joins the Potomac. Virginia's Loudoun Heights rises on the left. Forested ridges fade into the distance under a low sun.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "meta_image": {
+    "id": "CFqbjLMdaYf_x-XU",
+    "alt": "Sunset view from the Maryland Heights overlook at Harpers Ferry, West Virginia. Gray boulders fill the foreground. Below, two railroad bridges cross the Potomac River from Maryland to the old town, which sits on a wooded point where the Shenandoah River joins the Potomac. Virginia's Loudoun Heights rises on the left. Forested ridges fade into the distance under a low sun.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"West Virginia's Ascend program: Economic development one worker at a time\",\n      \"description\": \"West Virginia's Ascend program pays remote workers $12,000 to move with a job in hand. How it compares with JobsOhio's big bets, like Intel's Ohio plant.\",\n      \"image\": \"https://images.prismic.io/data4thepeople/CFqbjLMdaYf_x-XU_west-virginia-ascend-hero-1680x1080.png?auto=format,compress\",\n      \"datePublished\": \"2026-11-19T07:30:00-05:00\",\n      \"dateModified\": \"2026-11-19T07:30:00-05:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"Ascend WV\",\n        \"Ascend West Virginia remote worker program\",\n        \"paid to move to West Virginia\",\n        \"West Virginia migration\",\n        \"Eastern Panhandle migration\",\n        \"JobsOhio Intel incentives\",\n        \"Ohio Intel subsidies\",\n        \"economic development incentives\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/west-virginia-ascend#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is Ascend WV?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ascend WV is a West Virginia University program that pays remote workers $12,000 in cash, over two years, to move to one of six parts of West Virginia. Applicants must show proof of employment and income before they are accepted.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How many people has Ascend WV brought to West Virginia?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"As of September 30, 2026, WVU reports 827 members and 1,641 new West Virginians, counting family members.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much has Ohio committed to Intel?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Ohio's package for Intel's planned chip plant was reported at about $2.1 billion when it was announced in 2022. Through June 2025, the state had paid at least $839.4 million of it, including $125.4 million from JobsOhio.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why did West Virginia start gaining people from other states?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }
