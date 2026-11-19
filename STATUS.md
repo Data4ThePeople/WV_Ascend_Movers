@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: west-virginia-ascend (posts/west-virginia-ascend/)
-Step: 3
+Step: 4a
 Since: 2026-11-19
 
 ## Steps
@@ -21,7 +21,7 @@ Since: 2026-11-19
 | 2e | SEO | 2026-11-18 | meta title, description, keywords, 4-question FAQ |
 | 2f | Pushed to Prismic (draft) | 2026-11-19 | av5LNxEAACgAaNve, Migration Release; re-confirmed after the 2b reopen |
 | 2g | Mailchimp teaser | 2026-11-19 | subject "Whales or workers?" |
-| 3  | Social posts | | |
+| 3  | Social posts | 2026-11-19 | X, Bluesky, LinkedIn; GIF of chart 1 (scripts/12_animate.py) |
 | 4a | Outreach list | | |
 | 4b | Outreach drafts in Gmail | | |
 
@@ -51,3 +51,4 @@ None.
 - 2026-11-19 Step 2g confirmed. Step 3 open: social posts.
 - 2026-11-19 Back to 2b (Eric): "leading in-migration" changed to "gains from other states" (WV ranks third). 2c (78 blocks), 2d (hero check ok) re-run; 2f updated draft av5LNxEAACgAaNve. 2e, 2g and SOCIAL.md unaffected. Back in Step 3.
 - 2026-11-19 Back to 2b (Eric, from Intel's 10-K): Intel quote now shows the two steps (no customer -> may pause 14A -> would likely stop Ohio) and adds the Oct. 2026 10-Q commitment to finish 14A. EMAIL.md edit 1 applied too. Tie-out 162 of 162. 2c-2f re-run, draft av5LNxEAACgAaNve updated. Back in Step 3.
+- 2026-11-19 Step 3 confirmed. Step 4a open: outreach list.
