@@ -109,7 +109,7 @@ The table below compares the two programs:
 
 Start with the job. To join Ascend, a worker shows proof of employment and income, and the employer confirms the job. The job exists before the state commits a dollar. A JobsOhio grant works the other way. The company commits to create jobs in the future, and the grant is made on that commitment. A JobsOhio job is a promise. An Ascend member brings a job with them.
 
-Then the pay. Ohio publishes the pay it was promised for jobs that don't exist yet (which is why the bar in the chart below is not solid). Ascend publishes the pay of jobs its members already have. The next chart puts those numbers next to each state's average wage.
+Then the pay. Ohio publishes the pay it was promised for jobs that don't exist yet (which is why its bar in the chart below is hatched). Ascend publishes the pay of jobs its members already have. The next chart puts those numbers next to each state's average wage.
 
 ![Bar chart of annual pay per job. Ascend members' average salary, $96,052, is the pay of jobs members already have. JobsOhio grants' committed payroll per job, $66,689, is pay promised for jobs not yet created and is drawn hatched. Ohio's average wage is $64,390 and West Virginia's is $56,470.](images/06-pay-per-job.png)
 *Sources: WVU Smith OEDC, Ascend WV Q3 2026 statistics; JobsOhio monthly executed grant reports; U.S. Bureau of Labor Statistics, OEWS May 2025. Data 4 The People calculation.*
