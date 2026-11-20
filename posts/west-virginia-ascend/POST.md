@@ -3,6 +3,7 @@ title: "West Virginia's Ascend program: Economic development one worker at a tim
 subtitle: "Since 2021, West Virginia has paid remote workers $12,000 to move there with a job already in hand. By the program's count, 827 workers and their families, 1,641 people, have come. Here is how that compares with JobsOhio's big bets, like Intel."
 slug: west-virginia-ascend
 date: 2026-11-19
+updated: 2026-11-20
 time: 07:30:00-05:00
 section: Data 4 Thought
 hero: images/west-virginia-ascend-hero-1680x1080.png
@@ -38,7 +39,7 @@ But there is an entire spectrum of other ways to approach economic development. 
 ## What Ascend is, in its own words
 ::: spacer 5px
 
-Ascend WV opened applications on April 12, 2021. It is run by West Virginia University's Brad and Alys Smith Outdoor Economic Development Collaborative, and it pays remote workers to move to one of six parts of the state. The offer is $12,000 in cash, paid monthly over two years, plus free outdoor gear and recreation. The program values the full package at "more than $20,000."
+Ascend WV opened applications on April 12, 2021. It is run by West Virginia University's Brad and Alys Smith Outdoor Economic Development Collaborative, and it pays remote workers to move to one of six parts of the state. The offer is $12,000 in cash, paid monthly over two years, plus free outdoor gear and recreation. The program values the full package at "more than $20,000." Ascend and the Collaborative that runs it were started with a $25 million gift to WVU from Brad and Alys Smith's Wing 2 Wing Foundation, with support from the West Virginia Department of Tourism.
 
 To join, a person must work remotely full time or be self-employed. Before they are accepted, applicants must "provide evidence of employment and income," such as a recent paystub or tax documents, and an employer must confirm the job.
 
@@ -154,3 +155,5 @@ Ohio's package for Intel's planned chip plant was reported at about $2.1 billion
 Most of the gain went to the Eastern Panhandle. IRS tax records show more people moving there from the Washington, D.C. area after COVID began. Ascend's members are too few to explain the change.
 
 *Photo at top: National Park Service / Buddy Secor.*
+
+*Update, November 20, 2026: This post now notes the $25 million gift from the Wing 2 Wing Foundation that started Ascend WV, at WVU's request.*
