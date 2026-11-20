@@ -55,4 +55,4 @@ None.
 - 2026-11-19 Step 4a confirmed (8 of 15). Step 4b: 8 Gmail drafts saved, none sent. Second address search running for 4, 5, 9, 10, 11, 13, 15.
 - 2026-11-19 Second search: Sasso verified. Drafts added for 13 (Sasso) and 10 (Branscome, Cardinal News desk). 10 drafts total, none sent.
 - 2026-11-19 Step 4 confirmed. Post west-virginia-ascend complete.
-- 2026-11-20 Post-publication correction (Eric, from Emily Huguenin's email): one sentence on the $25 million Wing 2 Wing Foundation gift added to "What Ascend is"; update note at the bottom; updated date 2026-11-20. Slice markup 79 blocks. Prismic draft av5LNxEAACgAaNve update pending Eric's OK to run the push.
+- 2026-11-20 Post-publication correction (Eric, from Emily Huguenin's email): one sentence on the $25 million Wing 2 Wing Foundation gift added to "What Ascend is"; update note at the bottom; updated date 2026-11-20. Slice markup 79 blocks. Prismic draft av5LNxEAACgAaNve updated (Migration Release).
